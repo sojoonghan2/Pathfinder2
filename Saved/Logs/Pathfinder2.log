@@ -2036,3 +2036,990 @@ FPackageName: Skipped package /Game/ParagonShinbi/Characters/Heroes/Shinbi/Anima
 [2025.09.26-05.27.31:598][279]AssetCheck: /Game/PathfinderContent/Player/Murdock/Animation/Run_Fwd Validating asset
 [2025.09.26-05.27.31:599][279]AssetCheck: /Game/PathfinderContent/Player/Murdock/Input/IA_Sprint Validating asset
 [2025.09.26-05.27.31:652][279]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.26-05.28.17:811][574]LogAssetEditorSubsystem: Opening Asset editor for InputAction /Game/PathfinderContent/Player/Murdock/Input/IA_Sprint.IA_Sprint
+[2025.09.26-05.28.21:665][647]LogSlate: Window 'IA_Sprint' being destroyed
+[2025.09.26-05.28.34:285][314]LogAssetEditorSubsystem: Opening Asset editor for InputMappingContext /Game/PathfinderContent/Player/Murdock/Input/IMC_Murdock.IMC_Murdock
+[2025.09.26-05.28.37:838][398]LogSlate: Window 'IMC_Murdock' being destroyed
+[2025.09.26-05.28.52:190][160]LogUObjectHash: Compacting FUObjectHashTables data took   3.28ms
+[2025.09.26-05.28.52:197][160]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.28.52:296][160]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Player/Murdock/Input/IMC_Murdock] ([1] browsable assets)...
+[2025.09.26-05.28.52:296][160]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/Input/IMC_Murdock]
+[2025.09.26-05.28.52:312][160]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/Input/IMC_Murdock
+[2025.09.26-05.28.52:313][160]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/IMC_MurdockE04998624BFBCD717AC4D8B42443C063.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/Input/IMC_Murdock.uasset'
+[2025.09.26-05.28.52:333][160]LogFileHelpers: InternalPromptForCheckoutAndSave took 135.522 ms (total: 3.08 sec)
+[2025.09.26-05.28.52:466][160]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.28.52:466][160]LogContentValidation: Enabled validators:
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.28.52:466][160]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.28.52:466][160]AssetCheck: /Game/PathfinderContent/Player/Murdock/Input/IMC_Murdock Validating asset
+[2025.09.26-05.31.35:408][969]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2083.247559
+[2025.09.26-05.31.35:696][979]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.31.35:697][979]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2083.512695, Update Interval: 329.123810
+[2025.09.26-05.31.39:516][ 96]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_141
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0078
+[2025.09.26-05.31.39:516][ 96]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_141
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0078
+[2025.09.26-05.31.39:727][101]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_142
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0078
+[2025.09.26-05.31.39:727][101]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_142
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0078
+[2025.09.26-05.33.04:608][257]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Walk to Sprint  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.33.04:608][257]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Sprint to Walk  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.33.04:881][257]LogUObjectHash: Compacting FUObjectHashTables data took   5.93ms
+[2025.09.26-05.33.05:605][282]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.33.05:715][282]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.33.05:748][282]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.33.05:748][282]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.33.05:796][282]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.33.05:797][282]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock3CBF0C5C4FCA920247919289D5401AC3.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.33.05:826][282]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.832 ms (total: 3.30 sec)
+[2025.09.26-05.33.05:952][282]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.33.05:952][282]LogContentValidation: Enabled validators:
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.33.05:953][282]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.33.05:953][282]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-05.33.47:046][459]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Walk to Sprint  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.33.47:046][459]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Sprint to Walk  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.33.47:156][459]LogUObjectHash: Compacting FUObjectHashTables data took   3.05ms
+[2025.09.26-05.33.47:856][482]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.33.47:967][482]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.33.47:986][482]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.33.47:986][482]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.33.48:013][482]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.33.48:014][482]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_MurdockA8806F8A43C5C0B84326D5926301AFA9.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.33.48:037][482]LogFileHelpers: InternalPromptForCheckoutAndSave took 181.985 ms (total: 3.48 sec)
+[2025.09.26-05.33.48:155][482]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.33.48:155][482]LogContentValidation: Enabled validators:
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.33.48:155][482]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.33.48:156][482]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-05.35.09:872][283]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Walk to Sprint  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.35.09:873][283]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Sprint to Walk  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.35.09:923][283]LogScript: Warning: Attempted to access BP_Murdock_C_4 via property PlayerCharacter, but BP_Murdock_C_4 is not valid (pending kill or garbage)
+	ABP_Murdock_C /Engine/Transient.World_48:PersistentLevel.BP_Murdock_C_4.CharacterMesh0.ABP_Murdock_C_1
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:00E8
+[2025.09.26-05.35.09:967][283]LogUObjectHash: Compacting FUObjectHashTables data took   2.20ms
+[2025.09.26-05.35.10:735][305]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Walk to Sprint  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.35.10:735][305]LogBlueprint: Warning: [AssetLog] C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\Pathfinder2\Content\PathfinderContent\Player\Murdock\ABP_Murdock.uasset: [Compiler] Sprint to Walk  will never be taken, please connect something to  Can Enter Transition
+[2025.09.26-05.35.10:845][305]LogUObjectHash: Compacting FUObjectHashTables data took   2.98ms
+[2025.09.26-05.35.45:862][631]LogUObjectHash: Compacting FUObjectHashTables data took   2.23ms
+[2025.09.26-05.35.46:683][662]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.35.46:779][662]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.35.46:780][662]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_143
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.35.46:780][662]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_143
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.35.46:825][662]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock]
+[2025.09.26-05.35.46:825][662]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock]
+[2025.09.26-05.35.46:872][662]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/ABP_Murdock
+[2025.09.26-05.35.46:873][662]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/ABP_MurdockC0DEFD2C45D1F3D1DE97499670A4E6F6.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/ABP_Murdock.uasset'
+[2025.09.26-05.35.46:893][662]LogFileHelpers: InternalPromptForCheckoutAndSave took 211.225 ms (total: 3.69 sec)
+[2025.09.26-05.35.47:002][662]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.35.47:002][662]LogContentValidation: Enabled validators:
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.35.47:002][662]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.35.47:002][662]AssetCheck: /Game/PathfinderContent/Player/Murdock/ABP_Murdock Validating asset
+[2025.09.26-05.35.47:261][665]LogPSOHitching: Encountered 50 PSO creation hitches so far (17 graphics, 33 compute). 0 of them were precached.
+[2025.09.26-05.35.52:168][712]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.35.52:229][712]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.26-05.35.52:250][712]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.35.52:374][712]LogPlayLevel: PIE: StaticDuplicateObject took: (0.121929s)
+[2025.09.26-05.35.52:374][712]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.123762s)
+[2025.09.26-05.35.52:442][712]LogUObjectHash: Compacting FUObjectHashTables data took   3.72ms
+[2025.09.26-05.35.52:454][712]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.35.52:541][712]LogPlayLevel: PIE: World Init took: (0.088061s)
+[2025.09.26-05.35.52:546][712]LogAudio: Display: Creating Audio Device:                 Id: 7, Scope: Unique, Realtime: True
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.35.52:550][712]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.35.52:550][712]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.35.52:555][712]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.35.52:555][712]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.35.52:555][712]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.35.52:564][712]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.35.52:705][712]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.35.52:721][712]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.35.52:721][712]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.35.52:723][712]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.35.52:729][712]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=7
+[2025.09.26-05.35.52:730][712]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=7
+[2025.09.26-05.35.52:735][712]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=7
+[2025.09.26-05.35.52:735][712]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=7
+[2025.09.26-05.35.52:736][712]LogInit: FAudioDevice initialized with ID 7.
+[2025.09.26-05.35.52:736][712]LogAudio: Display: Audio Device (ID: 7) registered with world 'RuinsScene'.
+[2025.09.26-05.35.52:738][712]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.26-05.35.52:824][712]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.35.52:851][712]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.35.52
+[2025.09.26-05.35.52:855][712]LogWorld: Bringing up level for play took: 0.028542
+[2025.09.26-05.35.52:875][712]LogOnline: OSS: Created online subsystem instance for: :Context_56
+[2025.09.26-05.35.52:925][712]PIE: Server logged in
+[2025.09.26-05.35.52:932][712]PIE: Play in editor total start time 0.721 seconds.
+[2025.09.26-05.35.53:064][712]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.36.27:269][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.36.27:269][553]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.36.27:283][553]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.36.27:293][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.36.27:313][553]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.36.27:323][553]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.36.27:367][553]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.26-05.36.27:368][553]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 7
+[2025.09.26-05.36.27:371][553]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=4
+[2025.09.26-05.36.27:383][553]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=7, StreamState=2
+[2025.09.26-05.36.27:395][553]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.36.27:418][553]LogUObjectHash: Compacting FUObjectHashTables data took   1.96ms
+[2025.09.26-05.36.27:710][554]LogPlayLevel: Display: Destroying online subsystem :Context_56
+[2025.09.26-05.38.01:532][831]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2469.364502
+[2025.09.26-05.38.02:529][834]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.38.02:530][834]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2470.031494, Update Interval: 334.985199
+[2025.09.26-05.38.19:336][932]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_144
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.38.19:337][932]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_144
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.38.46:794][621]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_145
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.38.46:794][621]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_145
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.38.46:974][625]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_146
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.38.46:975][625]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_146
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.38.47:018][626]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_147
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.38.47:018][626]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_147
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.38.47:196][631]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_148
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.38.47:196][631]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_148
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.38.48:258][663]LogStreaming: Display: FlushAsyncLoading(558): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.26-05.38.48:372][663]LogAnimationCompression: Display: Building compressed animation data for AnimSequence /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Sprint.Sprint (Required Memory Estimate: 1.17 MB)
+[2025.09.26-05.38.48:403][663]LogAnimationCompression: Display: Storing compressed animation data for /Game/ParagonMurdock/Characters/Heroes/Murdock/Animations/Sprint.Sprint, at AnimationSequence/ab6c01e13a9877bbb7da4b554ee3777039a5d380
+[2025.09.26-05.38.48:413][663]LogAnimationCompression: Error: ACL compressed curve data is missing or corrupted for an anim sequence: /Game/PathfinderContent/Player/Murdock/Animation/Sprint.Sprint
+[2025.09.26-05.38.48:434][663]LogAnimationCompression: Warning: EnsureDependenciesAreLoaded: [ConditionalPostLoad Dependency] /Game/PathfinderContent/Player/Murdock/Animation/Sprint.Sprint:FbxAnimSequenceImportData_0
+[2025.09.26-05.39.03:744][109]LogUObjectHash: Compacting FUObjectHashTables data took   4.78ms
+[2025.09.26-05.39.10:548][175]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.39.10:585][175]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.26-05.39.10:591][175]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.39.10:679][175]LogPlayLevel: PIE: StaticDuplicateObject took: (0.087435s)
+[2025.09.26-05.39.10:679][175]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.087766s)
+[2025.09.26-05.39.10:742][175]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.09.26-05.39.10:749][175]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.39.10:782][175]LogPlayLevel: PIE: World Init took: (0.034569s)
+[2025.09.26-05.39.10:787][175]LogAudio: Display: Creating Audio Device:                 Id: 8, Scope: Unique, Realtime: True
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.39.10:789][175]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.39.10:789][175]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.39.10:792][175]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.39.10:792][175]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.39.10:792][175]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.39.10:799][175]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.39.10:976][175]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.39.11:005][175]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.39.11:005][175]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.39.11:005][175]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.39.11:016][175]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=8
+[2025.09.26-05.39.11:016][175]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=8
+[2025.09.26-05.39.11:022][175]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=8
+[2025.09.26-05.39.11:022][175]LogInit: FAudioDevice initialized with ID 8.
+[2025.09.26-05.39.11:022][175]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=8
+[2025.09.26-05.39.11:022][175]LogAudio: Display: Audio Device (ID: 8) registered with world 'RuinsScene'.
+[2025.09.26-05.39.11:022][175]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.26-05.39.11:096][175]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.39.11:117][175]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.39.11
+[2025.09.26-05.39.11:120][175]LogWorld: Bringing up level for play took: 0.022160
+[2025.09.26-05.39.11:131][175]LogOnline: OSS: Created online subsystem instance for: :Context_57
+[2025.09.26-05.39.11:186][175]PIE: Server logged in
+[2025.09.26-05.39.11:192][175]PIE: Play in editor total start time 0.622 seconds.
+[2025.09.26-05.39.11:307][176]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.39.34:976][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.39.34:976][866]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.39.34:988][866]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.39.34:998][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.39.35:015][866]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.39.35:052][866]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.39.35:126][866]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.26-05.39.35:130][866]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 8
+[2025.09.26-05.39.35:132][866]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=4
+[2025.09.26-05.39.35:151][866]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=8, StreamState=2
+[2025.09.26-05.39.35:173][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.39.35:202][866]LogUObjectHash: Compacting FUObjectHashTables data took   3.57ms
+[2025.09.26-05.39.35:533][867]LogPlayLevel: Display: Destroying online subsystem :Context_57
+[2025.09.26-05.41.50:034][ 10]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.41.50:085][ 10]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.26-05.41.50:093][ 10]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.26-05.41.50:387][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.30ms
+[2025.09.26-05.41.50:391][ 10]LogPlayLevel: PlayLevel: Blueprint regeneration took 341 ms (2 blueprints)
+[2025.09.26-05.41.50:392][ 10]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.41.50:410][ 10]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017895s)
+[2025.09.26-05.41.50:410][ 10]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.017978s)
+[2025.09.26-05.41.50:451][ 10]LogUObjectHash: Compacting FUObjectHashTables data took   2.54ms
+[2025.09.26-05.41.50:454][ 10]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.41.50:458][ 10]LogPlayLevel: PIE: World Init took: (0.003338s)
+[2025.09.26-05.41.50:459][ 10]LogAudio: Display: Creating Audio Device:                 Id: 9, Scope: Unique, Realtime: True
+[2025.09.26-05.41.50:459][ 10]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.41.50:459][ 10]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.41.50:459][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.41.50:459][ 10]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.41.50:459][ 10]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.41.50:460][ 10]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.41.50:460][ 10]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.41.50:460][ 10]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.41.50:460][ 10]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.41.50:460][ 10]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.41.50:460][ 10]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.41.50:462][ 10]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.41.50:537][ 10]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.41.50:538][ 10]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.41.50:539][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.41.50:539][ 10]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.41.50:540][ 10]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=9
+[2025.09.26-05.41.50:540][ 10]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=9
+[2025.09.26-05.41.50:543][ 10]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=9
+[2025.09.26-05.41.50:543][ 10]LogInit: FAudioDevice initialized with ID 9.
+[2025.09.26-05.41.50:543][ 10]LogAudio: Display: Audio Device (ID: 9) registered with world 'RuinsScene'.
+[2025.09.26-05.41.50:543][ 10]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=9
+[2025.09.26-05.41.50:544][ 10]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.26-05.41.50:631][ 10]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.41.50:634][ 10]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.41.50:642][ 10]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.41.50
+[2025.09.26-05.41.50:643][ 10]LogWorld: Bringing up level for play took: 0.009032
+[2025.09.26-05.41.50:648][ 10]LogOnline: OSS: Created online subsystem instance for: :Context_58
+[2025.09.26-05.41.50:672][ 10]PIE: Server logged in
+[2025.09.26-05.41.50:674][ 10]PIE: Play in editor total start time 0.624 seconds.
+[2025.09.26-05.41.50:913][ 11]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.42.03:009][329]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.42.03:009][329]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.42.03:017][329]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.42.03:033][329]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.42.03:049][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.42.03:068][329]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.42.03:097][329]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.42.03:173][329]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 9
+[2025.09.26-05.42.03:175][329]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=4
+[2025.09.26-05.42.03:181][329]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=9, StreamState=2
+[2025.09.26-05.42.03:222][329]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2025.09.26-05.42.03:399][330]LogPlayLevel: Display: Destroying online subsystem :Context_58
+[2025.09.26-05.42.08:900][571]LogUObjectHash: Compacting FUObjectHashTables data took   2.60ms
+[2025.09.26-05.42.08:918][571]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.42.09:024][571]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.42.09:029][571]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_149
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.42.09:029][571]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_149
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.42.09:089][571]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock]
+[2025.09.26-05.42.09:089][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock]
+[2025.09.26-05.42.09:171][571]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/ABP_Murdock
+[2025.09.26-05.42.09:174][571]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/ABP_Murdock467733524436DBA7BEDA1EA11A75F083.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/ABP_Murdock.uasset'
+[2025.09.26-05.42.09:192][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.42.09:221][571]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.42.09:221][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.42.09:263][571]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.42.09:264][571]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock83CB4BFA4B4F42555F40578DD6ADEFE8.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.42.09:273][571]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/Animation/Sprint] ([1] browsable assets)...
+[2025.09.26-05.42.09:318][571]OBJ SavePackage:     Rendered thumbnail for [AnimSequence /Game/PathfinderContent/Player/Murdock/Animation/Sprint.Sprint]
+[2025.09.26-05.42.09:318][571]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/Animation/Sprint]
+[2025.09.26-05.42.09:371][571]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/Animation/Sprint
+[2025.09.26-05.42.09:371][571]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/Sprint6F900F8441931F59774B6888E055FCC4.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/Animation/Sprint.uasset'
+[2025.09.26-05.42.09:479][571]LogFileHelpers: InternalPromptForCheckoutAndSave took 561.639 ms (total: 4.25 sec)
+[2025.09.26-05.42.09:609][571]LogContentValidation: Display: Starting to validate 3 assets
+[2025.09.26-05.42.09:609][571]LogContentValidation: Enabled validators:
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.42.09:610][571]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.42.09:611][571]AssetCheck: /Game/PathfinderContent/Player/Murdock/ABP_Murdock Validating asset
+[2025.09.26-05.42.09:612][571]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-05.42.09:612][571]AssetCheck: /Game/PathfinderContent/Player/Murdock/Animation/Sprint Validating asset
+[2025.09.26-05.42.09:656][571]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.26-05.42.27:943][443]LogUObjectHash: Compacting FUObjectHashTables data took   3.51ms
+[2025.09.26-05.44.11:798][672]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 2839.629639
+[2025.09.26-05.44.12:093][683]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.44.12:094][683]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 2839.898438, Update Interval: 331.145355
+[2025.09.26-05.47.36:802][122]LogUObjectHash: Compacting FUObjectHashTables data took   5.44ms
+[2025.09.26-05.47.36:815][122]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PathfinderContent/Level/RuinsScene' took 0.157
+[2025.09.26-05.47.36:818][122]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.47.36:884][122]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.47.36:884][122]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.47.36:926][122]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto3
+[2025.09.26-05.47.36:928][122]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock_Auto38DE2D18449CF9897E81D3091B8C40304.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto3.uasset'
+[2025.09.26-05.47.36:931][122]LogFileHelpers: Auto-saving content packages took 0.114
+[2025.09.26-05.49.40:190][ 21]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.49.40:213][ 21]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.26-05.49.40:214][ 21]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.26-05.49.40:400][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.91ms
+[2025.09.26-05.49.40:403][ 21]LogPlayLevel: PlayLevel: Blueprint regeneration took 193 ms (2 blueprints)
+[2025.09.26-05.49.40:403][ 21]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.49.40:421][ 21]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017537s)
+[2025.09.26-05.49.40:422][ 21]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.017937s)
+[2025.09.26-05.49.40:464][ 21]LogUObjectHash: Compacting FUObjectHashTables data took   2.01ms
+[2025.09.26-05.49.40:467][ 21]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.49.40:470][ 21]LogPlayLevel: PIE: World Init took: (0.003021s)
+[2025.09.26-05.49.40:473][ 21]LogAudio: Display: Creating Audio Device:                 Id: 10, Scope: Unique, Realtime: True
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.49.40:473][ 21]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.49.40:473][ 21]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.49.40:473][ 21]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.49.40:473][ 21]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.49.40:473][ 21]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.49.40:477][ 21]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.49.40:548][ 21]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.49.40:550][ 21]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.49.40:550][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.49.40:550][ 21]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.49.40:553][ 21]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=10
+[2025.09.26-05.49.40:553][ 21]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=10
+[2025.09.26-05.49.40:555][ 21]LogInit: FAudioDevice initialized with ID 10.
+[2025.09.26-05.49.40:556][ 21]LogAudio: Display: Audio Device (ID: 10) registered with world 'RuinsScene'.
+[2025.09.26-05.49.40:556][ 21]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=10
+[2025.09.26-05.49.40:556][ 21]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.26-05.49.40:556][ 21]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=10
+[2025.09.26-05.49.40:646][ 21]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.49.40:648][ 21]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.49.40:656][ 21]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.49.40
+[2025.09.26-05.49.40:657][ 21]LogWorld: Bringing up level for play took: 0.008731
+[2025.09.26-05.49.40:663][ 21]LogOnline: OSS: Created online subsystem instance for: :Context_59
+[2025.09.26-05.49.40:673][ 21]PIE: Server logged in
+[2025.09.26-05.49.40:675][ 21]PIE: Play in editor total start time 0.466 seconds.
+[2025.09.26-05.49.40:941][ 22]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.49.48:280][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.49.48:280][228]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.49.48:281][228]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.49.48:290][228]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.49.48:295][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.49.48:299][228]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.49.48:324][228]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.49.48:390][228]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 10
+[2025.09.26-05.49.48:390][228]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=4
+[2025.09.26-05.49.48:395][228]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=10, StreamState=2
+[2025.09.26-05.49.48:410][228]LogUObjectHash: Compacting FUObjectHashTables data took   4.59ms
+[2025.09.26-05.49.48:520][229]LogPlayLevel: Display: Destroying online subsystem :Context_59
+[2025.09.26-05.50.01:551][835]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.50.01:566][835]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.26-05.50.01:567][835]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.26-05.50.01:715][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.56ms
+[2025.09.26-05.50.01:718][835]LogPlayLevel: PlayLevel: Blueprint regeneration took 154 ms (2 blueprints)
+[2025.09.26-05.50.01:718][835]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.50.01:734][835]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015050s)
+[2025.09.26-05.50.01:734][835]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015098s)
+[2025.09.26-05.50.01:773][835]LogUObjectHash: Compacting FUObjectHashTables data took   2.61ms
+[2025.09.26-05.50.01:775][835]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.50.01:778][835]LogPlayLevel: PIE: World Init took: (0.003018s)
+[2025.09.26-05.50.01:779][835]LogAudio: Display: Creating Audio Device:                 Id: 11, Scope: Unique, Realtime: True
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.50.01:779][835]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.50.01:779][835]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.50.01:779][835]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.50.01:779][835]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.50.01:779][835]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.50.01:782][835]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.50.01:837][835]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.50.01:838][835]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.50.01:838][835]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.50.01:838][835]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.50.01:840][835]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=11
+[2025.09.26-05.50.01:840][835]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=11
+[2025.09.26-05.50.01:843][835]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=11
+[2025.09.26-05.50.01:843][835]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=11
+[2025.09.26-05.50.01:843][835]LogInit: FAudioDevice initialized with ID 11.
+[2025.09.26-05.50.01:843][835]LogAudio: Display: Audio Device (ID: 11) registered with world 'RuinsScene'.
+[2025.09.26-05.50.01:844][835]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 11
+[2025.09.26-05.50.01:911][835]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.50.01:912][835]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.50.01:916][835]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.50.01
+[2025.09.26-05.50.01:917][835]LogWorld: Bringing up level for play took: 0.004781
+[2025.09.26-05.50.01:924][835]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.09.26-05.50.01:933][835]PIE: Server logged in
+[2025.09.26-05.50.01:934][835]PIE: Play in editor total start time 0.37 seconds.
+[2025.09.26-05.50.02:161][836]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.50.21:431][504]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3209.282227
+[2025.09.26-05.50.21:704][514]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.50.21:704][514]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3209.527832, Update Interval: 335.272675
+[2025.09.26-05.50.43:724][333]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.50.43:724][333]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.50.43:725][333]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.50.43:742][333]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.50.43:745][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.50.43:747][333]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.50.43:770][333]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.50.43:836][333]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 11
+[2025.09.26-05.50.43:837][333]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=4
+[2025.09.26-05.50.43:841][333]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=11, StreamState=2
+[2025.09.26-05.50.43:860][333]LogUObjectHash: Compacting FUObjectHashTables data took   6.51ms
+[2025.09.26-05.50.43:972][334]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.09.26-05.51.31:640][528]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.51.31:658][528]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.26-05.51.31:658][528]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.26-05.51.31:822][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.75ms
+[2025.09.26-05.51.31:825][528]LogPlayLevel: PlayLevel: Blueprint regeneration took 171 ms (2 blueprints)
+[2025.09.26-05.51.31:826][528]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.51.31:844][528]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018580s)
+[2025.09.26-05.51.31:844][528]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.018644s)
+[2025.09.26-05.51.31:885][528]LogUObjectHash: Compacting FUObjectHashTables data took   2.26ms
+[2025.09.26-05.51.31:887][528]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.51.31:890][528]LogPlayLevel: PIE: World Init took: (0.003650s)
+[2025.09.26-05.51.31:892][528]LogAudio: Display: Creating Audio Device:                 Id: 12, Scope: Unique, Realtime: True
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.51.31:892][528]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.51.31:892][528]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.51.31:892][528]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.51.31:892][528]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.51.31:892][528]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.51.31:896][528]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.51.31:956][528]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.51.31:956][528]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.51.31:957][528]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.51.31:957][528]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.51.31:960][528]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=12
+[2025.09.26-05.51.31:960][528]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=12
+[2025.09.26-05.51.31:963][528]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=12
+[2025.09.26-05.51.31:963][528]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=12
+[2025.09.26-05.51.31:963][528]LogInit: FAudioDevice initialized with ID 12.
+[2025.09.26-05.51.31:963][528]LogAudio: Display: Audio Device (ID: 12) registered with world 'RuinsScene'.
+[2025.09.26-05.51.31:963][528]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 12
+[2025.09.26-05.51.32:031][528]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.51.32:031][528]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.51.32:036][528]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.51.32
+[2025.09.26-05.51.32:037][528]LogWorld: Bringing up level for play took: 0.006001
+[2025.09.26-05.51.32:041][528]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.09.26-05.51.32:050][528]PIE: Server logged in
+[2025.09.26-05.51.32:052][528]PIE: Play in editor total start time 0.398 seconds.
+[2025.09.26-05.51.32:249][529]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.51.44:299][904]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.51.44:299][904]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.51.44:299][904]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.51.44:315][904]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.51.44:320][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.51.44:324][904]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.51.44:355][904]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.51.44:431][904]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 12
+[2025.09.26-05.51.44:432][904]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=4
+[2025.09.26-05.51.44:436][904]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=12, StreamState=2
+[2025.09.26-05.51.44:455][904]LogUObjectHash: Compacting FUObjectHashTables data took   3.74ms
+[2025.09.26-05.51.44:546][905]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.09.26-05.51.54:680][260]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.51.54:695][260]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.26-05.51.54:695][260]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.51.54:710][260]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015480s)
+[2025.09.26-05.51.54:710][260]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015535s)
+[2025.09.26-05.51.54:759][260]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.09.26-05.51.54:762][260]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.51.54:765][260]LogPlayLevel: PIE: World Init took: (0.002679s)
+[2025.09.26-05.51.54:766][260]LogAudio: Display: Creating Audio Device:                 Id: 13, Scope: Unique, Realtime: True
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.51.54:766][260]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.51.54:766][260]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.51.54:766][260]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.51.54:766][260]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.51.54:766][260]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.51.54:771][260]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.51.54:830][260]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.51.54:831][260]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.51.54:831][260]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.51.54:831][260]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.51.54:833][260]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=13
+[2025.09.26-05.51.54:834][260]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=13
+[2025.09.26-05.51.54:837][260]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=13
+[2025.09.26-05.51.54:837][260]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=13
+[2025.09.26-05.51.54:837][260]LogInit: FAudioDevice initialized with ID 13.
+[2025.09.26-05.51.54:837][260]LogAudio: Display: Audio Device (ID: 13) registered with world 'RuinsScene'.
+[2025.09.26-05.51.54:837][260]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 13
+[2025.09.26-05.51.54:906][260]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.51.54:906][260]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.51.54:911][260]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.51.54
+[2025.09.26-05.51.54:912][260]LogWorld: Bringing up level for play took: 0.005307
+[2025.09.26-05.51.54:915][260]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2025.09.26-05.51.54:934][260]PIE: Server logged in
+[2025.09.26-05.51.54:938][260]PIE: Play in editor total start time 0.244 seconds.
+[2025.09.26-05.51.55:024][261]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.51.59:296][294]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.51.59:296][294]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.51.59:298][294]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.51.59:466][294]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.51.59:470][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.51.59:473][294]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.51.59:502][294]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.51.59:573][294]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 13
+[2025.09.26-05.51.59:575][294]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=4
+[2025.09.26-05.51.59:579][294]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=13, StreamState=2
+[2025.09.26-05.51.59:600][294]LogUObjectHash: Compacting FUObjectHashTables data took   3.73ms
+[2025.09.26-05.51.59:732][295]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2025.09.26-05.52.02:640][383]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.26-05.52.02:653][383]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.26-05.52.02:653][383]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.52.02:668][383]LogPlayLevel: PIE: StaticDuplicateObject took: (0.014415s)
+[2025.09.26-05.52.02:668][383]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.014472s)
+[2025.09.26-05.52.02:706][383]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.09.26-05.52.02:707][383]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.26-05.52.02:710][383]LogPlayLevel: PIE: World Init took: (0.002515s)
+[2025.09.26-05.52.02:711][383]LogAudio: Display: Creating Audio Device:                 Id: 14, Scope: Unique, Realtime: True
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.26-05.52.02:711][383]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.26-05.52.02:711][383]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.26-05.52.02:711][383]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.26-05.52.02:711][383]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.26-05.52.02:711][383]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.26-05.52.02:716][383]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.26-05.52.02:776][383]LogAudioMixer: Display: Using Audio Hardware Device 스피커(Realtek(R) Audio)
+[2025.09.26-05.52.02:777][383]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.26-05.52.02:777][383]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.26-05.52.02:777][383]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.26-05.52.02:778][383]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=14
+[2025.09.26-05.52.02:778][383]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=14
+[2025.09.26-05.52.02:781][383]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=14
+[2025.09.26-05.52.02:781][383]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=14
+[2025.09.26-05.52.02:781][383]LogInit: FAudioDevice initialized with ID 14.
+[2025.09.26-05.52.02:782][383]LogAudio: Display: Audio Device (ID: 14) registered with world 'RuinsScene'.
+[2025.09.26-05.52.02:782][383]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 14
+[2025.09.26-05.52.02:855][383]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.52.02:856][383]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.26-05.52.02:864][383]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 60) at 2025.09.26-14.52.02
+[2025.09.26-05.52.02:865][383]LogWorld: Bringing up level for play took: 0.007963
+[2025.09.26-05.52.02:870][383]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2025.09.26-05.52.02:879][383]PIE: Server logged in
+[2025.09.26-05.52.02:882][383]PIE: Play in editor total start time 0.23 seconds.
+[2025.09.26-05.52.02:993][384]LogRenderer: Recreating Persistent SBTs due to initializer changes: 
+		NumShaderSlotsPerGeometrySegment changed: current: 1 - new: 2
+		NumGeometrySegments changed: current: 0 - new: 512
+[2025.09.26-05.52.18:571][653]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.26-05.52.18:571][653]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.26-05.52.18:572][653]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.26-05.52.18:596][653]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.26-05.52.18:599][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.52.18:602][653]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.26-05.52.18:626][653]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.26-05.52.18:701][653]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 14
+[2025.09.26-05.52.18:701][653]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=4
+[2025.09.26-05.52.18:705][653]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=14, StreamState=2
+[2025.09.26-05.52.18:726][653]LogUObjectHash: Compacting FUObjectHashTables data took   4.26ms
+[2025.09.26-05.52.19:137][654]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2025.09.26-05.54.40:445][198]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.54.40:563][198]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.54.40:610][198]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.54.40:610][198]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.54.40:673][198]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.54.40:674][198]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock92D3606E4ADD4809AC32F787D1A83DEA.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.54.40:711][198]LogFileHelpers: InternalPromptForCheckoutAndSave took 265.599 ms (total: 4.52 sec)
+[2025.09.26-05.54.40:825][198]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.54.40:825][198]LogContentValidation: Enabled validators:
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.54.40:826][198]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.54.40:827][198]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-05.54.41:515][215]LogUObjectHash: Compacting FUObjectHashTables data took   2.81ms
+[2025.09.26-05.54.45:554][322]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.54.45:661][322]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.54.45:689][322]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.54.45:689][322]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.54.45:717][322]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.54.45:718][322]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock9F3F858C4F8ECD8E829539A4A1AA4B73.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.54.45:741][322]LogFileHelpers: InternalPromptForCheckoutAndSave took 187.451 ms (total: 4.70 sec)
+[2025.09.26-05.54.45:841][322]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.54.45:841][322]LogContentValidation: Enabled validators:
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.54.45:841][322]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.54.45:842][322]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-05.54.53:016][583]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.54.53:109][583]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.54.53:110][583]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_150
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-05.54.53:111][583]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_150
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-05.54.53:147][583]OBJ SavePackage:     Rendered thumbnail for [AnimBlueprint /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock]
+[2025.09.26-05.54.53:147][583]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/ABP_Murdock]
+[2025.09.26-05.54.53:202][583]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/ABP_Murdock
+[2025.09.26-05.54.53:203][583]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/ABP_MurdockA75234084C5E894F4047F68CB41C920D.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/ABP_Murdock.uasset'
+[2025.09.26-05.54.53:231][583]LogFileHelpers: InternalPromptForCheckoutAndSave took 215.566 ms (total: 4.92 sec)
+[2025.09.26-05.54.53:352][583]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.54.53:352][583]LogContentValidation: Enabled validators:
+[2025.09.26-05.54.53:352][583]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.54.53:352][583]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.54.53:352][583]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.54.53:352][583]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.54.53:353][583]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.54.53:353][583]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.54.53:353][583]AssetCheck: /Game/PathfinderContent/Player/Murdock/ABP_Murdock Validating asset
+[2025.09.26-05.54.54:117][609]LogUObjectHash: Compacting FUObjectHashTables data took   2.77ms
+[2025.09.26-05.54.55:569][665]LogUObjectHash: Compacting FUObjectHashTables data took   0.99ms
+[2025.09.26-05.56.43:337][355]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3591.174805
+[2025.09.26-05.56.44:328][358]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-05.56.44:328][358]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3591.842041, Update Interval: 358.868378
+[2025.09.26-05.58.44:232][776]LogDerivedDataCache: C:/Users/민경원/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.008 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.09.26-05.59.03:388][832]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.09.26-05.59.03:392][832]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PathfinderContent/Level/RuinsScene' took 0.053
+[2025.09.26-05.59.03:395][832]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.59.03:571][832]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.59.03:571][832]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.59.03:607][832]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto4
+[2025.09.26-05.59.03:607][832]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_Murdock_Auto4D1EF72B5400E4B5DCA6A0E9699A6B284.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto4.uasset'
+[2025.09.26-05.59.03:610][832]LogFileHelpers: Auto-saving content packages took 0.217
+[2025.09.26-05.59.30:321][914]LogUObjectHash: Compacting FUObjectHashTables data took   3.48ms
+[2025.09.26-05.59.30:339][914]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.09.26-05.59.30:446][914]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.106 s
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: === Handled ensure: ===
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\SkinnedMeshComponent.cpp] [Line: 2902] 
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: SetLeaderPoseComponent detected loop (the input Leader pose chain point to itself. (CharacterMesh0 <- CharacterMesh0)). Aborting... 
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: Stack: 
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd70ddc7cc UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec24ca6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0e4e6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0dba9 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea26999 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea9a26a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1b3c8f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1c863c UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1bf07f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6f90386f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffdacaee14c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce2e562 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.30:446][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4bc7522 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b69b90 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49facb4 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49fc67e UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce7d812 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4ad1bac UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b6a89b UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9e57d5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9bb61a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba4961e UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba681e2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7fbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7e743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab841ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8313bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab824091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51af956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5197137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51b299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5191171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f07cf6 USER32.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f0584d USER32.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51d2316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e62871b UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e5ac UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e6ba UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e65209e UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e664e44 UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e6680fa UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffe5fa9e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: [Callstack] 0x00007ffe61108d9c ntdll.dll!UnknownFunction []
+[2025.09.26-05.59.30:447][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.30:454][914]LogStats:                SubmitErrorReport -  0.000 s
+[2025.09.26-05.59.33:162][914]LogStats:                    SendNewReport -  2.708 s
+[2025.09.26-05.59.33:162][914]LogStats:             FDebug::EnsureFailed -  2.823 s
+[2025.09.26-05.59.33:166][914]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.09.26-05.59.33:220][914]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.053 s
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: === Handled ensure: ===
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\SkinnedMeshComponent.cpp] [Line: 2902] 
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: SetLeaderPoseComponent detected loop (the input Leader pose chain point to itself. (CharacterMesh0 <- CharacterMesh0)). Aborting... 
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: Stack: 
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd70ddc7cc UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec24ca6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0e4e6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0dba9 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea26999 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea9a26a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1b3c8f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1c863c UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1bf07f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6f90386f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdacaee14c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce2e562 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4bc7522 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b69b90 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49facb4 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49fc67e UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce7d812 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4ad1bac UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b6a89b UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9e57d5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9bb61a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba4961e UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba681e2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7fbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7e743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab841ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8313bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab824091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51af956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5197137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51b299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5191171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f07cf6 USER32.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f0584d USER32.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51d2316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e62871b UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e5ac UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e6ba UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:220][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e65209e UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:221][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e664e44 UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:221][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e6680fa UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:221][914]LogOutputDevice: Error: [Callstack] 0x00007ffe5fa9e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.09.26-05.59.33:221][914]LogOutputDevice: Error: [Callstack] 0x00007ffe61108d9c ntdll.dll!UnknownFunction []
+[2025.09.26-05.59.33:221][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.33:224][914]LogStats:             FDebug::EnsureFailed -  0.057 s
+[2025.09.26-05.59.33:236][914]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.09.26-05.59.33:285][914]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.047 s
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: === Handled ensure: ===
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\SkinnedMeshComponent.cpp] [Line: 2902] 
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: SetLeaderPoseComponent detected loop (the input Leader pose chain point to itself. (CharacterMesh0 <- CharacterMesh0)). Aborting... 
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: Stack: 
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd70ddc7cc UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec24ca6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0e4e6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0dba9 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea26999 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea9a26a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1b3c8f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1c863c UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1bf07f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6f90386f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffdacaee14c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce2e562 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4bc7522 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b69b90 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49facb4 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49fc767 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce7d812 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4ad1bac UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b6a89b UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:285][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9e57d5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9bb61a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba4961e UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba681e2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7fbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7e743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab841ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8313bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab824091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51af956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5197137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51b299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5191171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f07cf6 USER32.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f0584d USER32.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51d2316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e62871b UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e5ac UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e6ba UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e65209e UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e664e44 UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e6680fa UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffe5fa9e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: [Callstack] 0x00007ffe61108d9c ntdll.dll!UnknownFunction []
+[2025.09.26-05.59.33:286][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.33:287][914]LogStats:                SubmitErrorReport -  0.000 s
+[2025.09.26-05.59.38:771][914]LogStats:                    SendNewReport -  5.485 s
+[2025.09.26-05.59.38:771][914]LogStats:             FDebug::EnsureFailed -  5.535 s
+[2025.09.26-05.59.38:776][914]LogOutputDevice: Warning: 
+
+Script Stack (0 frames) :
+
+[2025.09.26-05.59.38:827][914]LogStats: FPlatformStackWalk::StackWalkAndDump -  0.050 s
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: === Handled ensure: ===
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: Ensure condition failed: false  [File:D:\build\++UE5\Sync\Engine\Source\Runtime\Engine\Private\Components\SkinnedMeshComponent.cpp] [Line: 2902] 
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: SetLeaderPoseComponent detected loop (the input Leader pose chain point to itself. (CharacterMesh0 <- CharacterMesh0)). Aborting... 
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: Stack: 
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd70ddc7cc UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec24ca6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0e4e6 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ec0dba9 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea26999 UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6ea9a26a UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1b3c8f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1c863c UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6e1bf07f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd6f90386f UnrealEditor-Engine.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdacaee14c UnrealEditor-CoreUObject.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce2e562 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4bc7522 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b69b90 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49facb4 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda49fc767 UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffd9ce7d812 UnrealEditor-UnrealEd.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4ad1bac UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffda4b6a89b UnrealEditor-Kismet.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd5c5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8bd741 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9e57d5 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab9bb61a UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba4961e UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdaba681e2 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7fbe6b UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab7e743d UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab841ec8 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab8313bb UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffdab824091 UnrealEditor-Slate.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51af956 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5197137 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51b299c UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffde5191171 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f07cf6 USER32.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffe60f0584d USER32.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ffde51d2316 UnrealEditor-ApplicationCore.dll!UnknownFunction []
+[2025.09.26-05.59.38:827][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e62871b UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e5ac UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e64e6ba UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e65209e UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e664e44 UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ff67e6680fa UnrealEditor.exe!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ffe5fa9e8d7 KERNEL32.DLL!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: [Callstack] 0x00007ffe61108d9c ntdll.dll!UnknownFunction []
+[2025.09.26-05.59.38:828][914]LogOutputDevice: Error: 
+[2025.09.26-05.59.38:833][914]LogStats:             FDebug::EnsureFailed -  0.056 s
+[2025.09.26-05.59.42:278][ 38]LogUObjectHash: Compacting FUObjectHashTables data took   2.99ms
+[2025.09.26-05.59.43:244][ 38]LogSlate: Window 'Save Content' being destroyed
+[2025.09.26-05.59.43:266][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.26-05.59.43:409][ 38]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.26-05.59.43:430][ 38]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.26-05.59.43:431][ 38]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.26-05.59.43:463][ 38]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.26-05.59.43:465][ 38]LogSavePackage: Moving '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Saved/BP_MurdockFAD797C64090A77DC726D5A7735283DA.tmp' to '../../../../../../Users/민경원/OneDrive/바탕 화면/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.26-05.59.43:489][ 38]LogFileHelpers: InternalPromptForCheckoutAndSave took 222.049 ms (total: 5.14 sec)
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: Enabled validators:
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.26-05.59.43:597][ 38]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.26-05.59.43:597][ 38]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.26-06.00.19:076][232]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_151
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:01B3
+[2025.09.26-06.00.19:078][232]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_3:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_151
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:001F
+[2025.09.26-06.00.40:233][464]LogStreaming: Display: FlushAsyncLoading(559): 1 QueuedPackages, 0 AsyncPackages
+[2025.09.26-06.00.41:215][464]LogAssetTools: Warning: Failed to import 'C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\LoveAndGrad\Content\CustomContents\Components/BPC_AttackSystem.uasset'. Unknown extension 'uasset'.
+[2025.09.26-06.00.41:230][464]LogAssetTools: Warning: Failed to import 'C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\LoveAndGrad\Content\CustomContents\Components/BPC_StatSystem.uasset'. Unknown extension 'uasset'.
+[2025.09.26-06.00.50:995][535]LogAssetTools: Warning: Failed to import 'C:\Users\민경원\OneDrive\바탕 화면\자료\Unreal\LoveAndGrad\Content\CustomContents\Components\BPC_StatSystem.uasset'. Unknown extension 'uasset'.
+[2025.09.26-06.02.48:986][897]LogContentBrowser: Deferred new asset folder creation: NewFolder
+[2025.09.26-06.02.49:019][897]LogContentBrowser: Creating deferred item: NewFolder
+[2025.09.26-06.02.49:068][898]LogContentBrowser: Renaming the item being created (Deferred Item: NewFolder).
+[2025.09.26-06.02.53:661][  7]LogContentBrowser: Attempting asset rename: NewFolder -> Component
+[2025.09.26-06.02.53:667][  7]LogContentBrowser: End creating deferred item NewFolder
+[2025.09.26-06.03.19:519][365]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.26-06.03.19:576][365]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.26-06.03.19:615][365]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.26-06.03.19:776][367]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.26-06.03.26:316][550]LogContentBrowser: Attempting asset rename: NewBlueprint -> BPC_StatSystem
+[2025.09.26-06.03.26:560][550]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.26-06.03.28:415][592]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem
+[2025.09.26-06.03.28:448][592]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_50
+[2025.09.26-06.03.31:578][592]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 3999.421387
+[2025.09.26-06.03.32:277][595]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.26-06.03.32:278][595]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 3999.815918, Update Interval: 335.668213
+[2025.09.26-06.03.34:051][617]LogSlate: Window 'BPC_StatSystem' being destroyed
