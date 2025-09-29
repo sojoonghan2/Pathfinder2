@@ -6291,3 +6291,1136 @@ Sampler Limit: 32
 [2025.09.29-14.14.06:160][110]AssetCheck: /Game/PathfinderContent/UI/WB_HUD Validating asset
 [2025.09.29-14.14.06:160][110]AssetCheck: /Game/PathfinderContent/UI/MurdockUI/ChatGPT_Image_2025년_9월_29일_오후_11_08_02 Validating asset
 [2025.09.29-14.14.06:183][110]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.29-14.15.35:680][  2]LogContentBrowser: Deferred new asset file creation: NewInterface
+[2025.09.29-14.15.35:692][  2]LogContentBrowser: Creating deferred item: NewInterface
+[2025.09.29-14.15.35:707][  3]LogContentBrowser: Renaming the item being created (Deferred Item: NewInterface).
+[2025.09.29-14.15.39:721][455]LogContentBrowser: Attempting asset rename: NewInterface -> BPI_Ammo
+[2025.09.29-14.15.39:733][455]LogContentBrowser: End creating deferred item NewInterface
+[2025.09.29-14.15.41:344][618]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Interfaces/BPI_Ammo.BPI_Ammo
+[2025.09.29-14.15.41:345][618]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_70
+[2025.09.29-14.15.44:130][894]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Interfaces/BPI_States.BPI_States
+[2025.09.29-14.15.44:130][894]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_71
+[2025.09.29-14.16.18:327][862]LogSlate: Window 'Pick Parent Class' being destroyed
+[2025.09.29-14.16.18:338][862]LogContentBrowser: Deferred new asset file creation: NewBlueprint
+[2025.09.29-14.16.18:360][862]LogContentBrowser: Creating deferred item: NewBlueprint
+[2025.09.29-14.16.18:380][863]LogContentBrowser: Renaming the item being created (Deferred Item: NewBlueprint).
+[2025.09.29-14.16.24:777][387]LogContentBrowser: Attempting asset rename: NewBlueprint -> BPC_AmmoSystem
+[2025.09.29-14.16.24:786][387]LogContentBrowser: End creating deferred item NewBlueprint
+[2025.09.29-14.16.25:852][466]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Component/BPC_AmmoSystem.BPC_AmmoSystem
+[2025.09.29-14.16.25:852][466]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_72
+[2025.09.29-14.17.21:189][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.29-14.19.44:841][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.09.29-14.19.50:740][800]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 4694.217285
+[2025.09.29-14.19.51:010][818]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.29-14.19.51:010][818]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 4694.472168, Update Interval: 358.004089
+[2025.09.29-14.19.54:338][ 26]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Component/BPC_AttackSystem.BPC_AttackSystem
+[2025.09.29-14.19.54:339][ 26]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_73
+[2025.09.29-14.23.16:511][714]LogSlate: Window 'BPC_StatSystem' being destroyed
+[2025.09.29-14.23.16:527][714]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.23.16:527][714]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.23.16:725][714]LogUObjectHash: Compacting FUObjectHashTables data took   1.71ms
+[2025.09.29-14.25.22:079][808]LogUObjectHash: Compacting FUObjectHashTables data took   1.72ms
+[2025.09.29-14.25.23:045][900]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.29-14.25.23:084][900]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/UI/WB_HUD] ([2] browsable assets)...
+[2025.09.29-14.25.23:087][900]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/PathfinderContent/UI/WB_HUD.WB_HUD]
+[2025.09.29-14.25.23:087][900]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/UI/WB_HUD]
+[2025.09.29-14.25.23:087][900]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PathfinderContent/UI/WB_HUD" FILE="../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/UI/WB_HUD.uasset" SILENT=true
+[2025.09.29-14.25.23:117][900]LogSavePackage: Moving output files for package: /Game/PathfinderContent/UI/WB_HUD
+[2025.09.29-14.25.23:118][900]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/WB_HUDE5401E8743A19DDBBBC392B75505BB13.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/UI/WB_HUD.uasset'
+[2025.09.29-14.25.23:127][900]LogFileHelpers: InternalPromptForCheckoutAndSave took 81.133 ms (total: 1.76 sec)
+[2025.09.29-14.25.23:164][900]LogContentValidation: Display: Starting to validate 1 assets
+[2025.09.29-14.25.23:164][900]LogContentValidation: Enabled validators:
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.29-14.25.23:164][900]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.29-14.25.23:165][900]AssetCheck: /Game/PathfinderContent/UI/WB_HUD Validating asset
+[2025.09.29-14.25.24:511][963]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.25.24:528][963]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.29-14.25.24:529][963]LogPlayLevel: [PlayLevel]   Compiling BPC_AttackSystem as a dependent...
+[2025.09.29-14.25.24:533][963]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.29-14.25.24:708][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.09.29-14.25.24:725][963]LogPlayLevel: PlayLevel: Blueprint regeneration took 201 ms (3 blueprints)
+[2025.09.29-14.25.24:725][963]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.24:740][963]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015604s)
+[2025.09.29-14.25.24:741][963]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015643s)
+[2025.09.29-14.25.24:767][963]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.29-14.25.24:770][963]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.25.24:772][963]LogPlayLevel: PIE: World Init took: (0.001903s)
+[2025.09.29-14.25.24:773][963]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.25.24:773][963]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.25.24:773][963]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.25.24:773][963]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.25.24:774][963]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.25.24:774][963]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.25.24:775][963]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.25.24:834][963]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.25.24:834][963]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.25.24:834][963]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.25.24:834][963]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.25.24:834][963]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2025.09.29-14.25.24:834][963]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2025.09.29-14.25.24:837][963]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2025.09.29-14.25.24:837][963]LogInit: FAudioDevice initialized with ID 55.
+[2025.09.29-14.25.24:837][963]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2025.09.29-14.25.24:837][963]LogAudio: Display: Audio Device (ID: 55) registered with world 'RuinsScene'.
+[2025.09.29-14.25.24:837][963]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2025.09.29-14.25.24:845][963]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.25.24:849][963]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.25.24
+[2025.09.29-14.25.24:850][963]LogWorld: Bringing up level for play took: 0.004681
+[2025.09.29-14.25.24:852][963]LogOnline: OSS: Created online subsystem instance for: :Context_96
+[2025.09.29-14.25.24:855][963]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.25.24:855][963]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.25.24:856][963]PIE: Server logged in
+[2025.09.29-14.25.24:859][963]PIE: Play in editor total start time 0.336 seconds.
+[2025.09.29-14.25.28:147][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.28:147][ 90]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.28:147][ 90]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.25.28:147][ 90]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.25.28:148][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.28:164][ 90]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.25.28:170][ 90]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.28:200][ 90]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.28:200][ 90]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2025.09.29-14.25.28:200][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=4
+[2025.09.29-14.25.28:202][ 90]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=2
+[2025.09.29-14.25.28:212][ 90]LogUObjectHash: Compacting FUObjectHashTables data took   1.66ms
+[2025.09.29-14.25.28:341][ 91]LogPlayLevel: Display: Destroying online subsystem :Context_96
+[2025.09.29-14.25.39:219][197]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.09.29-14.25.40:403][254]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.25.40:414][254]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.29-14.25.40:414][254]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.40:434][254]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019737s)
+[2025.09.29-14.25.40:434][254]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.019776s)
+[2025.09.29-14.25.40:464][254]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.09.29-14.25.40:475][254]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.25.40:477][254]LogPlayLevel: PIE: World Init took: (0.001901s)
+[2025.09.29-14.25.40:478][254]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.25.40:478][254]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.25.40:478][254]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.25.40:478][254]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.25.40:478][254]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.25.40:478][254]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.25.40:480][254]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.25.40:537][254]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.25.40:537][254]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.25.40:537][254]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.25.40:537][254]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.25.40:538][254]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2025.09.29-14.25.40:538][254]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2025.09.29-14.25.40:540][254]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2025.09.29-14.25.40:540][254]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2025.09.29-14.25.40:540][254]LogInit: FAudioDevice initialized with ID 56.
+[2025.09.29-14.25.40:540][254]LogAudio: Display: Audio Device (ID: 56) registered with world 'RuinsScene'.
+[2025.09.29-14.25.40:540][254]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2025.09.29-14.25.40:545][254]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.25.40:549][254]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.25.40
+[2025.09.29-14.25.40:549][254]LogWorld: Bringing up level for play took: 0.004557
+[2025.09.29-14.25.40:552][254]LogOnline: OSS: Created online subsystem instance for: :Context_97
+[2025.09.29-14.25.40:555][254]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.25.40:555][254]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.25.40:556][254]PIE: Server logged in
+[2025.09.29-14.25.40:559][254]PIE: Play in editor total start time 0.145 seconds.
+[2025.09.29-14.25.47:457][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.47:457][475]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.47:457][475]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.25.47:457][475]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.25.47:459][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.47:489][475]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.25.47:497][475]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.47:526][475]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.29-14.25.47:526][475]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2025.09.29-14.25.47:526][475]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=4
+[2025.09.29-14.25.47:528][475]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=2
+[2025.09.29-14.25.47:532][475]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.47:536][475]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.09.29-14.25.47:619][476]LogPlayLevel: Display: Destroying online subsystem :Context_97
+[2025.09.29-14.25.48:906][519]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.25.48:920][519]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.29-14.25.48:920][519]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.48:939][519]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018612s)
+[2025.09.29-14.25.48:939][519]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.018657s)
+[2025.09.29-14.25.48:971][519]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.29-14.25.48:975][519]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.25.48:977][519]LogPlayLevel: PIE: World Init took: (0.002120s)
+[2025.09.29-14.25.48:978][519]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.25.48:978][519]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.25.48:978][519]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.25.48:979][519]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.25.48:979][519]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.25.48:979][519]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.25.48:981][519]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.25.49:038][519]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.25.49:038][519]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.25.49:038][519]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.25.49:038][519]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.25.49:038][519]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2025.09.29-14.25.49:039][519]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2025.09.29-14.25.49:041][519]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2025.09.29-14.25.49:041][519]LogInit: FAudioDevice initialized with ID 57.
+[2025.09.29-14.25.49:041][519]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2025.09.29-14.25.49:042][519]LogAudio: Display: Audio Device (ID: 57) registered with world 'RuinsScene'.
+[2025.09.29-14.25.49:042][519]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2025.09.29-14.25.49:046][519]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.25.49:050][519]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.25.49
+[2025.09.29-14.25.49:051][519]LogWorld: Bringing up level for play took: 0.004750
+[2025.09.29-14.25.49:053][519]LogOnline: OSS: Created online subsystem instance for: :Context_98
+[2025.09.29-14.25.49:056][519]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.25.49:056][519]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.25.49:058][519]PIE: Server logged in
+[2025.09.29-14.25.49:060][519]PIE: Play in editor total start time 0.14 seconds.
+[2025.09.29-14.25.51:346][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.51:347][592]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.25.51:347][592]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.25.51:347][592]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.25.51:348][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.51:367][592]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.25.51:373][592]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.25.51:399][592]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.25.51:400][592]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2025.09.29-14.25.51:400][592]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=4
+[2025.09.29-14.25.51:402][592]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=2
+[2025.09.29-14.25.51:410][592]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.29-14.25.51:494][593]LogPlayLevel: Display: Destroying online subsystem :Context_98
+[2025.09.29-14.26.38:403][419]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5101.839355
+[2025.09.29-14.26.38:657][449]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.29-14.26.38:657][449]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5102.082520, Update Interval: 303.689697
+[2025.09.29-14.26.43:909][970]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem
+[2025.09.29-14.26.43:910][970]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_77
+[2025.09.29-14.28.23:028][743]LogUObjectHash: Compacting FUObjectHashTables data took   1.70ms
+[2025.09.29-14.28.23:970][799]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.28.23:984][799]LogPlayLevel: [PlayLevel] Compiling ABP_Murdock before play...
+[2025.09.29-14.28.24:004][799]LogPlayLevel: [PlayLevel]   Compiling BP_Murdock as a dependent...
+[2025.09.29-14.28.24:171][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.09.29-14.28.24:182][799]LogPlayLevel: PlayLevel: Blueprint regeneration took 200 ms (2 blueprints)
+[2025.09.29-14.28.24:182][799]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.28.24:197][799]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015007s)
+[2025.09.29-14.28.24:197][799]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015043s)
+[2025.09.29-14.28.24:223][799]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.29-14.28.24:226][799]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.28.24:228][799]LogPlayLevel: PIE: World Init took: (0.001808s)
+[2025.09.29-14.28.24:229][799]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.28.24:229][799]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.28.24:229][799]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.28.24:229][799]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.28.24:229][799]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.28.24:229][799]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.28.24:231][799]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.28.24:288][799]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.28.24:289][799]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.28.24:289][799]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.28.24:289][799]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.28.24:290][799]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2025.09.29-14.28.24:290][799]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2025.09.29-14.28.24:292][799]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2025.09.29-14.28.24:292][799]LogInit: FAudioDevice initialized with ID 58.
+[2025.09.29-14.28.24:292][799]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2025.09.29-14.28.24:292][799]LogAudio: Display: Audio Device (ID: 58) registered with world 'RuinsScene'.
+[2025.09.29-14.28.24:292][799]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2025.09.29-14.28.24:296][799]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.28.24:300][799]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.28.24
+[2025.09.29-14.28.24:301][799]LogWorld: Bringing up level for play took: 0.004351
+[2025.09.29-14.28.24:303][799]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2025.09.29-14.28.24:306][799]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.28.24:306][799]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.28.24:308][799]PIE: Server logged in
+[2025.09.29-14.28.24:311][799]PIE: Play in editor total start time 0.33 seconds.
+[2025.09.29-14.28.28:966][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.28.28:966][910]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.28.28:966][910]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.28.28:966][910]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.28.28:967][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.28.29:015][910]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.28.29:021][910]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.28.29:048][910]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.28.29:049][910]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2025.09.29-14.28.29:049][910]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=4
+[2025.09.29-14.28.29:052][910]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=2
+[2025.09.29-14.28.29:061][910]LogUObjectHash: Compacting FUObjectHashTables data took   1.61ms
+[2025.09.29-14.28.29:149][911]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2025.09.29-14.28.54:819][541]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.28.54:831][541]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.28.54:844][541]LogPlayLevel: [PlayLevel]   Compiling WB_HUD as a dependent...
+[2025.09.29-14.28.54:956][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.58ms
+[2025.09.29-14.28.54:961][541]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (2 blueprints)
+[2025.09.29-14.28.54:961][541]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.28.54:977][541]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015386s)
+[2025.09.29-14.28.54:977][541]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015427s)
+[2025.09.29-14.28.55:005][541]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.09.29-14.28.55:008][541]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.28.55:010][541]LogPlayLevel: PIE: World Init took: (0.001830s)
+[2025.09.29-14.28.55:011][541]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.28.55:011][541]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.28.55:011][541]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.28.55:011][541]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.28.55:011][541]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.28.55:011][541]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.28.55:013][541]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.28.55:071][541]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.28.55:071][541]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.28.55:071][541]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.28.55:071][541]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.28.55:071][541]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2025.09.29-14.28.55:071][541]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2025.09.29-14.28.55:074][541]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2025.09.29-14.28.55:074][541]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2025.09.29-14.28.55:074][541]LogInit: FAudioDevice initialized with ID 59.
+[2025.09.29-14.28.55:074][541]LogAudio: Display: Audio Device (ID: 59) registered with world 'RuinsScene'.
+[2025.09.29-14.28.55:074][541]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2025.09.29-14.28.55:114][541]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.28.55:114][541]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.28.55:119][541]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.28.55
+[2025.09.29-14.28.55:120][541]LogWorld: Bringing up level for play took: 0.005524
+[2025.09.29-14.28.55:122][541]LogOnline: OSS: Created online subsystem instance for: :Context_101
+[2025.09.29-14.28.55:125][541]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.28.55:125][541]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.28.55:127][541]LogBlueprintUserMessages: [BPC_AmmoSystem] Hello
+[2025.09.29-14.28.55:129][541]PIE: Server logged in
+[2025.09.29-14.28.55:130][541]PIE: Play in editor total start time 0.3 seconds.
+[2025.09.29-14.28.56:526][587]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.28.56:527][587]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.28.56:527][587]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.28.56:527][587]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.28.56:561][587]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.28.56:562][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.28.56:563][587]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.28.56:570][587]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.28.56:599][587]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2025.09.29-14.28.56:599][587]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=4
+[2025.09.29-14.28.56:601][587]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=2
+[2025.09.29-14.28.56:609][587]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.09.29-14.28.56:679][588]LogPlayLevel: Display: Destroying online subsystem :Context_101
+[2025.09.29-14.28.57:140][643]LogEditorTransaction: Undo Add Node
+[2025.09.29-14.29.45:642][219]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.29-14.29.45:649][219]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PathfinderContent/Level/RuinsScene' took 0.036
+[2025.09.29-14.29.45:649][219]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.29-14.29.45:733][219]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.29-14.29.45:733][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.29-14.29.45:773][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto5
+[2025.09.29-14.29.45:773][219]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_Murdock_Auto5989160B047577B0FCF6339AE085F5586.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Player/Murdock/BP_Murdock_Auto5.uasset'
+[2025.09.29-14.29.45:776][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Component/BPC_AttackSystem] ([2] browsable assets)...
+[2025.09.29-14.29.45:776][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Component/BPC_AttackSystem]
+[2025.09.29-14.29.45:809][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Component/BPC_AttackSystem_Auto5
+[2025.09.29-14.29.45:809][219]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPC_AttackSystem_Auto5E39BE9524FEA4426CCE7C7BA6437306A.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Component/BPC_AttackSystem_Auto5.uasset'
+[2025.09.29-14.29.45:812][219]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/UI/WB_HUD] ([2] browsable assets)...
+[2025.09.29-14.29.45:815][219]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/PathfinderContent/UI/WB_HUD.WB_HUD]
+[2025.09.29-14.29.45:815][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/UI/WB_HUD]
+[2025.09.29-14.29.45:843][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/UI/WB_HUD_Auto5
+[2025.09.29-14.29.45:843][219]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/WB_HUD_Auto51725FDC34B49C5D4A92836877A306C2C.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/UI/WB_HUD_Auto5.uasset'
+[2025.09.29-14.29.45:845][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Interfaces/BPI_Ammo] ([2] browsable assets)...
+[2025.09.29-14.29.45:845][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Interfaces/BPI_Ammo]
+[2025.09.29-14.29.45:854][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Interfaces/BPI_Ammo_Auto5
+[2025.09.29-14.29.45:854][219]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPI_Ammo_Auto55710727A40E6D6A623B108A567EBCA38.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Interfaces/BPI_Ammo_Auto5.uasset'
+[2025.09.29-14.29.45:855][219]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Component/BPC_AmmoSystem] ([2] browsable assets)...
+[2025.09.29-14.29.45:855][219]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Component/BPC_AmmoSystem]
+[2025.09.29-14.29.45:868][219]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/Component/BPC_AmmoSystem_Auto5
+[2025.09.29-14.29.45:868][219]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPC_AmmoSystem_Auto5F32166064971DD31109B5BB3AC40D1A8.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/Component/BPC_AmmoSystem_Auto5.uasset'
+[2025.09.29-14.29.45:870][219]LogFileHelpers: Auto-saving content packages took 0.221
+[2025.09.29-14.30.10:618][ 99]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.30.10:630][ 99]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.30.10:712][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.29ms
+[2025.09.29-14.30.10:716][ 99]LogPlayLevel: PlayLevel: Blueprint regeneration took 86 ms (1 blueprints)
+[2025.09.29-14.30.10:716][ 99]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.30.10:731][ 99]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015141s)
+[2025.09.29-14.30.10:731][ 99]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015177s)
+[2025.09.29-14.30.10:758][ 99]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.09.29-14.30.10:761][ 99]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.30.10:763][ 99]LogPlayLevel: PIE: World Init took: (0.001863s)
+[2025.09.29-14.30.10:764][ 99]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.30.10:764][ 99]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.30.10:764][ 99]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.30.10:764][ 99]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.30.10:764][ 99]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.30.10:764][ 99]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.30.10:766][ 99]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.30.10:824][ 99]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.30.10:824][ 99]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.30.10:824][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.30.10:824][ 99]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.30.10:825][ 99]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2025.09.29-14.30.10:825][ 99]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2025.09.29-14.30.10:827][ 99]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2025.09.29-14.30.10:827][ 99]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2025.09.29-14.30.10:827][ 99]LogInit: FAudioDevice initialized with ID 60.
+[2025.09.29-14.30.10:827][ 99]LogAudio: Display: Audio Device (ID: 60) registered with world 'RuinsScene'.
+[2025.09.29-14.30.10:827][ 99]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2025.09.29-14.30.10:862][ 99]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.30.10:862][ 99]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.30.10:866][ 99]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.30.10
+[2025.09.29-14.30.10:867][ 99]LogWorld: Bringing up level for play took: 0.005097
+[2025.09.29-14.30.10:870][ 99]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2025.09.29-14.30.10:873][ 99]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.30.10:873][ 99]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.30.10:874][ 99]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.30.10:875][ 99]PIE: Server logged in
+[2025.09.29-14.30.10:876][ 99]PIE: Play in editor total start time 0.247 seconds.
+[2025.09.29-14.30.12:816][177]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.30.12:816][177]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.30.12:816][177]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.30.12:817][177]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.30.12:848][177]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.30.12:849][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.30.12:850][177]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.30.12:857][177]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.30.12:887][177]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2025.09.29-14.30.12:887][177]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=4
+[2025.09.29-14.30.12:889][177]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=2
+[2025.09.29-14.30.12:898][177]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.09.29-14.30.12:969][178]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2025.09.29-14.30.13:491][239]LogEditorTransaction: Undo Create Pin Link
+[2025.09.29-14.30.14:116][267]LogEditorTransaction: Undo Move Node
+[2025.09.29-14.30.14:698][333]LogEditorTransaction: Undo Add Node
+[2025.09.29-14.31.30:442][228]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.31.30:454][228]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.31.30:467][228]LogPlayLevel: [PlayLevel]   Compiling WB_HUD as a dependent...
+[2025.09.29-14.31.30:586][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.85ms
+[2025.09.29-14.31.30:590][228]LogPlayLevel: PlayLevel: Blueprint regeneration took 137 ms (2 blueprints)
+[2025.09.29-14.31.30:590][228]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.31.30:606][228]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015790s)
+[2025.09.29-14.31.30:606][228]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015829s)
+[2025.09.29-14.31.30:633][228]LogUObjectHash: Compacting FUObjectHashTables data took   1.34ms
+[2025.09.29-14.31.30:637][228]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.31.30:639][228]LogPlayLevel: PIE: World Init took: (0.001856s)
+[2025.09.29-14.31.30:640][228]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.31.30:640][228]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.31.30:640][228]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.31.30:640][228]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.31.30:640][228]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.31.30:640][228]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.31.30:642][228]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.31.30:699][228]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.31.30:699][228]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.31.30:700][228]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.31.30:700][228]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.31.30:700][228]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2025.09.29-14.31.30:700][228]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2025.09.29-14.31.30:703][228]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2025.09.29-14.31.30:703][228]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2025.09.29-14.31.30:703][228]LogInit: FAudioDevice initialized with ID 61.
+[2025.09.29-14.31.30:703][228]LogAudio: Display: Audio Device (ID: 61) registered with world 'RuinsScene'.
+[2025.09.29-14.31.30:703][228]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2025.09.29-14.31.30:732][228]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.31.30:732][228]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.31.30:737][228]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.31.30
+[2025.09.29-14.31.30:738][228]LogWorld: Bringing up level for play took: 0.004919
+[2025.09.29-14.31.30:740][228]LogOnline: OSS: Created online subsystem instance for: :Context_103
+[2025.09.29-14.31.30:744][228]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.31.30:744][228]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.31.30:745][228]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.30:746][228]PIE: Server logged in
+[2025.09.29-14.31.30:747][228]PIE: Play in editor total start time 0.295 seconds.
+[2025.09.29-14.31.33:064][325]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.34:321][386]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.34:751][406]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.35:111][423]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.35:472][440]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.35:831][457]LogBlueprintUserMessages: [WB_HUD_C_0] Hello
+[2025.09.29-14.31.36:336][478]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.31.36:336][478]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.31.36:337][478]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.31.36:338][478]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.31.36:363][478]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.31.36:364][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.31.36:365][478]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.31.36:372][478]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.31.36:401][478]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2025.09.29-14.31.36:402][478]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=4
+[2025.09.29-14.31.36:403][478]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=2
+[2025.09.29-14.31.36:412][478]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.09.29-14.31.36:482][479]LogPlayLevel: Display: Destroying online subsystem :Context_103
+[2025.09.29-14.31.41:874][ 52]LogWorld: UWorld::CleanupWorld for World_72, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.31.41:874][ 52]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.31.41:946][ 52]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.09.29-14.31.46:312][444]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Component/BPC_AmmoSystem.BPC_AmmoSystem
+[2025.09.29-14.31.46:312][444]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_80
+[2025.09.29-14.31.57:483][600]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.31.57:510][600]LogPlayLevel: [PlayLevel] Compiling WB_HUD before play...
+[2025.09.29-14.31.57:650][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.29-14.31.57:656][600]LogPlayLevel: PlayLevel: Blueprint regeneration took 160 ms (1 blueprints)
+[2025.09.29-14.31.57:656][600]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.31.57:672][600]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016515s)
+[2025.09.29-14.31.57:672][600]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.016558s)
+[2025.09.29-14.31.57:699][600]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.29-14.31.57:703][600]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.31.57:705][600]LogPlayLevel: PIE: World Init took: (0.001793s)
+[2025.09.29-14.31.57:706][600]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.31.57:706][600]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.31.57:706][600]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.31.57:706][600]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.31.57:706][600]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.31.57:706][600]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.31.57:708][600]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.31.57:764][600]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.31.57:764][600]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.31.57:764][600]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.31.57:764][600]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.31.57:765][600]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2025.09.29-14.31.57:765][600]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2025.09.29-14.31.57:767][600]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2025.09.29-14.31.57:767][600]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2025.09.29-14.31.57:767][600]LogInit: FAudioDevice initialized with ID 62.
+[2025.09.29-14.31.57:767][600]LogAudio: Display: Audio Device (ID: 62) registered with world 'RuinsScene'.
+[2025.09.29-14.31.57:767][600]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2025.09.29-14.31.57:801][600]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.31.57:801][600]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.31.57:807][600]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.31.57
+[2025.09.29-14.31.57:807][600]LogWorld: Bringing up level for play took: 0.005888
+[2025.09.29-14.31.57:810][600]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2025.09.29-14.31.57:813][600]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.31.57:813][600]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.31.57:816][600]PIE: Server logged in
+[2025.09.29-14.31.57:817][600]PIE: Play in editor total start time 0.322 seconds.
+[2025.09.29-14.31.58:837][634]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.31.58:837][634]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.31.58:837][634]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.31.58:838][634]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.31.58:878][634]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.31.58:879][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.31.58:881][634]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.31.58:887][634]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.31.58:914][634]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2025.09.29-14.31.58:914][634]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=4
+[2025.09.29-14.31.58:916][634]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=2
+[2025.09.29-14.31.58:924][634]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.09.29-14.31.58:996][635]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2025.09.29-14.31.59:292][668]Cmd: TRANSACTION UNDO
+[2025.09.29-14.31.59:293][668]LogEditorTransaction: Undo Create Pin Link
+[2025.09.29-14.31.59:917][691]Cmd: TRANSACTION UNDO
+[2025.09.29-14.31.59:917][691]LogEditorTransaction: Undo Delete current selection
+[2025.09.29-14.32.02:705][970]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.32.02:719][970]LogPlayLevel: [PlayLevel] Compiling WB_HUD before play...
+[2025.09.29-14.32.02:827][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.09.29-14.32.02:833][970]LogPlayLevel: PlayLevel: Blueprint regeneration took 117 ms (1 blueprints)
+[2025.09.29-14.32.02:834][970]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.32.02:849][970]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015159s)
+[2025.09.29-14.32.02:849][970]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015203s)
+[2025.09.29-14.32.02:875][970]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.09.29-14.32.02:878][970]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.32.02:880][970]LogPlayLevel: PIE: World Init took: (0.001867s)
+[2025.09.29-14.32.02:881][970]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.32.02:881][970]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.32.02:881][970]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.32.02:881][970]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.32.02:881][970]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.32.02:881][970]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.32.02:883][970]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.32.02:942][970]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.32.02:942][970]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.32.02:942][970]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.32.02:942][970]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.32.02:942][970]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2025.09.29-14.32.02:942][970]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2025.09.29-14.32.02:945][970]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2025.09.29-14.32.02:945][970]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2025.09.29-14.32.02:945][970]LogInit: FAudioDevice initialized with ID 63.
+[2025.09.29-14.32.02:945][970]LogAudio: Display: Audio Device (ID: 63) registered with world 'RuinsScene'.
+[2025.09.29-14.32.02:945][970]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2025.09.29-14.32.02:981][970]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.32.02:981][970]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.32.02:986][970]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.32.02
+[2025.09.29-14.32.02:987][970]LogWorld: Bringing up level for play took: 0.005263
+[2025.09.29-14.32.02:989][970]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2025.09.29-14.32.02:992][970]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.32.02:992][970]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.32.02:994][970]LogBlueprintUserMessages: [WB_HUD_C_0] 30.0
+[2025.09.29-14.32.02:996][970]PIE: Server logged in
+[2025.09.29-14.32.02:997][970]PIE: Play in editor total start time 0.281 seconds.
+[2025.09.29-14.32.04:201][ 14]LogBlueprintUserMessages: [WB_HUD_C_0] 0.0
+[2025.09.29-14.32.05:437][ 73]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.32.05:437][ 73]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.32.05:437][ 73]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.32.05:438][ 73]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.32.05:490][ 73]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.32.05:492][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.32.05:493][ 73]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.32.05:499][ 73]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.32.05:528][ 73]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2025.09.29-14.32.05:528][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=4
+[2025.09.29-14.32.05:530][ 73]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=2
+[2025.09.29-14.32.05:538][ 73]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.29-14.32.05:611][ 74]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2025.09.29-14.32.05:997][115]Cmd: TRANSACTION UNDO
+[2025.09.29-14.32.05:997][115]LogEditorTransaction: Undo Create Pin Link
+[2025.09.29-14.32.06:567][131]Cmd: TRANSACTION UNDO
+[2025.09.29-14.32.06:567][131]LogEditorTransaction: Undo Move Node
+[2025.09.29-14.32.08:668][351]Cmd: TRANSACTION UNDO
+[2025.09.29-14.32.08:669][351]LogEditorTransaction: Undo Add Node
+[2025.09.29-14.32.23:829][ 13]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.32.23:840][ 13]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.32.23:843][ 13]LogPlayLevel: [PlayLevel]   Compiling WB_HUD as a dependent...
+[2025.09.29-14.32.23:942][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.29-14.32.23:947][ 13]LogPlayLevel: PlayLevel: Blueprint regeneration took 108 ms (2 blueprints)
+[2025.09.29-14.32.23:948][ 13]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.32.23:964][ 13]LogPlayLevel: PIE: StaticDuplicateObject took: (0.016231s)
+[2025.09.29-14.32.23:964][ 13]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.016271s)
+[2025.09.29-14.32.23:989][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.09.29-14.32.23:993][ 13]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.32.23:996][ 13]LogPlayLevel: PIE: World Init took: (0.002547s)
+[2025.09.29-14.32.23:997][ 13]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.32.23:997][ 13]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.32.23:997][ 13]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.32.23:997][ 13]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.32.23:997][ 13]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.32.23:997][ 13]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.32.23:999][ 13]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.32.24:055][ 13]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.32.24:055][ 13]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.32.24:055][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.32.24:055][ 13]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.32.24:056][ 13]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2025.09.29-14.32.24:056][ 13]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2025.09.29-14.32.24:058][ 13]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2025.09.29-14.32.24:058][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2025.09.29-14.32.24:058][ 13]LogInit: FAudioDevice initialized with ID 64.
+[2025.09.29-14.32.24:058][ 13]LogAudio: Display: Audio Device (ID: 64) registered with world 'RuinsScene'.
+[2025.09.29-14.32.24:058][ 13]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2025.09.29-14.32.24:102][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.32.24:103][ 13]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.32.24:107][ 13]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.32.24
+[2025.09.29-14.32.24:108][ 13]LogWorld: Bringing up level for play took: 0.005075
+[2025.09.29-14.32.24:111][ 13]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2025.09.29-14.32.24:114][ 13]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.32.24:114][ 13]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.32.24:116][ 13]PIE: Server logged in
+[2025.09.29-14.32.24:117][ 13]PIE: Play in editor total start time 0.278 seconds.
+[2025.09.29-14.32.26:917][126]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.32.26:917][126]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.32.26:917][126]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.32.26:918][126]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.32.26:960][126]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.32.26:961][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.32.26:963][126]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.32.26:971][126]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.32.27:002][126]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2025.09.29-14.32.27:002][126]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64, StreamState=4
+[2025.09.29-14.32.27:004][126]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64, StreamState=2
+[2025.09.29-14.32.27:013][126]LogUObjectHash: Compacting FUObjectHashTables data took   1.60ms
+[2025.09.29-14.32.27:082][127]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2025.09.29-14.32.29:674][437]LogEditorTransaction: Undo Create Pin Link
+[2025.09.29-14.32.30:353][472]LogEditorTransaction: Undo Move Node
+[2025.09.29-14.32.31:741][635]LogEditorTransaction: Undo Move Node
+[2025.09.29-14.32.32:192][685]LogEditorTransaction: Undo Move Node
+[2025.09.29-14.32.32:623][733]LogEditorTransaction: Undo Add Node
+[2025.09.29-14.32.33:176][795]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 5456.528320
+[2025.09.29-14.32.33:433][825]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.09.29-14.32.33:433][825]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 5456.778320, Update Interval: 325.014801
+[2025.09.29-14.32.52:351][620]LogEditorTransaction: Undo Delete current selection
+[2025.09.29-14.33.15:326][712]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.09.29-14.33.16:522][757]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.33.16:533][757]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.29-14.33.16:533][757]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.33.16:552][757]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018641s)
+[2025.09.29-14.33.16:552][757]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.018692s)
+[2025.09.29-14.33.16:581][757]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.29-14.33.16:588][757]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.33.16:590][757]LogPlayLevel: PIE: World Init took: (0.001958s)
+[2025.09.29-14.33.16:591][757]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.33.16:591][757]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.33.16:591][757]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.33.16:591][757]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.33.16:591][757]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.33.16:591][757]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.33.16:593][757]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.33.16:650][757]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.33.16:650][757]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.33.16:650][757]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.33.16:650][757]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.33.16:651][757]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2025.09.29-14.33.16:651][757]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2025.09.29-14.33.16:653][757]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2025.09.29-14.33.16:653][757]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2025.09.29-14.33.16:653][757]LogInit: FAudioDevice initialized with ID 65.
+[2025.09.29-14.33.16:653][757]LogAudio: Display: Audio Device (ID: 65) registered with world 'RuinsScene'.
+[2025.09.29-14.33.16:653][757]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2025.09.29-14.33.16:658][757]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.33.16:663][757]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.33.16
+[2025.09.29-14.33.16:664][757]LogWorld: Bringing up level for play took: 0.005543
+[2025.09.29-14.33.16:666][757]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2025.09.29-14.33.16:669][757]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.33.16:669][757]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.33.16:671][757]PIE: Server logged in
+[2025.09.29-14.33.16:674][757]PIE: Play in editor total start time 0.141 seconds.
+[2025.09.29-14.33.20:046][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.33.20:046][887]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.33.20:046][887]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.33.20:046][887]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.33.20:047][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.33.20:068][887]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.33.20:074][887]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.33.20:101][887]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.29-14.33.20:101][887]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2025.09.29-14.33.20:101][887]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65, StreamState=4
+[2025.09.29-14.33.20:103][887]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65, StreamState=2
+[2025.09.29-14.33.20:107][887]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.33.20:110][887]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.29-14.33.20:196][888]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2025.09.29-14.34.30:117][543]LogUObjectHash: Compacting FUObjectHashTables data took   1.57ms
+[2025.09.29-14.34.31:556][612]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.34.31:567][612]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.29-14.34.31:567][612]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.34.31:587][612]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019906s)
+[2025.09.29-14.34.31:587][612]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.019956s)
+[2025.09.29-14.34.31:616][612]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.09.29-14.34.31:622][612]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.34.31:623][612]LogPlayLevel: PIE: World Init took: (0.001749s)
+[2025.09.29-14.34.31:624][612]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.34.31:624][612]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.34.31:624][612]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.34.31:624][612]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.34.31:624][612]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.34.31:625][612]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.34.31:626][612]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.34.31:684][612]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.34.31:684][612]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.34.31:684][612]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.34.31:684][612]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.34.31:685][612]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2025.09.29-14.34.31:685][612]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2025.09.29-14.34.31:687][612]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2025.09.29-14.34.31:687][612]LogInit: FAudioDevice initialized with ID 66.
+[2025.09.29-14.34.31:687][612]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2025.09.29-14.34.31:687][612]LogAudio: Display: Audio Device (ID: 66) registered with world 'RuinsScene'.
+[2025.09.29-14.34.31:687][612]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2025.09.29-14.34.31:692][612]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.34.31:696][612]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.34.31
+[2025.09.29-14.34.31:697][612]LogWorld: Bringing up level for play took: 0.004543
+[2025.09.29-14.34.31:699][612]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2025.09.29-14.34.31:702][612]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.34.31:702][612]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.34.31:703][612]PIE: Server logged in
+[2025.09.29-14.34.31:706][612]PIE: Play in editor total start time 0.14 seconds.
+[2025.09.29-14.34.35:596][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.34.35:596][699]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.34.35:596][699]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.34.35:596][699]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.34.35:598][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.34.35:677][699]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.34.35:682][699]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.34.35:713][699]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.29-14.34.35:713][699]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2025.09.29-14.34.35:713][699]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=4
+[2025.09.29-14.34.35:715][699]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=2
+[2025.09.29-14.34.35:719][699]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.34.35:722][699]LogUObjectHash: Compacting FUObjectHashTables data took   1.51ms
+[2025.09.29-14.34.35:825][700]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2025.09.29-14.34.58:884][116]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.34.58:903][116]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.34.59:000][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.09.29-14.34.59:005][116]LogPlayLevel: PlayLevel: Blueprint regeneration took 104 ms (1 blueprints)
+[2025.09.29-14.34.59:006][116]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.34.59:021][116]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015531s)
+[2025.09.29-14.34.59:021][116]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015567s)
+[2025.09.29-14.34.59:047][116]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.09.29-14.34.59:051][116]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.34.59:053][116]LogPlayLevel: PIE: World Init took: (0.001790s)
+[2025.09.29-14.34.59:054][116]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.34.59:054][116]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.34.59:054][116]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.34.59:054][116]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.34.59:054][116]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.34.59:054][116]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.34.59:056][116]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.34.59:113][116]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.34.59:113][116]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.34.59:113][116]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.34.59:113][116]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.34.59:113][116]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2025.09.29-14.34.59:113][116]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2025.09.29-14.34.59:116][116]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2025.09.29-14.34.59:116][116]LogInit: FAudioDevice initialized with ID 67.
+[2025.09.29-14.34.59:116][116]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2025.09.29-14.34.59:116][116]LogAudio: Display: Audio Device (ID: 67) registered with world 'RuinsScene'.
+[2025.09.29-14.34.59:116][116]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2025.09.29-14.34.59:151][116]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.34.59:151][116]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.34.59:157][116]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.34.59
+[2025.09.29-14.34.59:158][116]LogWorld: Bringing up level for play took: 0.006254
+[2025.09.29-14.34.59:161][116]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2025.09.29-14.34.59:164][116]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.34.59:164][116]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.34.59:167][116]PIE: Server logged in
+[2025.09.29-14.34.59:168][116]PIE: Play in editor total start time 0.267 seconds.
+[2025.09.29-14.35.00:034][136]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.00:464][157]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.00:968][182]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.01:392][203]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.01:820][224]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.02:246][245]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.02:634][264]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.03:002][282]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.03:476][303]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.35.03:476][303]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.35.03:476][303]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.35.03:476][303]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.35.03:511][303]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.35.03:512][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.03:513][303]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.35.03:520][303]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.03:550][303]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2025.09.29-14.35.03:550][303]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=4
+[2025.09.29-14.35.03:552][303]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=2
+[2025.09.29-14.35.03:561][303]LogUObjectHash: Compacting FUObjectHashTables data took   1.77ms
+[2025.09.29-14.35.03:632][304]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2025.09.29-14.35.08:185][786]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.35.08:197][786]LogPlayLevel: [PlayLevel] Compiling BPC_AmmoSystem before play...
+[2025.09.29-14.35.08:281][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.78ms
+[2025.09.29-14.35.08:287][786]LogPlayLevel: PlayLevel: Blueprint regeneration took 91 ms (1 blueprints)
+[2025.09.29-14.35.08:287][786]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.35.08:303][786]LogPlayLevel: PIE: StaticDuplicateObject took: (0.015576s)
+[2025.09.29-14.35.08:303][786]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.015613s)
+[2025.09.29-14.35.08:328][786]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.29-14.35.08:331][786]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.35.08:333][786]LogPlayLevel: PIE: World Init took: (0.001921s)
+[2025.09.29-14.35.08:335][786]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.35.08:335][786]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.35.08:335][786]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.35.08:335][786]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.35.08:335][786]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.35.08:335][786]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.35.08:337][786]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.35.08:394][786]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.35.08:394][786]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.35.08:395][786]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.35.08:395][786]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.35.08:395][786]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2025.09.29-14.35.08:395][786]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2025.09.29-14.35.08:397][786]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2025.09.29-14.35.08:398][786]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2025.09.29-14.35.08:398][786]LogInit: FAudioDevice initialized with ID 68.
+[2025.09.29-14.35.08:398][786]LogAudio: Display: Audio Device (ID: 68) registered with world 'RuinsScene'.
+[2025.09.29-14.35.08:398][786]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2025.09.29-14.35.08:439][786]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.35.08:439][786]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.35.08:444][786]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.35.08
+[2025.09.29-14.35.08:445][786]LogWorld: Bringing up level for play took: 0.004809
+[2025.09.29-14.35.08:447][786]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2025.09.29-14.35.08:450][786]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.35.08:450][786]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.35.08:453][786]PIE: Server logged in
+[2025.09.29-14.35.08:454][786]PIE: Play in editor total start time 0.259 seconds.
+[2025.09.29-14.35.09:391][817]LogBlueprintUserMessages: [BPC_AmmoSystem] 30.0
+[2025.09.29-14.35.09:745][834]LogBlueprintUserMessages: [BPC_AmmoSystem] 29.0
+[2025.09.29-14.35.10:116][852]LogBlueprintUserMessages: [BPC_AmmoSystem] 28.0
+[2025.09.29-14.35.10:447][868]LogBlueprintUserMessages: [BPC_AmmoSystem] 27.0
+[2025.09.29-14.35.10:796][885]LogBlueprintUserMessages: [BPC_AmmoSystem] 26.0
+[2025.09.29-14.35.11:145][902]LogBlueprintUserMessages: [BPC_AmmoSystem] 25.0
+[2025.09.29-14.35.11:454][917]LogBlueprintUserMessages: [BPC_AmmoSystem] 24.0
+[2025.09.29-14.35.11:815][933]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.35.11:816][933]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.35.11:816][933]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.35.11:816][933]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.09.29-14.35.11:861][933]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.35.11:862][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.11:863][933]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.35.11:870][933]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.11:899][933]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2025.09.29-14.35.11:900][933]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=4
+[2025.09.29-14.35.11:901][933]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=2
+[2025.09.29-14.35.11:910][933]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.09.29-14.35.11:981][934]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2025.09.29-14.35.34:416][426]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.09.29-14.35.35:415][481]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.09.29-14.35.35:426][481]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.09.29-14.35.35:426][481]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.35.35:445][481]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019051s)
+[2025.09.29-14.35.35:445][481]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.019098s)
+[2025.09.29-14.35.35:474][481]LogUObjectHash: Compacting FUObjectHashTables data took   1.35ms
+[2025.09.29-14.35.35:481][481]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.09.29-14.35.35:483][481]LogPlayLevel: PIE: World Init took: (0.001832s)
+[2025.09.29-14.35.35:483][481]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.09.29-14.35.35:483][481]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.09.29-14.35.35:483][481]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.09.29-14.35.35:483][481]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.09.29-14.35.35:484][481]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.09.29-14.35.35:484][481]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.09.29-14.35.35:485][481]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.09.29-14.35.35:542][481]LogAudioMixer: Display: Using Audio Hardware Device 스피커(USB Audio Device)
+[2025.09.29-14.35.35:542][481]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.09.29-14.35.35:542][481]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.09.29-14.35.35:542][481]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.09.29-14.35.35:543][481]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2025.09.29-14.35.35:543][481]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2025.09.29-14.35.35:545][481]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2025.09.29-14.35.35:545][481]LogInit: FAudioDevice initialized with ID 69.
+[2025.09.29-14.35.35:545][481]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2025.09.29-14.35.35:545][481]LogAudio: Display: Audio Device (ID: 69) registered with world 'RuinsScene'.
+[2025.09.29-14.35.35:545][481]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2025.09.29-14.35.35:550][481]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.09.29-14.35.35:554][481]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.09.29-23.35.35
+[2025.09.29-14.35.35:555][481]LogWorld: Bringing up level for play took: 0.004652
+[2025.09.29-14.35.35:557][481]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2025.09.29-14.35.35:560][481]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.09.29-14.35.35:560][481]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.09.29-14.35.35:562][481]PIE: Server logged in
+[2025.09.29-14.35.35:565][481]PIE: Play in editor total start time 0.14 seconds.
+[2025.09.29-14.35.40:926][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.35.40:926][698]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.09.29-14.35.40:926][698]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.35.40:927][698]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.35.40:929][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.40:938][698]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.09.29-14.35.40:944][698]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.35.40:974][698]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.09.29-14.35.40:974][698]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2025.09.29-14.35.40:974][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=4
+[2025.09.29-14.35.40:976][698]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=2
+[2025.09.29-14.35.40:980][698]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.09.29-14.35.40:984][698]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.09.29-14.35.41:072][699]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2025.09.29-14.35.41:648][713]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.09.29-14.35.41:658][713]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.09.29-14.35.41:745][713]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/BP_Murdock] ([2] browsable assets)...
+[2025.09.29-14.35.41:810][713]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/BP_Murdock.BP_Murdock]
+[2025.09.29-14.35.41:810][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/BP_Murdock]
+[2025.09.29-14.35.41:848][713]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/BP_Murdock
+[2025.09.29-14.35.41:849][713]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_Murdock81CB360649DFE31FEC8C5D8941CAF322.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/BP_Murdock.uasset'
+[2025.09.29-14.35.41:851][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Component/BPC_AttackSystem] ([2] browsable assets)...
+[2025.09.29-14.35.41:851][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Component/BPC_AttackSystem]
+[2025.09.29-14.35.41:886][713]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Component/BPC_AttackSystem
+[2025.09.29-14.35.41:887][713]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPC_AttackSystemFFA4A8C74BFA3DAF3DDB1CA6ABA81850.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Component/BPC_AttackSystem.uasset'
+[2025.09.29-14.35.41:888][713]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/UI/WB_HUD] ([2] browsable assets)...
+[2025.09.29-14.35.41:895][713]OBJ SavePackage:     Rendered thumbnail for [WidgetBlueprint /Game/PathfinderContent/UI/WB_HUD.WB_HUD]
+[2025.09.29-14.35.41:895][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/UI/WB_HUD]
+[2025.09.29-14.35.41:895][713]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PathfinderContent/UI/WB_HUD" FILE="../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/UI/WB_HUD.uasset" SILENT=true
+[2025.09.29-14.35.41:922][713]LogSavePackage: Moving output files for package: /Game/PathfinderContent/UI/WB_HUD
+[2025.09.29-14.35.41:923][713]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/WB_HUD9BDE4DB74AEA337CF8EB8CBE06A2E642.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/UI/WB_HUD.uasset'
+[2025.09.29-14.35.41:924][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Interfaces/BPI_Ammo] ([2] browsable assets)...
+[2025.09.29-14.35.41:924][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Interfaces/BPI_Ammo]
+[2025.09.29-14.35.41:933][713]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Interfaces/BPI_Ammo
+[2025.09.29-14.35.41:933][713]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPI_Ammo0385065346DA2F8AD9D329A9543EA5E3.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Interfaces/BPI_Ammo.uasset'
+[2025.09.29-14.35.41:938][713]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/Component/BPC_AmmoSystem] ([2] browsable assets)...
+[2025.09.29-14.35.41:938][713]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Component/BPC_AmmoSystem]
+[2025.09.29-14.35.41:956][713]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Component/BPC_AmmoSystem
+[2025.09.29-14.35.41:957][713]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BPC_AmmoSystem78743BDC4438FD5A19A08EB0B8E1F479.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Component/BPC_AmmoSystem.uasset'
+[2025.09.29-14.35.41:971][713]LogFileHelpers: InternalPromptForCheckoutAndSave took 312.690 ms (total: 2.07 sec)
+[2025.09.29-14.35.42:021][713]LogContentValidation: Display: Starting to validate 5 assets
+[2025.09.29-14.35.42:021][713]LogContentValidation: Enabled validators:
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.09.29-14.35.42:021][713]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.09.29-14.35.42:021][713]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.09.29-14.35.42:021][713]AssetCheck: /Game/PathfinderContent/Component/BPC_AttackSystem Validating asset
+[2025.09.29-14.35.42:022][713]AssetCheck: /Game/PathfinderContent/UI/WB_HUD Validating asset
+[2025.09.29-14.35.42:022][713]AssetCheck: /Game/PathfinderContent/Interfaces/BPI_Ammo Validating asset
+[2025.09.29-14.35.42:022][713]AssetCheck: /Game/PathfinderContent/Component/BPC_AmmoSystem Validating asset
+[2025.09.29-14.35.42:079][713]LogSourceControl: Display: Uncontrolled Changelist persistency file saved ../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/SourceControl/UncontrolledChangelists.json
+[2025.09.29-14.36.29:506][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.09.29-14.36.54:308][917]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.09.29-14.36.54:320][917]LogSlate: Window 'Find in Blueprints' being destroyed
+[2025.09.29-14.37.24:126][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.09.29-14.37.24:320][386]LogStall: Shutdown...
+[2025.09.29-14.37.24:320][386]LogStall: Shutdown complete.
+[2025.09.29-14.37.24:566][386]LogWorld: UWorld::CleanupWorld for World_3, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.24:566][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.24:581][386]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.24:581][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.24:733][386]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.24:733][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:014][386]LogWorld: UWorld::CleanupWorld for World_77, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:014][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:116][386]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.09.29-14.37.25:116][386]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:116][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:352][386]LogWorld: UWorld::CleanupWorld for World_73, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:352][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:427][386]LogWorld: UWorld::CleanupWorld for World_71, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:427][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:500][386]LogWorld: UWorld::CleanupWorld for World_70, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:500][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:570][386]LogWorld: UWorld::CleanupWorld for World_80, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.25:570][386]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.25:655][386]LogSlate: Window 'Pathfinder2 - Unreal Editor' being destroyed
+[2025.09.29-14.37.26:839][386]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.09.29-14.37.26:906][386]Cmd: QUIT_EDITOR
+[2025.09.29-14.37.26:906][387]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.09.29-14.37.26:920][387]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.09.29-14.37.26:922][387]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.09.29-14.37.26:922][387]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.09.29-14.37.26:955][387]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.26:958][387]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.09.29-14.37.26:960][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:004][387]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.09.29-14.37.27:007][387]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.09.29-14.37.27:020][387]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.09.29-14.37.27:074][387]LogWorld: UWorld::CleanupWorld for World_31, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:074][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:078][387]LogWorld: UWorld::CleanupWorld for World_42, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:078][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:082][387]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:082][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:085][387]LogWorld: UWorld::CleanupWorld for World_41, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:085][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:088][387]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:088][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:091][387]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:091][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:095][387]LogWorld: UWorld::CleanupWorld for World_40, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:095][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:099][387]LogWorld: UWorld::CleanupWorld for World_38, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:100][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:105][387]LogWorld: UWorld::CleanupWorld for World_39, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:105][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:109][387]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:109][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:113][387]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:113][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:118][387]LogWorld: UWorld::CleanupWorld for World_22, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:118][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:122][387]LogWorld: UWorld::CleanupWorld for World_28, bSessionEnded=true, bCleanupResources=true
+[2025.09.29-14.37.27:122][387]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.09.29-14.37.27:138][387]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.09.29-14.37.27:139][387]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.09.29-14.37.27:148][387]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.09.29-14.37.27:431][387]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.09.29-14.37.27:431][387]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.09.29-14.37.27:431][387]LogAudio: Display: Audio Device unregistered from world 'RuinsScene'.
+[2025.09.29-14.37.27:431][387]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.09.29-14.37.27:432][387]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.09.29-14.37.27:438][387]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.09.29-14.37.27:464][387]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.09.29-14.37.27:465][387]LogAudio: Display: Audio Device Manager Shutdown
+[2025.09.29-14.37.27:473][387]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.09.29-14.37.27:480][387]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.09.29-14.37.27:482][387]LogExit: Preparing to exit.
+[2025.09.29-14.37.27:573][387]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.09.29-14.37.27:585][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:586][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:591][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:592][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:593][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:593][387]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.27:593][387]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.09.29-14.37.28:592][387]LogEditorDataStorage: Deinitializing
+[2025.09.29-14.37.28:993][387]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.09.29-14.37.29:309][387]LogExit: Editor shut down
+[2025.09.29-14.37.29:373][387]LogExit: Transaction tracking system shut down
+[2025.09.29-14.37.31:050][387]LogExit: Object subsystem successfully closed.
+[2025.09.29-14.37.31:131][387]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.09.29-14.37.31:757][387]LogMemoryProfiler: Shutdown
+[2025.09.29-14.37.31:759][387]LogNetworkingProfiler: Shutdown
+[2025.09.29-14.37.31:759][387]LoadingProfiler: Shutdown
+[2025.09.29-14.37.31:759][387]LogTimingProfiler: Shutdown
+[2025.09.29-14.37.31:772][387]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.09.29-14.37.31:773][387]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.09.29-14.37.33:487][387]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.09.29-14.37.33:499][387]LogNFORDenoise: NFORDenoise function shutting down
+[2025.09.29-14.37.33:542][387]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.09.29-14.37.33:542][387]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B4FCD234B-4CC0-C2D8-9887-BBB2A48DE649%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=1bd1eb2e47297210a41fabba0b4102e2%7Cc8af77b5822f47ecbf35d5277d972066%7Cedd4c8dc-4b82-4001-a25c-7d3dee9283ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.09.29-14.37.34:640][387]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.09.29-14.37.34:643][387]RenderDocPlugin: plugin has been unloaded.
+[2025.09.29-14.37.34:651][387]LogXGEController: Cleaning working directory: C:/Users/sojoo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.09.29-14.37.34:682][387]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.09.29-14.37.34:682][387]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.09.29-14.37.34:683][387]LogPakFile: Destroying PakPlatformFile
+[2025.09.29-14.37.35:222][387]LogD3D12RHI: ~FD3D12DynamicRHI
+[2025.09.29-14.37.35:267][387]LogExit: Exiting.
+[2025.09.29-14.37.35:339][387]Log file closed, 09/29/25 23:37:35
