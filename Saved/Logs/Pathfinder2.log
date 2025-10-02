@@ -5270,3 +5270,759 @@ Sampler Limit: 16
 [2025.10.02-14.31.37:611][554]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.02-14.31.37:611][554]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.02-14.31.37:611][554]AssetCheck: /Game/PathfinderContent/Player/Murdock/BP_Murdock Validating asset
+[2025.10.02-14.32.13:784][147]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.32.13:799][147]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.32.13:799][147]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.32.13:818][147]LogPlayLevel: PIE: StaticDuplicateObject took: (0.018957s)
+[2025.10.02-14.32.13:818][147]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.018995s)
+[2025.10.02-14.32.13:850][147]LogUObjectHash: Compacting FUObjectHashTables data took   1.93ms
+[2025.10.02-14.32.13:854][147]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.32.13:856][147]LogPlayLevel: PIE: World Init took: (0.002253s)
+[2025.10.02-14.32.13:857][147]LogAudio: Display: Creating Audio Device:                 Id: 41, Scope: Unique, Realtime: True
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.32.13:857][147]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.32.13:857][147]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.32.13:857][147]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.32.13:857][147]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.32.13:857][147]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.32.13:859][147]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.32.13:918][147]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.32.13:918][147]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.32.13:918][147]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.32.13:918][147]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.32.13:919][147]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=41
+[2025.10.02-14.32.13:919][147]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=41
+[2025.10.02-14.32.13:921][147]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=41
+[2025.10.02-14.32.13:921][147]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=41
+[2025.10.02-14.32.13:921][147]LogInit: FAudioDevice initialized with ID 41.
+[2025.10.02-14.32.13:921][147]LogAudio: Display: Audio Device (ID: 41) registered with world 'RuinsScene'.
+[2025.10.02-14.32.13:922][147]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 41
+[2025.10.02-14.32.13:960][147]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.32.13:960][147]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.32.13:965][147]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.32.13
+[2025.10.02-14.32.13:966][147]LogWorld: Bringing up level for play took: 0.005889
+[2025.10.02-14.32.13:968][147]LogOnline: OSS: Created online subsystem instance for: :Context_60
+[2025.10.02-14.32.13:972][147]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.32.13:972][147]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.32.13:978][147]PIE: Server logged in
+[2025.10.02-14.32.13:980][147]PIE: Play in editor total start time 0.182 seconds.
+[2025.10.02-14.32.15:550][236]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.15:551][236]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.15:551][236]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.15:551][236]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.15:551][236]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.15:551][236]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.17:452][316]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:334][344]LogRenderer: Warning: Building light grid exceeded number of available entries (588052 / 516096). Increase r.Forward.MaxCulledLightsPerCell to prevent potential visual artifacts.
+[2025.10.02-14.32.18:479][347]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:479][347]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:479][347]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:480][347]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:480][347]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:480][347]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.18:819][357]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:092][372]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:330][387]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:558][402]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.19:777][417]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:023][434]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:355][459]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:356][459]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:356][459]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:356][459]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:356][459]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:356][459]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.20:670][482]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.21:830][565]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.32.24:653][703]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_39.WB_HUD_C_0
+[2025.10.02-14.33.17:509][639]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.33.17:509][639]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.33.17:509][639]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.33.17:509][639]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.10.02-14.33.17:520][639]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.33.17:522][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.33.17:523][639]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.33.17:531][639]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.33.17:561][639]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 41
+[2025.10.02-14.33.17:562][639]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=4
+[2025.10.02-14.33.17:564][639]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=41, StreamState=2
+[2025.10.02-14.33.17:574][639]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.10.02-14.33.17:607][640]LogPlayLevel: Display: Destroying online subsystem :Context_60
+[2025.10.02-14.33.18:417][720]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.33.18:430][720]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.33.18:430][720]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.33.18:448][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017827s)
+[2025.10.02-14.33.18:448][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.017866s)
+[2025.10.02-14.33.18:480][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.02-14.33.18:483][720]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.33.18:485][720]LogPlayLevel: PIE: World Init took: (0.001980s)
+[2025.10.02-14.33.18:486][720]LogAudio: Display: Creating Audio Device:                 Id: 42, Scope: Unique, Realtime: True
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.33.18:486][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.33.18:486][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.33.18:486][720]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.33.18:486][720]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.33.18:486][720]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.33.18:488][720]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.33.18:550][720]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.33.18:550][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.33.18:550][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.33.18:550][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.33.18:551][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=42
+[2025.10.02-14.33.18:551][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=42
+[2025.10.02-14.33.18:554][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=42
+[2025.10.02-14.33.18:554][720]LogInit: FAudioDevice initialized with ID 42.
+[2025.10.02-14.33.18:554][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=42
+[2025.10.02-14.33.18:554][720]LogAudio: Display: Audio Device (ID: 42) registered with world 'RuinsScene'.
+[2025.10.02-14.33.18:554][720]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 42
+[2025.10.02-14.33.18:590][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.33.18:590][720]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.33.18:598][720]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.33.18
+[2025.10.02-14.33.18:599][720]LogWorld: Bringing up level for play took: 0.008093
+[2025.10.02-14.33.18:601][720]LogOnline: OSS: Created online subsystem instance for: :Context_61
+[2025.10.02-14.33.18:606][720]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.33.18:606][720]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.33.18:611][720]PIE: Server logged in
+[2025.10.02-14.33.18:615][720]PIE: Play in editor total start time 0.184 seconds.
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.21:809][901]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.22:375][919]LogRenderer: Warning: Building light grid exceeded number of available entries (516573 / 516096). Increase r.Forward.MaxCulledLightsPerCell to prevent potential visual artifacts.
+[2025.10.02-14.33.29:992][319]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.29:992][319]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.29:992][319]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.29:992][319]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.29:992][319]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.29:993][319]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.34:641][662]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_40.WB_HUD_C_0
+[2025.10.02-14.33.38:947][947]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.33.38:947][947]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.33.38:947][947]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.33.38:948][947]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.10.02-14.33.39:016][947]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.33.39:018][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.33.39:021][947]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.33.39:035][947]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.33.39:080][947]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 42
+[2025.10.02-14.33.39:080][947]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=4
+[2025.10.02-14.33.39:082][947]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=42, StreamState=2
+[2025.10.02-14.33.39:102][947]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.02-14.33.39:138][948]LogPlayLevel: Display: Destroying online subsystem :Context_61
+[2025.10.02-14.33.48:156][866]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.33.48:169][866]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.33.48:169][866]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.33.48:186][866]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017291s)
+[2025.10.02-14.33.48:186][866]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.017329s)
+[2025.10.02-14.33.48:216][866]LogUObjectHash: Compacting FUObjectHashTables data took   1.62ms
+[2025.10.02-14.33.48:218][866]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.33.48:220][866]LogPlayLevel: PIE: World Init took: (0.001900s)
+[2025.10.02-14.33.48:221][866]LogAudio: Display: Creating Audio Device:                 Id: 43, Scope: Unique, Realtime: True
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.33.48:221][866]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.33.48:221][866]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.33.48:221][866]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.33.48:221][866]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.33.48:221][866]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.33.48:223][866]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.33.48:280][866]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.33.48:280][866]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.33.48:280][866]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.33.48:280][866]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.33.48:280][866]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=43
+[2025.10.02-14.33.48:280][866]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=43
+[2025.10.02-14.33.48:283][866]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=43
+[2025.10.02-14.33.48:283][866]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=43
+[2025.10.02-14.33.48:283][866]LogInit: FAudioDevice initialized with ID 43.
+[2025.10.02-14.33.48:283][866]LogAudio: Display: Audio Device (ID: 43) registered with world 'RuinsScene'.
+[2025.10.02-14.33.48:283][866]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 43
+[2025.10.02-14.33.48:319][866]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.33.48:319][866]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.33.48:325][866]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.33.48
+[2025.10.02-14.33.48:326][866]LogWorld: Bringing up level for play took: 0.006435
+[2025.10.02-14.33.48:329][866]LogOnline: OSS: Created online subsystem instance for: :Context_62
+[2025.10.02-14.33.48:332][866]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.33.48:332][866]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.33.48:337][866]PIE: Server logged in
+[2025.10.02-14.33.48:340][866]PIE: Play in editor total start time 0.171 seconds.
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_41.WB_HUD_C_0
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_41.WB_HUD_C_0
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.33.57:409][419]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_41.WB_HUD_C_0
+[2025.10.02-14.34.01:446][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.34.01:446][635]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.34.01:446][635]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.34.01:447][635]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM5)' being destroyed
+[2025.10.02-14.34.01:532][635]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.34.01:534][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.34.01:538][635]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.34.01:552][635]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.34.01:601][635]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 43
+[2025.10.02-14.34.01:601][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=4
+[2025.10.02-14.34.01:604][635]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=43, StreamState=2
+[2025.10.02-14.34.01:621][635]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.10.02-14.34.01:657][636]LogPlayLevel: Display: Destroying online subsystem :Context_62
+[2025.10.02-14.34.16:374][119]LogSlate: Window 'Message' being destroyed
+[2025.10.02-14.34.16:387][119]Message dialog closed, result: Cancel, title: Message, text: Would you like to apply the changes of the modified material to the original material?
+/Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath.M_GrenadePath
+(Selecting 'No' will cause all changes to be lost!)
+[2025.10.02-14.34.19:090][376]LogMaterialEditor: Applying material M_GrenadePath
+[2025.10.02-14.34.19:197][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.96ms
+[2025.10.02-14.34.21:776][376]LogUObjectHash: Compacting FUObjectHashTables data took   0.64ms
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Base pass shader: 194 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 16
+
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Shader Count: 14
+[2025.10.02-14.34.21:794][376]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.29:456][174]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.02-14.34.29:456][174]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.29:456][174]MaterialEditorStats: Shader Count: 0
+[2025.10.02-14.34.29:456][174]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.29:493][176]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.29:493][176]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.29:493][176]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.29:493][176]MaterialEditorStats: Shader Count: 1
+[2025.10.02-14.34.29:493][176]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: ================================================
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: === FShaderJobCache stats ===
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Total job queries 668, among them cache hits 203 (30.39%), DDC hits 375 (56.14%), Duplicates 75 (11.23%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Tracking 390 distinct input hashes that result in 323 distinct outputs (82.82%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: RAM used: 1.77 MiB of 819.20 MiB budget. Usage: 0.22%
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: === Shader Compilation stats ===
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Shaders Compiled: 15
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Jobs assigned 15, completed 15 (100%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Average time worker was idle: 1591.29 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Time job spent in pending queue: average 0.04 s, longest 0.11 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Job execution time: average 1.22 s, max 2.35 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Job life time (pending + execution): average 1.27 s, max 2.40
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Shader code size: total 124.887 KiB, numShaders 15, average 8.325 KiB, min 6.793 KiB, max 11.035 KiB
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Time at least one job was in flight (either pending or executed): 9.46 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Mutex wait stall in FShaderJobCache::SubmitJobs:  0.00%
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Jobs were issued in 15 batches (only local compilation was used), average 1.00 jobs/batch
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Average processing rate: 1.59 jobs/sec
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Total thread time: 15.236 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Total thread preprocess time: 10.799 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Percentage time preprocessing: 70.88%
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Effective parallelization: 1.61 (times faster than compiling all shaders on one thread). Compare with number of workers: 8 - 0.201240
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Top 5 most expensive shader types by average time:
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                                             FDebugViewModePS (compiled    2 times, average 1.98 sec, max 2.05 sec, min 1.91 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight (compiled    2 times, average 0.95 sec, max 0.98 sec, min 0.92 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS (compiled    2 times, average 0.94 sec, max 1.01 sec, min 0.88 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy (compiled    2 times, average 0.93 sec, max 0.96 sec, min 0.90 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                                 TBasePassPSFNoLightMapPolicy (compiled    2 times, average 0.88 sec, max 0.91 sec, min 0.85 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Top 5 shader types by total compile time:
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                                             FDebugViewModePS - 26.03% of total time (compiled    2 times, average 1.98 sec, max 2.05 sec, min 1.91 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                         TBasePassPSFNoLightMapPolicySkylight - 25.37% of total time (compiled    5 times, average 0.77 sec, max 0.82 sec, min 0.74 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:           TBasePassPSFSelfShadowedTranslucencyPolicySkylight - 12.48% of total time (compiled    2 times, average 0.95 sec, max 0.98 sec, min 0.92 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                        FLumenTranslucencyRadianceCacheMarkPS - 12.38% of total time (compiled    2 times, average 0.94 sec, max 1.01 sec, min 0.88 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display:                   TBasePassPSFSelfShadowedTranslucencyPolicy - 12.23% of total time (compiled    2 times, average 0.93 sec, max 0.96 sec, min 0.90 sec)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: === Material stats ===
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Materials Cooked:        0
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Materials Translated:    216
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Material Total Translate Time: 0.12 s
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Material Translation Only: 0.07 s (55%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Material DDC Serialization Only: 0.00 s (3%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: Material Cache Hits: 69 (32%)
+[2025.10.02-14.34.31:476][369]LogShaderCompilers: Display: ================================================
+[2025.10.02-14.34.32:557][452]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.34.32:572][452]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.34.32:594][452]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.34.32:614][452]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020018s)
+[2025.10.02-14.34.32:614][452]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.020100s)
+[2025.10.02-14.34.32:644][452]LogUObjectHash: Compacting FUObjectHashTables data took   1.79ms
+[2025.10.02-14.34.32:647][452]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.34.32:648][452]LogPlayLevel: PIE: World Init took: (0.001840s)
+[2025.10.02-14.34.32:650][452]LogAudio: Display: Creating Audio Device:                 Id: 44, Scope: Unique, Realtime: True
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.34.32:650][452]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.34.32:650][452]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.34.32:650][452]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.34.32:650][452]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.34.32:650][452]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.34.32:651][452]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.34.32:712][452]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.34.32:713][452]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.34.32:713][452]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.34.32:713][452]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.34.32:714][452]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=44
+[2025.10.02-14.34.32:714][452]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=44
+[2025.10.02-14.34.32:717][452]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=44
+[2025.10.02-14.34.32:717][452]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=44
+[2025.10.02-14.34.32:717][452]LogInit: FAudioDevice initialized with ID 44.
+[2025.10.02-14.34.32:717][452]LogAudio: Display: Audio Device (ID: 44) registered with world 'RuinsScene'.
+[2025.10.02-14.34.32:717][452]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 44
+[2025.10.02-14.34.32:721][452]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.34.32:727][452]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.34.32
+[2025.10.02-14.34.32:728][452]LogWorld: Bringing up level for play took: 0.006419
+[2025.10.02-14.34.32:730][452]LogOnline: OSS: Created online subsystem instance for: :Context_63
+[2025.10.02-14.34.32:735][452]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.34.32:735][452]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.34.32:737][452]PIE: Server logged in
+[2025.10.02-14.34.32:739][452]PIE: Play in editor total start time 0.167 seconds.
+[2025.10.02-14.34.37:325][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.34.37:325][675]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.34.37:325][675]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.34.37:325][675]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.34.37:326][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.34.37:368][675]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.34.37:378][675]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.34.37:415][675]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.02-14.34.37:415][675]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 44
+[2025.10.02-14.34.37:415][675]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=4
+[2025.10.02-14.34.37:417][675]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=44, StreamState=2
+[2025.10.02-14.34.37:421][675]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.34.37:435][675]LogUObjectHash: Compacting FUObjectHashTables data took   2.24ms
+[2025.10.02-14.34.37:487][676]LogPlayLevel: Display: Destroying online subsystem :Context_63
+[2025.10.02-14.34.43:865][303]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.02-14.34.43:865][303]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.43:865][303]MaterialEditorStats: Shader Count: 0
+[2025.10.02-14.34.43:865][303]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.43:892][305]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.43:893][305]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.43:893][305]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.43:893][305]MaterialEditorStats: Shader Count: 1
+[2025.10.02-14.34.43:893][305]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.46:365][536]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.02-14.34.46:365][536]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.46:365][536]MaterialEditorStats: Shader Count: 0
+[2025.10.02-14.34.46:365][536]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.46:405][538]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.46:405][538]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.46:405][538]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.46:405][538]MaterialEditorStats: Shader Count: 1
+[2025.10.02-14.34.46:405][538]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.49:285][824]LogEditorTransaction: Undo Create Pin Link
+[2025.10.02-14.34.49:391][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.93ms
+[2025.10.02-14.34.51:784][824]LogUObjectHash: Compacting FUObjectHashTables data took   0.92ms
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Base pass shader: 194 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 16
+
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Shader Count: 14
+[2025.10.02-14.34.51:818][824]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.53:105][909]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.02-14.34.53:105][909]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.53:105][909]MaterialEditorStats: Shader Count: 0
+[2025.10.02-14.34.53:105][909]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.53:146][911]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.53:146][911]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.53:146][911]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.53:146][911]MaterialEditorStats: Shader Count: 2
+[2025.10.02-14.34.53:146][911]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.54:156][992]MaterialEditorStats: Texture samplers: 0/16
+[2025.10.02-14.34.54:156][992]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.54:156][992]MaterialEditorStats: Shader Count: 0
+[2025.10.02-14.34.54:156][992]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.54:186][994]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.54:186][994]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.54:186][994]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.54:186][994]MaterialEditorStats: Shader Count: 1
+[2025.10.02-14.34.54:186][994]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.55:081][ 86]LogMaterialEditor: Applying material M_GrenadePath
+[2025.10.02-14.34.55:176][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.10.02-14.34.55:345][ 86]LogUObjectHash: Compacting FUObjectHashTables data took   0.78ms
+[2025.10.02-14.34.55:360][ 86]MaterialEditorStats: Base pass shader: 194 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 1
+Sampler Limit: 16
+
+[2025.10.02-14.34.55:361][ 86]MaterialEditorStats: Base pass vertex shader: 354 instructions
+Stats: Resources Used: 7
+Resource Limit: 64
+Samplers Used: 2
+Sampler Limit: 16
+
+[2025.10.02-14.34.55:361][ 86]MaterialEditorStats: Texture samplers: 2/16
+[2025.10.02-14.34.55:361][ 86]MaterialEditorStats: Texture Lookups (Est.): VS(0), PS(3)
+[2025.10.02-14.34.55:361][ 86]MaterialEditorStats: Shader Count: 14
+[2025.10.02-14.34.55:361][ 86]MaterialEditorStats: Preshaders: 3  (3 param fetches, 5 ops)
+[2025.10.02-14.34.56:616][184]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.34.56:629][184]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.34.56:652][184]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.34.56:676][184]LogPlayLevel: PIE: StaticDuplicateObject took: (0.024355s)
+[2025.10.02-14.34.56:676][184]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.024437s)
+[2025.10.02-14.34.56:707][184]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.02-14.34.56:709][184]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.34.56:711][184]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2025.10.02-14.34.56:712][184]LogAudio: Display: Creating Audio Device:                 Id: 45, Scope: Unique, Realtime: True
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.34.56:712][184]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.34.56:712][184]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.34.56:712][184]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.34.56:712][184]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.34.56:712][184]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.34.56:714][184]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.34.56:775][184]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.34.56:775][184]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.34.56:775][184]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.34.56:775][184]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.34.56:776][184]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=45
+[2025.10.02-14.34.56:776][184]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=45
+[2025.10.02-14.34.56:778][184]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=45
+[2025.10.02-14.34.56:778][184]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=45
+[2025.10.02-14.34.56:778][184]LogInit: FAudioDevice initialized with ID 45.
+[2025.10.02-14.34.56:778][184]LogAudio: Display: Audio Device (ID: 45) registered with world 'RuinsScene'.
+[2025.10.02-14.34.56:779][184]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 45
+[2025.10.02-14.34.56:782][184]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.34.56:787][184]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.34.56
+[2025.10.02-14.34.56:788][184]LogWorld: Bringing up level for play took: 0.005980
+[2025.10.02-14.34.56:790][184]LogOnline: OSS: Created online subsystem instance for: :Context_64
+[2025.10.02-14.34.56:793][184]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.34.56:794][184]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.34.56:796][184]PIE: Server logged in
+[2025.10.02-14.34.56:798][184]PIE: Play in editor total start time 0.168 seconds.
+[2025.10.02-14.35.13:522][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.35.13:522][872]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.35.13:522][872]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.35.13:522][872]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.35.13:524][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.35.13:575][872]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.35.13:604][872]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.35.13:690][872]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.02-14.35.13:692][872]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 45
+[2025.10.02-14.35.13:692][872]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=4
+[2025.10.02-14.35.13:694][872]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=45, StreamState=2
+[2025.10.02-14.35.13:699][872]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.35.13:754][872]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.10.02-14.35.13:799][873]LogPlayLevel: Display: Destroying online subsystem :Context_64
+[2025.10.02-14.35.20:195][383]LogScript: Warning: Accessed None trying to read (real) property Character Movement in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_86
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:02BD
+[2025.10.02-14.35.20:196][383]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_86
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0305
+[2025.10.02-14.35.20:196][383]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_86
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0330
+[2025.10.02-14.35.20:196][383]LogScript: Warning: Accessed None trying to read (real) property PlayerCharacter in ABP_Murdock_C
+	ABP_Murdock_C /Engine/Transient.World_8:PersistentLevel.SkeletalMeshActor_0.SkeletalMeshComponent0.ABP_Murdock_C_86
+	Function /Game/PathfinderContent/Player/Murdock/ABP_Murdock.ABP_Murdock_C:ExecuteUbergraph_ABP_Murdock:0114
+[2025.10.02-14.35.37:027][880]LogUObjectHash: Compacting FUObjectHashTables data took   1.31ms
+[2025.10.02-14.35.38:397][980]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.02-14.35.38:411][980]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.02-14.35.38:411][980]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.35.38:428][980]LogPlayLevel: PIE: StaticDuplicateObject took: (0.017346s)
+[2025.10.02-14.35.38:428][980]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/RuinsScene.RuinsScene to /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene (0.017384s)
+[2025.10.02-14.35.38:462][980]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.02-14.35.38:474][980]LogChaosDD: Creating Chaos Debug Draw Scene for world RuinsScene
+[2025.10.02-14.35.38:475][980]LogPlayLevel: PIE: World Init took: (0.001817s)
+[2025.10.02-14.35.38:476][980]LogAudio: Display: Creating Audio Device:                 Id: 46, Scope: Unique, Realtime: True
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.02-14.35.38:476][980]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.02-14.35.38:476][980]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.02-14.35.38:476][980]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.02-14.35.38:476][980]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.02-14.35.38:476][980]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.02-14.35.38:478][980]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.02-14.35.38:537][980]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.02-14.35.38:537][980]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.02-14.35.38:537][980]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.02-14.35.38:537][980]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.02-14.35.38:538][980]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=46
+[2025.10.02-14.35.38:538][980]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=46
+[2025.10.02-14.35.38:540][980]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=46
+[2025.10.02-14.35.38:540][980]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=46
+[2025.10.02-14.35.38:540][980]LogInit: FAudioDevice initialized with ID 46.
+[2025.10.02-14.35.38:540][980]LogAudio: Display: Audio Device (ID: 46) registered with world 'RuinsScene'.
+[2025.10.02-14.35.38:540][980]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 46
+[2025.10.02-14.35.38:544][980]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.02-14.35.38:548][980]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene up for play (max tick rate 0) at 2025.10.02-23.35.38
+[2025.10.02-14.35.38:549][980]LogWorld: Bringing up level for play took: 0.004717
+[2025.10.02-14.35.38:552][980]LogOnline: OSS: Created online subsystem instance for: :Context_65
+[2025.10.02-14.35.38:555][980]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.02-14.35.38:555][980]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene.RuinsScene:PersistentLevel.BP_Spider_C_1.BPC_StatSystem
+[2025.10.02-14.35.38:557][980]PIE: Server logged in
+[2025.10.02-14.35.38:559][980]PIE: Play in editor total start time 0.149 seconds.
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_44.WB_HUD_C_0
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_44.WB_HUD_C_0
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg: Divide by zero: Divide_DoubleDouble
+[2025.10.02-14.35.48:205][564]LogScript: Warning: Script Msg called by: WB_HUD_C /Engine/Transient.UnrealEdEngine_0:BP_PathfinderInstance_C_44.WB_HUD_C_0
+[2025.10.02-14.35.56:549][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.35.56:549][ 87]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_RuinsScene
+[2025.10.02-14.35.56:549][ 87]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.35.56:549][ 87]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.35.56:550][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.35.56:554][ 87]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.02-14.35.56:565][ 87]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.35.56:604][ 87]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.02-14.35.56:605][ 87]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 46
+[2025.10.02-14.35.56:605][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=4
+[2025.10.02-14.35.56:607][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=46, StreamState=2
+[2025.10.02-14.35.56:611][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.02-14.35.56:623][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.02-14.35.56:669][ 88]LogPlayLevel: Display: Destroying online subsystem :Context_65
+[2025.10.02-14.35.58:744][244]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.02-14.35.58:750][244]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.02-14.35.58:781][244]OBJ SavePackage: Generating thumbnails for [2] asset(s) in package [/Game/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath] ([2] browsable assets)...
+[2025.10.02-14.35.58:795][244]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath.BP_GrenadePath]
+[2025.10.02-14.35.58:795][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath]
+[2025.10.02-14.35.58:810][244]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath
+[2025.10.02-14.35.58:811][244]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_GrenadePath1DB18C8D4CFAEAD3F83778A14B922020.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath.uasset'
+[2025.10.02-14.35.58:814][244]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath] ([1] browsable assets)...
+[2025.10.02-14.35.58:821][244]OBJ SavePackage:     Rendered thumbnail for [Material /Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath.M_GrenadePath]
+[2025.10.02-14.35.58:821][244]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath]
+[2025.10.02-14.35.58:834][244]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath
+[2025.10.02-14.35.58:834][244]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/M_GrenadePathA50161354E03B0F6447320A3A1D9107B.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath.uasset'
+[2025.10.02-14.35.58:848][244]LogFileHelpers: InternalPromptForCheckoutAndSave took 98.284 ms (total: 997.360 ms)
+[2025.10.02-14.35.58:892][244]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.02-14.35.58:892][244]LogContentValidation: Enabled validators:
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.02-14.35.58:892][244]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.02-14.35.58:892][244]AssetCheck: /Game/PathfinderContent/Player/Murdock/Grenade/BP_GrenadePath Validating asset
+[2025.10.02-14.35.58:892][244]AssetCheck: /Game/PathfinderContent/Player/Murdock/Grenade/M_GrenadePath Validating asset
+[2025.10.02-14.35.59:890][319]LogUObjectHash: Compacting FUObjectHashTables data took   0.74ms
+[2025.10.02-14.36.00:085][319]LogStall: Shutdown...
+[2025.10.02-14.36.00:085][319]LogStall: Shutdown complete.
+[2025.10.02-14.36.00:239][319]LogWorld: UWorld::CleanupWorld for World_6, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:240][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.00:377][319]LogWorld: UWorld::CleanupWorld for World_4, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:377][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.00:550][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.02-14.36.00:550][319]LogWorld: UWorld::CleanupWorld for World_9, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:551][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.00:682][319]LogWorld: UWorld::CleanupWorld for World_12, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:682][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.00:807][319]LogActorComponent: UnregisterComponent: (/Engine/Transient.EditorFloorComp) Not registered. Aborting.
+[2025.10.02-14.36.00:807][319]LogWorld: UWorld::CleanupWorld for World_17, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:807][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.00:927][319]LogWorld: UWorld::CleanupWorld for World_15, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.00:927][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:031][319]LogWorld: UWorld::CleanupWorld for World_19, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:031][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:045][319]LogWorld: UWorld::CleanupWorld for World_18, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:045][319]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:221][319]LogSlate: Window 'Pathfinder2 - Unreal Editor' being destroyed
+[2025.10.02-14.36.01:611][319]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.02-14.36.01:668][319]Cmd: QUIT_EDITOR
+[2025.10.02-14.36.01:668][320]LogCore: Engine exit requested (reason: UUnrealEdEngine::CloseEditor())
+[2025.10.02-14.36.01:679][320]LogCore: Engine exit requested (reason: EngineExit() was called; note: exit was already requested)
+[2025.10.02-14.36.01:679][320]LogStaticMesh: Abandoning remaining async distance field tasks for shutdown
+[2025.10.02-14.36.01:679][320]LogStaticMesh: Abandoning remaining async card representation tasks for shutdown
+[2025.10.02-14.36.01:685][320]LogWorld: UWorld::CleanupWorld for RuinsScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:685][320]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.02-14.36.01:685][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:723][320]LogTedsSettings: UTedsSettingsEditorSubsystem::Deinitialize
+[2025.10.02-14.36.01:724][320]LogStylusInput: Shutting down StylusInput subsystem.
+[2025.10.02-14.36.01:724][320]LogLevelSequenceEditor: LevelSequenceEditor subsystem deinitialized.
+[2025.10.02-14.36.01:738][320]LogWorld: UWorld::CleanupWorld for World_7, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:738][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:741][320]LogWorld: UWorld::CleanupWorld for World_11, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:742][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:745][320]LogWorld: UWorld::CleanupWorld for World_10, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:745][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:749][320]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:749][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:754][320]LogWorld: UWorld::CleanupWorld for World_2, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:754][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:757][320]LogWorld: UWorld::CleanupWorld for World_1, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:757][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:761][320]LogWorld: UWorld::CleanupWorld for World_0, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:761][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:765][320]LogWorld: UWorld::CleanupWorld for World_8, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:765][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:768][320]LogWorld: UWorld::CleanupWorld for World_13, bSessionEnded=true, bCleanupResources=true
+[2025.10.02-14.36.01:768][320]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.02-14.36.01:772][320]LogRuntimeTelemetry: Recording EnginePreExit events
+[2025.10.02-14.36.01:772][320]LogStudioTelemetry: Ended StudioTelemetry Session
+[2025.10.02-14.36.01:774][320]LogAnalytics: Display: [UEEditor.Rocket.Release] AnalyticsET::EndSession
+[2025.10.02-14.36.02:480][320]LogAudio: Display: Beginning Audio Device Manager Shutdown (Module: AudioMixerXAudio2)...
+[2025.10.02-14.36.02:480][320]LogAudio: Display: Destroying 1 Remaining Audio Device(s)...
+[2025.10.02-14.36.02:480][320]LogAudio: Display: Audio Device unregistered from world 'RuinsScene'.
+[2025.10.02-14.36.02:480][320]LogAudio: Display: Shutting down audio device while 1 references to it are still alive. For more information, compile with INSTRUMENT_AUDIODEVICE_HANDLES.
+[2025.10.02-14.36.02:480][320]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=4
+[2025.10.02-14.36.02:482][320]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=1, StreamState=2
+[2025.10.02-14.36.02:491][320]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID -1
+[2025.10.02-14.36.02:491][320]LogAudio: Display: Audio Device Manager Shutdown
+[2025.10.02-14.36.02:505][320]LogWindowsTextInputMethodSystem: Activated input method: 한국어(대한민국) - Microsoft 입력기 (TSF IME).
+[2025.10.02-14.36.02:509][320]LogSlate: Slate User Destroyed.  User Index 0, Is Virtual User: 0
+[2025.10.02-14.36.02:509][320]LogExit: Preparing to exit.
+[2025.10.02-14.36.02:586][320]LogUObjectHash: Compacting FUObjectHashTables data took   2.11ms
+[2025.10.02-14.36.02:593][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:593][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.add_controls_for_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:594][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_null_above_selected_PY.add_null_above_selected' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_all' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_x' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_y' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_translation_z' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_rotation' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/align_items_PY.align_scale' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_name_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.search_replace_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_prefix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.add_suffix_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_dialog' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/rename_items_PY.do_rename_entry' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/set_bone_reference_pose_PY.set_bone_reference_pose' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/ControlRigWorkflows/workflow_fbik_import_ik_rig_PY.import_ik_rig_options' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.02:595][320]LogPython: Display: Object '/ControlRig/Python/RigHierarchy/add_controls_for_selected_PY.ControlOutputFormat' was externally referenced when shutting down Python. Forcibly releasing its Python resources!
+[2025.10.02-14.36.03:305][320]LogEditorDataStorage: Deinitializing
+[2025.10.02-14.36.03:462][320]LogDemo: Cleaned up 0 splitscreen connections, owner deletion: enabled
+[2025.10.02-14.36.03:509][320]LogExit: Editor shut down
+[2025.10.02-14.36.03:524][320]LogExit: Transaction tracking system shut down
+[2025.10.02-14.36.03:903][320]LogExit: Object subsystem successfully closed.
+[2025.10.02-14.36.03:930][320]LogShaderCompilers: Display: Shaders left to compile 0
+[2025.10.02-14.36.04:036][320]LogMemoryProfiler: Shutdown
+[2025.10.02-14.36.04:036][320]LogNetworkingProfiler: Shutdown
+[2025.10.02-14.36.04:036][320]LoadingProfiler: Shutdown
+[2025.10.02-14.36.04:036][320]LogTimingProfiler: Shutdown
+[2025.10.02-14.36.04:037][320]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDGenericDebugDrawExtension] ...
+[2025.10.02-14.36.04:037][320]LogChaosVDEditor: [FChaosVDExtensionsManager::UnRegisterExtension] UnRegistering CVD Extension [FChaosVDAccelerationStructuresExtension] ...
+[2025.10.02-14.36.04:454][320]LogChaosDD: Chaos Debug Draw Shutdown
+[2025.10.02-14.36.04:460][320]LogHttp: Warning: [FHttpManager::Shutdown] Unbinding delegates for 1 outstanding Http Requests:
+[2025.10.02-14.36.04:460][320]LogHttp: Warning: 	verb=[POST] url=[https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7B5097658E-4BAF-D507-19B0-A08326DDAF71%7D&AppID=UEEditor.Rocket.Release&AppVersion=5.6.1-44394996%2B%2B%2BUE5%2BRelease-5.6&UserID=1bd1eb2e47297210a41fabba0b4102e2%7Cc8af77b5822f47ecbf35d5277d972066%7Cedd4c8dc-4b82-4001-a25c-7d3dee9283ac&AppEnvironment=datacollector-binary&UploadType=eteventstream] refs=[2] status=Processing
+[2025.10.02-14.36.05:733][320]LogEOSShared: FEOSSDKManager::Shutdown EOS_Shutdown Result=[EOS_Success]
+[2025.10.02-14.36.05:740][320]LogNFORDenoise: NFORDenoise function shutting down
+[2025.10.02-14.36.05:741][320]RenderDocPlugin: plugin has been unloaded.
+[2025.10.02-14.36.05:741][320]LogXGEController: Cleaning working directory: C:/Users/sojoo/AppData/Local/Temp/UnrealXGEWorkingDir/
+[2025.10.02-14.36.05:746][320]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetActorFactory id: 0
+[2025.10.02-14.36.05:746][320]LogIris: FNetObjectFactoryRegistry::UnregisterFactory is unregistering factory: None name: NetSubObjectFactory id: 1
+[2025.10.02-14.36.05:746][320]LogPakFile: Destroying PakPlatformFile
+[2025.10.02-14.36.05:753][320]LogD3D11RHI: Shutdown
+[2025.10.02-14.36.05:754][320]LogD3D11RHI: CleanupD3DDevice
+[2025.10.02-14.36.05:791][320]LogExit: Exiting.
+[2025.10.02-14.36.05:827][320]Log file closed, 10/02/25 23:36:05
