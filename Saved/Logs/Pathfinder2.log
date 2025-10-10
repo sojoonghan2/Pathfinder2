@@ -11435,3 +11435,1467 @@ Make sure 'BP_Monster_C' has been compiled for  Stop Attack
 [2025.10.10-03.09.04:429][622]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
 [2025.10.10-03.09.04:429][622]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
 [2025.10.10-03.09.04:429][622]AssetCheck: /Game/PathfinderContent/Level/FactoryScene Validating asset
+[2025.10.10-03.12.29:554][286]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10604.534180
+[2025.10.10-03.12.30:555][289]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.12.30:555][289]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10605.200195, Update Interval: 316.751007
+[2025.10.10-03.14.04:753][912]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.14.04:770][912]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.14.04:771][912]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.14.04:775][912]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004549s)
+[2025.10.10-03.14.04:775][912]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004604s)
+[2025.10.10-03.14.04:807][912]LogUObjectHash: Compacting FUObjectHashTables data took   2.51ms
+[2025.10.10-03.14.04:814][912]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.14.04:817][912]LogPlayLevel: PIE: World Init took: (0.002554s)
+[2025.10.10-03.14.04:818][912]LogAudio: Display: Creating Audio Device:                 Id: 54, Scope: Unique, Realtime: True
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.14.04:818][912]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.14.04:818][912]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.14.04:818][912]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.14.04:818][912]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.14.04:818][912]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.14.04:820][912]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.14.04:878][912]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.14.04:878][912]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.14.04:878][912]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.14.04:878][912]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.14.04:879][912]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=54
+[2025.10.10-03.14.04:879][912]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=54
+[2025.10.10-03.14.04:881][912]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=54
+[2025.10.10-03.14.04:881][912]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=54
+[2025.10.10-03.14.04:881][912]LogInit: FAudioDevice initialized with ID 54.
+[2025.10.10-03.14.04:881][912]LogAudio: Display: Audio Device (ID: 54) registered with world 'FactoryScene'.
+[2025.10.10-03.14.04:881][912]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 54
+[2025.10.10-03.14.04:885][912]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.14.04:887][912]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.14.04
+[2025.10.10-03.14.04:887][912]LogWorld: Bringing up level for play took: 0.002166
+[2025.10.10-03.14.04:889][912]LogOnline: OSS: Created online subsystem instance for: :Context_99
+[2025.10.10-03.14.04:891][912]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.14.04:893][912]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.14.04:893][912]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.14.04:894][912]PIE: Server logged in
+[2025.10.10-03.14.04:897][912]PIE: Play in editor total start time 0.127 seconds.
+[2025.10.10-03.14.33:334][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.14.33:334][240]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.14.33:334][240]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.14.33:335][240]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.14.33:335][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.14.33:342][240]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.14.33:349][240]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.14.33:375][240]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.14.33:375][240]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 54
+[2025.10.10-03.14.33:375][240]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=4
+[2025.10.10-03.14.33:377][240]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=54, StreamState=2
+[2025.10.10-03.14.33:384][240]LogUObjectHash: Compacting FUObjectHashTables data took   1.90ms
+[2025.10.10-03.14.33:425][241]LogPlayLevel: Display: Destroying online subsystem :Context_99
+[2025.10.10-03.14.35:470][326]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.14.35:488][326]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.14.35:488][326]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.14.35:492][326]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003768s)
+[2025.10.10-03.14.35:492][326]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003813s)
+[2025.10.10-03.14.35:520][326]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.10-03.14.35:523][326]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.14.35:524][326]LogPlayLevel: PIE: World Init took: (0.001853s)
+[2025.10.10-03.14.35:525][326]LogAudio: Display: Creating Audio Device:                 Id: 55, Scope: Unique, Realtime: True
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.14.35:525][326]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.14.35:525][326]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.14.35:525][326]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.14.35:525][326]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.14.35:525][326]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.14.35:527][326]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.14.35:583][326]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.14.35:583][326]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.14.35:583][326]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.14.35:583][326]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.14.35:584][326]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=55
+[2025.10.10-03.14.35:584][326]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=55
+[2025.10.10-03.14.35:586][326]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=55
+[2025.10.10-03.14.35:586][326]LogInit: FAudioDevice initialized with ID 55.
+[2025.10.10-03.14.35:586][326]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=55
+[2025.10.10-03.14.35:586][326]LogAudio: Display: Audio Device (ID: 55) registered with world 'FactoryScene'.
+[2025.10.10-03.14.35:586][326]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 55
+[2025.10.10-03.14.35:590][326]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.14.35:592][326]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.14.35
+[2025.10.10-03.14.35:593][326]LogWorld: Bringing up level for play took: 0.002203
+[2025.10.10-03.14.35:595][326]LogOnline: OSS: Created online subsystem instance for: :Context_100
+[2025.10.10-03.14.35:596][326]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.14.35:598][326]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.14.35:598][326]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.14.35:600][326]PIE: Server logged in
+[2025.10.10-03.14.35:603][326]PIE: Play in editor total start time 0.116 seconds.
+[2025.10.10-03.15.07:502][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.15.07:502][767]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.15.07:502][767]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.15.07:503][767]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.15.07:503][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.15.07:507][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.15.07:514][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.15.07:540][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.15.07:540][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 55
+[2025.10.10-03.15.07:540][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=4
+[2025.10.10-03.15.07:542][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=55, StreamState=2
+[2025.10.10-03.15.07:549][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.10-03.15.07:592][768]LogPlayLevel: Display: Destroying online subsystem :Context_100
+[2025.10.10-03.17.28:025][457]LogDerivedDataCache: C:/Users/sojoo/AppData/Local/UnrealEngine/Common/DerivedDataCache: Maintenance finished in +00:00:00.000 and deleted 0 files with total size 0 MiB and 0 empty folders. Scanned 0 files in 1 folders with total size 0 MiB.
+[2025.10.10-03.18.20:531][614]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 10955.465820
+[2025.10.10-03.18.21:532][617]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.18.21:533][617]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 10956.133789, Update Interval: 343.966797
+[2025.10.10-03.24.35:783][403]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11330.476562
+[2025.10.10-03.24.36:005][424]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.24.36:005][424]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11330.688477, Update Interval: 325.437775
+[2025.10.10-03.29.41:083][507]LogUObjectHash: Compacting FUObjectHashTables data took   2.05ms
+[2025.10.10-03.29.41:093][507]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-03.29.41:124][507]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/AI/Tasks/BTT_SentinalRobotAttack] ([2] browsable assets)...
+[2025.10.10-03.29.41:124][507]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/AI/Tasks/BTT_SentinalRobotAttack]
+[2025.10.10-03.29.41:139][507]LogSavePackage: Moving output files for package: /Game/PathfinderContent/AI/Tasks/BTT_SentinalRobotAttack
+[2025.10.10-03.29.41:140][507]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BTT_SentinalRobotAttackEB58E9BB4E7E665C68B3BD82B7175D7C.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/AI/Tasks/BTT_SentinalRobotAttack.uasset'
+[2025.10.10-03.29.41:150][507]LogFileHelpers: InternalPromptForCheckoutAndSave took 56.308 ms (total: 4.99 sec)
+[2025.10.10-03.29.41:207][507]LogContentValidation: Display: Starting to validate 1 assets
+[2025.10.10-03.29.41:207][507]LogContentValidation: Enabled validators:
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-03.29.41:207][507]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-03.29.41:207][507]AssetCheck: /Game/PathfinderContent/AI/Tasks/BTT_SentinalRobotAttack Validating asset
+[2025.10.10-03.30.18:200][259]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Spider/BP_Monster.BP_Monster
+[2025.10.10-03.30.18:201][259]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_46
+[2025.10.10-03.30.49:352][971]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.30.49:367][971]LogPlayLevel: [PlayLevel] Compiling BTT_SentinalRobotAttack before play...
+[2025.10.10-03.30.49:412][971]LogPlayLevel: [PlayLevel] Compiling BP_SentinalRobot_R before play...
+[2025.10.10-03.30.49:601][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-03.30.49:606][971]LogPlayLevel: PlayLevel: Blueprint regeneration took 238 ms (2 blueprints)
+[2025.10.10-03.30.49:606][971]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.30.49:609][971]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003405s)
+[2025.10.10-03.30.49:609][971]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003440s)
+[2025.10.10-03.30.49:636][971]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-03.30.49:638][971]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.30.49:640][971]LogPlayLevel: PIE: World Init took: (0.001954s)
+[2025.10.10-03.30.49:641][971]LogAudio: Display: Creating Audio Device:                 Id: 56, Scope: Unique, Realtime: True
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.30.49:641][971]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.30.49:641][971]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.30.49:641][971]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.30.49:641][971]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.30.49:641][971]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.30.49:644][971]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.30.49:701][971]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.30.49:701][971]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.30.49:701][971]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.30.49:701][971]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.30.49:702][971]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=56
+[2025.10.10-03.30.49:702][971]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=56
+[2025.10.10-03.30.49:704][971]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=56
+[2025.10.10-03.30.49:704][971]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=56
+[2025.10.10-03.30.49:704][971]LogInit: FAudioDevice initialized with ID 56.
+[2025.10.10-03.30.49:704][971]LogAudio: Display: Audio Device (ID: 56) registered with world 'FactoryScene'.
+[2025.10.10-03.30.49:704][971]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 56
+[2025.10.10-03.30.49:757][971]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.30.49:757][971]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.30.49:759][971]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.30.49
+[2025.10.10-03.30.49:760][971]LogWorld: Bringing up level for play took: 0.002547
+[2025.10.10-03.30.49:762][971]LogOnline: OSS: Created online subsystem instance for: :Context_102
+[2025.10.10-03.30.49:764][971]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.30.49:766][971]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.30.49:766][971]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.30.49:770][971]PIE: Server logged in
+[2025.10.10-03.30.49:772][971]PIE: Play in editor total start time 0.405 seconds.
+[2025.10.10-03.30.55:655][215]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 11710.410156
+[2025.10.10-03.30.55:925][228]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.30.55:925][228]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 11710.660156, Update Interval: 305.861389
+[2025.10.10-03.31.07:772][797]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.31.07:772][797]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.31.07:772][797]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.31.07:773][797]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.31.07:810][797]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.31.07:811][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.07:822][797]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.31.07:829][797]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.07:858][797]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 56
+[2025.10.10-03.31.07:858][797]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=4
+[2025.10.10-03.31.07:860][797]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=56, StreamState=2
+[2025.10.10-03.31.07:867][797]LogUObjectHash: Compacting FUObjectHashTables data took   1.46ms
+[2025.10.10-03.31.08:067][798]LogPlayLevel: Display: Destroying online subsystem :Context_102
+[2025.10.10-03.31.13:470][346]LogWorld: UWorld::CleanupWorld for World_46, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.31.13:471][346]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.13:607][346]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.10-03.31.16:673][633]LogAssetEditorSubsystem: Opening Asset editor for Blueprint /Game/PathfinderContent/Spider/BP_Monster.BP_Monster
+[2025.10.10-03.31.16:674][633]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_47
+[2025.10.10-03.31.21:227][ 87]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.31.21:248][ 87]LogPlayLevel: [PlayLevel] Compiling ABP_SpiderMonster before play...
+[2025.10.10-03.31.21:271][ 87]LogPlayLevel: [PlayLevel]   Compiling BP_Monster as a dependent...
+[2025.10.10-03.31.21:271][ 87]LogPlayLevel: [PlayLevel]   Compiling BP_SentinalRobot_R as a dependent...
+[2025.10.10-03.31.21:271][ 87]LogPlayLevel: [PlayLevel]   Compiling BP_SpiderMonster as a dependent...
+[2025.10.10-03.31.21:536][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.10-03.31.21:542][ 87]LogPlayLevel: PlayLevel: Blueprint regeneration took 298 ms (4 blueprints)
+[2025.10.10-03.31.21:542][ 87]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.31.21:545][ 87]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003398s)
+[2025.10.10-03.31.21:545][ 87]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003433s)
+[2025.10.10-03.31.21:575][ 87]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.10-03.31.21:577][ 87]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.31.21:579][ 87]LogPlayLevel: PIE: World Init took: (0.001986s)
+[2025.10.10-03.31.21:580][ 87]LogAudio: Display: Creating Audio Device:                 Id: 57, Scope: Unique, Realtime: True
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.31.21:580][ 87]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.31.21:580][ 87]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.31.21:580][ 87]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.31.21:580][ 87]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.31.21:580][ 87]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.31.21:582][ 87]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.31.21:636][ 87]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.31.21:637][ 87]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.31.21:637][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.31.21:637][ 87]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.31.21:637][ 87]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=57
+[2025.10.10-03.31.21:637][ 87]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=57
+[2025.10.10-03.31.21:640][ 87]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=57
+[2025.10.10-03.31.21:640][ 87]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=57
+[2025.10.10-03.31.21:640][ 87]LogInit: FAudioDevice initialized with ID 57.
+[2025.10.10-03.31.21:640][ 87]LogAudio: Display: Audio Device (ID: 57) registered with world 'FactoryScene'.
+[2025.10.10-03.31.21:640][ 87]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 57
+[2025.10.10-03.31.21:690][ 87]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.31.21:690][ 87]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.31.21:693][ 87]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.31.21
+[2025.10.10-03.31.21:693][ 87]LogWorld: Bringing up level for play took: 0.002780
+[2025.10.10-03.31.21:696][ 87]LogOnline: OSS: Created online subsystem instance for: :Context_104
+[2025.10.10-03.31.21:697][ 87]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.31.21:699][ 87]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.31.21:699][ 87]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.31.21:703][ 87]PIE: Server logged in
+[2025.10.10-03.31.21:703][ 87]PIE: Play in editor total start time 0.46 seconds.
+[2025.10.10-03.31.41:089][  9]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.31.41:090][  9]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.31.41:090][  9]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.31.41:090][  9]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.31.41:130][  9]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.31.41:130][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.41:134][  9]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.31.41:141][  9]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.41:170][  9]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 57
+[2025.10.10-03.31.41:171][  9]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=4
+[2025.10.10-03.31.41:173][  9]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=57, StreamState=2
+[2025.10.10-03.31.41:181][  9]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.10.10-03.31.41:217][ 10]LogPlayLevel: Display: Destroying online subsystem :Context_104
+[2025.10.10-03.31.46:683][402]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.31.46:699][402]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.31.46:699][402]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.31.46:703][402]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003988s)
+[2025.10.10-03.31.46:703][402]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004032s)
+[2025.10.10-03.31.46:732][402]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.10-03.31.46:736][402]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.31.46:738][402]LogPlayLevel: PIE: World Init took: (0.001933s)
+[2025.10.10-03.31.46:739][402]LogAudio: Display: Creating Audio Device:                 Id: 58, Scope: Unique, Realtime: True
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.31.46:739][402]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.31.46:739][402]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.31.46:739][402]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.31.46:739][402]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.31.46:739][402]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.31.46:741][402]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.31.46:795][402]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.31.46:795][402]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.31.46:795][402]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.31.46:795][402]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.31.46:796][402]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=58
+[2025.10.10-03.31.46:796][402]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=58
+[2025.10.10-03.31.46:799][402]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=58
+[2025.10.10-03.31.46:799][402]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=58
+[2025.10.10-03.31.46:799][402]LogInit: FAudioDevice initialized with ID 58.
+[2025.10.10-03.31.46:799][402]LogAudio: Display: Audio Device (ID: 58) registered with world 'FactoryScene'.
+[2025.10.10-03.31.46:799][402]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 58
+[2025.10.10-03.31.46:803][402]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.31.46:805][402]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.31.46
+[2025.10.10-03.31.46:806][402]LogWorld: Bringing up level for play took: 0.002121
+[2025.10.10-03.31.46:808][402]LogOnline: OSS: Created online subsystem instance for: :Context_105
+[2025.10.10-03.31.46:809][402]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.31.46:811][402]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.31.46:811][402]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.31.46:813][402]PIE: Server logged in
+[2025.10.10-03.31.46:815][402]PIE: Play in editor total start time 0.117 seconds.
+[2025.10.10-03.31.52:479][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.31.52:479][652]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.31.52:479][652]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.31.52:479][652]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.31.52:480][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.52:483][652]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.31.52:489][652]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.31.52:516][652]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.31.52:517][652]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 58
+[2025.10.10-03.31.52:517][652]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=4
+[2025.10.10-03.31.52:519][652]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=58, StreamState=2
+[2025.10.10-03.31.52:526][652]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.10-03.31.52:571][653]LogPlayLevel: Display: Destroying online subsystem :Context_105
+[2025.10.10-03.32.03:094][720]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.32.03:114][720]LogPlayLevel: [PlayLevel] Compiling ABP_SpiderMonster before play...
+[2025.10.10-03.32.03:134][720]LogPlayLevel: [PlayLevel]   Compiling BP_Monster as a dependent...
+[2025.10.10-03.32.03:134][720]LogPlayLevel: [PlayLevel]   Compiling BP_SentinalRobot_R as a dependent...
+[2025.10.10-03.32.03:134][720]LogPlayLevel: [PlayLevel]   Compiling BP_SpiderMonster as a dependent...
+[2025.10.10-03.32.03:378][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.10-03.32.03:388][720]LogPlayLevel: PlayLevel: Blueprint regeneration took 277 ms (4 blueprints)
+[2025.10.10-03.32.03:388][720]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.03:391][720]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003204s)
+[2025.10.10-03.32.03:391][720]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003237s)
+[2025.10.10-03.32.03:416][720]LogUObjectHash: Compacting FUObjectHashTables data took   1.55ms
+[2025.10.10-03.32.03:418][720]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.32.03:420][720]LogPlayLevel: PIE: World Init took: (0.001860s)
+[2025.10.10-03.32.03:421][720]LogAudio: Display: Creating Audio Device:                 Id: 59, Scope: Unique, Realtime: True
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.32.03:421][720]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.32.03:421][720]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.32.03:421][720]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.32.03:421][720]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.32.03:421][720]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.32.03:423][720]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.32.03:478][720]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.32.03:478][720]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.32.03:478][720]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.32.03:478][720]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.32.03:479][720]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=59
+[2025.10.10-03.32.03:479][720]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=59
+[2025.10.10-03.32.03:482][720]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=59
+[2025.10.10-03.32.03:482][720]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=59
+[2025.10.10-03.32.03:482][720]LogInit: FAudioDevice initialized with ID 59.
+[2025.10.10-03.32.03:482][720]LogAudio: Display: Audio Device (ID: 59) registered with world 'FactoryScene'.
+[2025.10.10-03.32.03:482][720]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 59
+[2025.10.10-03.32.03:539][720]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.03:539][720]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.32.03:542][720]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.32.03
+[2025.10.10-03.32.03:542][720]LogWorld: Bringing up level for play took: 0.002760
+[2025.10.10-03.32.03:545][720]LogOnline: OSS: Created online subsystem instance for: :Context_106
+[2025.10.10-03.32.03:546][720]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.32.03:548][720]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.32.03:548][720]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.32.03:551][720]PIE: Server logged in
+[2025.10.10-03.32.03:552][720]PIE: Play in editor total start time 0.443 seconds.
+[2025.10.10-03.32.07:818][903]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.07:818][903]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.07:818][903]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.32.07:818][903]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.32.07:849][903]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.32.07:850][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.07:853][903]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.32.07:859][903]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.07:889][903]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 59
+[2025.10.10-03.32.07:889][903]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=4
+[2025.10.10-03.32.07:891][903]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=59, StreamState=2
+[2025.10.10-03.32.07:900][903]LogUObjectHash: Compacting FUObjectHashTables data took   1.69ms
+[2025.10.10-03.32.07:937][904]LogPlayLevel: Display: Destroying online subsystem :Context_106
+[2025.10.10-03.32.10:846][222]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.32.10:866][222]LogPlayLevel: [PlayLevel] Compiling ABP_SpiderMonster before play...
+[2025.10.10-03.32.10:868][222]LogPlayLevel: [PlayLevel]   Compiling BP_Monster as a dependent...
+[2025.10.10-03.32.10:868][222]LogPlayLevel: [PlayLevel]   Compiling BP_SentinalRobot_R as a dependent...
+[2025.10.10-03.32.10:868][222]LogPlayLevel: [PlayLevel]   Compiling BP_SpiderMonster as a dependent...
+[2025.10.10-03.32.11:110][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.10-03.32.11:114][222]LogPlayLevel: PlayLevel: Blueprint regeneration took 252 ms (4 blueprints)
+[2025.10.10-03.32.11:114][222]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.11:118][222]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003508s)
+[2025.10.10-03.32.11:118][222]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003544s)
+[2025.10.10-03.32.11:145][222]LogUObjectHash: Compacting FUObjectHashTables data took   1.84ms
+[2025.10.10-03.32.11:147][222]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.32.11:149][222]LogPlayLevel: PIE: World Init took: (0.002045s)
+[2025.10.10-03.32.11:150][222]LogAudio: Display: Creating Audio Device:                 Id: 60, Scope: Unique, Realtime: True
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.32.11:150][222]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.32.11:150][222]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.32.11:150][222]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.32.11:150][222]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.32.11:150][222]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.32.11:152][222]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.32.11:207][222]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.32.11:207][222]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.32.11:207][222]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.32.11:207][222]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.32.11:208][222]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=60
+[2025.10.10-03.32.11:208][222]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=60
+[2025.10.10-03.32.11:210][222]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=60
+[2025.10.10-03.32.11:210][222]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=60
+[2025.10.10-03.32.11:210][222]LogInit: FAudioDevice initialized with ID 60.
+[2025.10.10-03.32.11:210][222]LogAudio: Display: Audio Device (ID: 60) registered with world 'FactoryScene'.
+[2025.10.10-03.32.11:210][222]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 60
+[2025.10.10-03.32.11:239][222]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.11:239][222]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.32.11:241][222]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.32.11
+[2025.10.10-03.32.11:242][222]LogWorld: Bringing up level for play took: 0.002395
+[2025.10.10-03.32.11:244][222]LogOnline: OSS: Created online subsystem instance for: :Context_107
+[2025.10.10-03.32.11:245][222]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.32.11:248][222]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.32.11:248][222]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.32.11:251][222]PIE: Server logged in
+[2025.10.10-03.32.11:252][222]PIE: Play in editor total start time 0.39 seconds.
+[2025.10.10-03.32.22:837][767]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.22:837][767]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.22:837][767]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.32.22:838][767]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.32.22:869][767]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.32.22:870][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.22:873][767]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.32.22:879][767]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.22:909][767]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 60
+[2025.10.10-03.32.22:909][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=4
+[2025.10.10-03.32.22:911][767]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=60, StreamState=2
+[2025.10.10-03.32.22:920][767]LogUObjectHash: Compacting FUObjectHashTables data took   1.54ms
+[2025.10.10-03.32.22:959][768]LogPlayLevel: Display: Destroying online subsystem :Context_107
+[2025.10.10-03.32.29:760][270]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.32.29:779][270]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.32.29:779][270]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.29:784][270]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004736s)
+[2025.10.10-03.32.29:784][270]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004784s)
+[2025.10.10-03.32.29:814][270]LogUObjectHash: Compacting FUObjectHashTables data took   1.80ms
+[2025.10.10-03.32.29:817][270]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.32.29:819][270]LogPlayLevel: PIE: World Init took: (0.002032s)
+[2025.10.10-03.32.29:820][270]LogAudio: Display: Creating Audio Device:                 Id: 61, Scope: Unique, Realtime: True
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.32.29:820][270]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.32.29:820][270]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.32.29:820][270]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.32.29:820][270]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.32.29:820][270]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.32.29:822][270]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.32.29:877][270]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.32.29:877][270]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.32.29:877][270]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.32.29:877][270]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.32.29:878][270]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=61
+[2025.10.10-03.32.29:878][270]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=61
+[2025.10.10-03.32.29:880][270]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=61
+[2025.10.10-03.32.29:880][270]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=61
+[2025.10.10-03.32.29:880][270]LogInit: FAudioDevice initialized with ID 61.
+[2025.10.10-03.32.29:880][270]LogAudio: Display: Audio Device (ID: 61) registered with world 'FactoryScene'.
+[2025.10.10-03.32.29:880][270]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 61
+[2025.10.10-03.32.29:884][270]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.32.29:886][270]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.32.29
+[2025.10.10-03.32.29:887][270]LogWorld: Bringing up level for play took: 0.002295
+[2025.10.10-03.32.29:889][270]LogOnline: OSS: Created online subsystem instance for: :Context_108
+[2025.10.10-03.32.29:890][270]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.32.29:892][270]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.32.29:892][270]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.32.29:894][270]PIE: Server logged in
+[2025.10.10-03.32.29:897][270]PIE: Play in editor total start time 0.119 seconds.
+[2025.10.10-03.32.42:536][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.42:536][839]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.42:536][839]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.32.42:537][839]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.32.42:537][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.42:541][839]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.32.42:547][839]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.32.42:575][839]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.32.42:575][839]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 61
+[2025.10.10-03.32.42:575][839]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=4
+[2025.10.10-03.32.42:577][839]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=61, StreamState=2
+[2025.10.10-03.32.42:584][839]LogUObjectHash: Compacting FUObjectHashTables data took   1.67ms
+[2025.10.10-03.32.42:632][840]LogPlayLevel: Display: Destroying online subsystem :Context_108
+[2025.10.10-03.32.48:602][207]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.32.48:621][207]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.32.48:621][207]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.32.48:625][207]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003847s)
+[2025.10.10-03.32.48:625][207]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003886s)
+[2025.10.10-03.32.48:655][207]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-03.32.48:658][207]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.32.48:660][207]LogPlayLevel: PIE: World Init took: (0.001813s)
+[2025.10.10-03.32.48:661][207]LogAudio: Display: Creating Audio Device:                 Id: 62, Scope: Unique, Realtime: True
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.32.48:661][207]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.32.48:661][207]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.32.48:661][207]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.32.48:661][207]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.32.48:661][207]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.32.48:663][207]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.32.48:720][207]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.32.48:721][207]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.32.48:721][207]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.32.48:721][207]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.32.48:721][207]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=62
+[2025.10.10-03.32.48:721][207]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=62
+[2025.10.10-03.32.48:723][207]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=62
+[2025.10.10-03.32.48:723][207]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=62
+[2025.10.10-03.32.48:723][207]LogInit: FAudioDevice initialized with ID 62.
+[2025.10.10-03.32.48:724][207]LogAudio: Display: Audio Device (ID: 62) registered with world 'FactoryScene'.
+[2025.10.10-03.32.48:724][207]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 62
+[2025.10.10-03.32.48:728][207]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.32.48:730][207]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.32.48
+[2025.10.10-03.32.48:730][207]LogWorld: Bringing up level for play took: 0.002253
+[2025.10.10-03.32.48:733][207]LogOnline: OSS: Created online subsystem instance for: :Context_109
+[2025.10.10-03.32.48:734][207]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.32.48:736][207]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.32.48:736][207]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.32.48:738][207]PIE: Server logged in
+[2025.10.10-03.32.48:740][207]PIE: Play in editor total start time 0.12 seconds.
+[2025.10.10-03.33.06:595][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.06:595][ 13]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.06:595][ 13]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.33.06:595][ 13]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.33.06:595][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.06:599][ 13]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.33.06:606][ 13]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.06:633][ 13]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.06:633][ 13]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 62
+[2025.10.10-03.33.06:633][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=4
+[2025.10.10-03.33.06:635][ 13]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=62, StreamState=2
+[2025.10.10-03.33.06:642][ 13]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.10-03.33.06:691][ 14]LogPlayLevel: Display: Destroying online subsystem :Context_109
+[2025.10.10-03.33.22:372][444]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.33.22:391][444]LogPlayLevel: [PlayLevel] Compiling BP_SentinalRobot_R before play...
+[2025.10.10-03.33.22:567][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.10-03.33.22:575][444]LogPlayLevel: PlayLevel: Blueprint regeneration took 186 ms (1 blueprints)
+[2025.10.10-03.33.22:575][444]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.22:578][444]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003210s)
+[2025.10.10-03.33.22:578][444]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003244s)
+[2025.10.10-03.33.22:605][444]LogUObjectHash: Compacting FUObjectHashTables data took   1.33ms
+[2025.10.10-03.33.22:607][444]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.33.22:609][444]LogPlayLevel: PIE: World Init took: (0.001730s)
+[2025.10.10-03.33.22:610][444]LogAudio: Display: Creating Audio Device:                 Id: 63, Scope: Unique, Realtime: True
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.33.22:610][444]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.33.22:610][444]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.33.22:610][444]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.33.22:610][444]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.33.22:610][444]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.33.22:612][444]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.33.22:667][444]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.33.22:668][444]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.33.22:668][444]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.33.22:668][444]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.33.22:668][444]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=63
+[2025.10.10-03.33.22:668][444]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=63
+[2025.10.10-03.33.22:671][444]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=63
+[2025.10.10-03.33.22:671][444]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=63
+[2025.10.10-03.33.22:671][444]LogInit: FAudioDevice initialized with ID 63.
+[2025.10.10-03.33.22:671][444]LogAudio: Display: Audio Device (ID: 63) registered with world 'FactoryScene'.
+[2025.10.10-03.33.22:671][444]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 63
+[2025.10.10-03.33.22:675][444]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.33.22:677][444]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.33.22
+[2025.10.10-03.33.22:677][444]LogWorld: Bringing up level for play took: 0.002073
+[2025.10.10-03.33.22:679][444]LogOnline: OSS: Created online subsystem instance for: :Context_110
+[2025.10.10-03.33.22:681][444]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.33.22:682][444]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.33.22:682][444]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.33.22:684][444]PIE: Server logged in
+[2025.10.10-03.33.22:686][444]PIE: Play in editor total start time 0.298 seconds.
+[2025.10.10-03.33.35:063][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.35:063][997]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.35:063][997]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.33.35:063][997]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.33.35:064][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.35:067][997]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.33.35:074][997]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.35:102][997]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.35:103][997]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 63
+[2025.10.10-03.33.35:103][997]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=4
+[2025.10.10-03.33.35:105][997]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=63, StreamState=2
+[2025.10.10-03.33.35:112][997]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.10.10-03.33.35:161][998]LogPlayLevel: Display: Destroying online subsystem :Context_110
+[2025.10.10-03.33.42:055][690]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.33.42:076][690]LogPlayLevel: [PlayLevel] Compiling ABP_SpiderMonster before play...
+[2025.10.10-03.33.42:090][690]LogPlayLevel: [PlayLevel]   Compiling BP_Monster as a dependent...
+[2025.10.10-03.33.42:090][690]LogPlayLevel: [PlayLevel]   Compiling BP_SentinalRobot_R as a dependent...
+[2025.10.10-03.33.42:090][690]LogPlayLevel: [PlayLevel]   Compiling BP_SpiderMonster as a dependent...
+[2025.10.10-03.33.42:328][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.48ms
+[2025.10.10-03.33.42:335][690]LogPlayLevel: PlayLevel: Blueprint regeneration took 263 ms (4 blueprints)
+[2025.10.10-03.33.42:335][690]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.42:339][690]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003348s)
+[2025.10.10-03.33.42:339][690]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003386s)
+[2025.10.10-03.33.42:366][690]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.10-03.33.42:368][690]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.33.42:370][690]LogPlayLevel: PIE: World Init took: (0.001829s)
+[2025.10.10-03.33.42:370][690]LogAudio: Display: Creating Audio Device:                 Id: 64, Scope: Unique, Realtime: True
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.33.42:370][690]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.33.42:370][690]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.33.42:370][690]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.33.42:370][690]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.33.42:370][690]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.33.42:372][690]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.33.42:429][690]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.33.42:429][690]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.33.42:429][690]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.33.42:429][690]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.33.42:429][690]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=64
+[2025.10.10-03.33.42:429][690]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=64
+[2025.10.10-03.33.42:432][690]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=64
+[2025.10.10-03.33.42:432][690]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=64
+[2025.10.10-03.33.42:432][690]LogInit: FAudioDevice initialized with ID 64.
+[2025.10.10-03.33.42:432][690]LogAudio: Display: Audio Device (ID: 64) registered with world 'FactoryScene'.
+[2025.10.10-03.33.42:432][690]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 64
+[2025.10.10-03.33.42:490][690]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.42:490][690]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.33.42:492][690]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.33.42
+[2025.10.10-03.33.42:493][690]LogWorld: Bringing up level for play took: 0.002660
+[2025.10.10-03.33.42:495][690]LogOnline: OSS: Created online subsystem instance for: :Context_111
+[2025.10.10-03.33.42:497][690]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.33.42:499][690]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.33.42:499][690]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.33.42:503][690]PIE: Server logged in
+[2025.10.10-03.33.42:504][690]PIE: Play in editor total start time 0.433 seconds.
+[2025.10.10-03.33.51:632][111]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.51:632][111]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.51:632][111]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.33.51:632][111]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.33.51:678][111]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.33.51:678][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.51:682][111]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.33.51:688][111]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.33.51:717][111]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 64
+[2025.10.10-03.33.51:718][111]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64, StreamState=4
+[2025.10.10-03.33.51:719][111]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=64, StreamState=2
+[2025.10.10-03.33.51:727][111]LogUObjectHash: Compacting FUObjectHashTables data took   1.59ms
+[2025.10.10-03.33.51:764][112]LogPlayLevel: Display: Destroying online subsystem :Context_111
+[2025.10.10-03.33.52:509][199]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.33.52:526][199]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.33.52:526][199]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.33.52:530][199]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003831s)
+[2025.10.10-03.33.52:530][199]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003868s)
+[2025.10.10-03.33.52:560][199]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.10-03.33.52:563][199]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.33.52:565][199]LogPlayLevel: PIE: World Init took: (0.002135s)
+[2025.10.10-03.33.52:566][199]LogAudio: Display: Creating Audio Device:                 Id: 65, Scope: Unique, Realtime: True
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.33.52:566][199]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.33.52:566][199]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.33.52:566][199]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.33.52:566][199]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.33.52:566][199]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.33.52:568][199]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.33.52:623][199]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.33.52:623][199]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.33.52:623][199]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.33.52:623][199]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.33.52:623][199]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=65
+[2025.10.10-03.33.52:623][199]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=65
+[2025.10.10-03.33.52:626][199]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=65
+[2025.10.10-03.33.52:626][199]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=65
+[2025.10.10-03.33.52:626][199]LogInit: FAudioDevice initialized with ID 65.
+[2025.10.10-03.33.52:626][199]LogAudio: Display: Audio Device (ID: 65) registered with world 'FactoryScene'.
+[2025.10.10-03.33.52:626][199]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 65
+[2025.10.10-03.33.52:672][199]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.33.52:673][199]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.33.52:675][199]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.33.52
+[2025.10.10-03.33.52:675][199]LogWorld: Bringing up level for play took: 0.002256
+[2025.10.10-03.33.52:677][199]LogOnline: OSS: Created online subsystem instance for: :Context_112
+[2025.10.10-03.33.52:679][199]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.33.52:682][199]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.33.52:682][199]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.33.52:684][199]PIE: Server logged in
+[2025.10.10-03.33.52:685][199]PIE: Play in editor total start time 0.16 seconds.
+[2025.10.10-03.34.11:420][ 78]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.34.11:420][ 78]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.11:420][ 78]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.34.11:420][ 78]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.34.11:464][ 78]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.34.11:465][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.11:468][ 78]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.34.11:474][ 78]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.11:504][ 78]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 65
+[2025.10.10-03.34.11:504][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65, StreamState=4
+[2025.10.10-03.34.11:506][ 78]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=65, StreamState=2
+[2025.10.10-03.34.11:514][ 78]LogUObjectHash: Compacting FUObjectHashTables data took   1.74ms
+[2025.10.10-03.34.11:546][ 79]LogPlayLevel: Display: Destroying online subsystem :Context_112
+[2025.10.10-03.34.13:076][259]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.34.13:093][259]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.34.13:093][259]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.13:097][259]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003739s)
+[2025.10.10-03.34.13:097][259]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003773s)
+[2025.10.10-03.34.13:125][259]LogUObjectHash: Compacting FUObjectHashTables data took   1.38ms
+[2025.10.10-03.34.13:128][259]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.34.13:130][259]LogPlayLevel: PIE: World Init took: (0.002170s)
+[2025.10.10-03.34.13:131][259]LogAudio: Display: Creating Audio Device:                 Id: 66, Scope: Unique, Realtime: True
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.34.13:131][259]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.34.13:131][259]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.34.13:131][259]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.34.13:131][259]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.34.13:131][259]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.34.13:133][259]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.34.13:188][259]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.34.13:188][259]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.34.13:188][259]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.34.13:188][259]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.34.13:189][259]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=66
+[2025.10.10-03.34.13:189][259]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=66
+[2025.10.10-03.34.13:191][259]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=66
+[2025.10.10-03.34.13:191][259]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=66
+[2025.10.10-03.34.13:191][259]LogInit: FAudioDevice initialized with ID 66.
+[2025.10.10-03.34.13:191][259]LogAudio: Display: Audio Device (ID: 66) registered with world 'FactoryScene'.
+[2025.10.10-03.34.13:191][259]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 66
+[2025.10.10-03.34.13:239][259]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.34.13:239][259]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.34.13:242][259]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.34.13
+[2025.10.10-03.34.13:242][259]LogWorld: Bringing up level for play took: 0.002807
+[2025.10.10-03.34.13:245][259]LogOnline: OSS: Created online subsystem instance for: :Context_113
+[2025.10.10-03.34.13:246][259]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.34.13:249][259]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.34.13:249][259]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.34.13:253][259]PIE: Server logged in
+[2025.10.10-03.34.13:254][259]PIE: Play in editor total start time 0.161 seconds.
+[2025.10.10-03.34.26:509][897]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.34.26:509][897]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.26:509][897]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.34.26:510][897]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-03.34.26:539][897]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.34.26:539][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.26:542][897]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.34.26:549][897]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.26:577][897]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 66
+[2025.10.10-03.34.26:577][897]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=4
+[2025.10.10-03.34.26:579][897]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=66, StreamState=2
+[2025.10.10-03.34.26:587][897]LogUObjectHash: Compacting FUObjectHashTables data took   1.53ms
+[2025.10.10-03.34.26:620][898]LogPlayLevel: Display: Destroying online subsystem :Context_113
+[2025.10.10-03.34.47:529][788]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.34.47:550][788]LogPlayLevel: [PlayLevel] Compiling BP_SentinalRobot_R before play...
+[2025.10.10-03.34.47:668][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.10-03.34.47:678][788]LogPlayLevel: PlayLevel: Blueprint regeneration took 130 ms (1 blueprints)
+[2025.10.10-03.34.47:678][788]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.47:682][788]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003934s)
+[2025.10.10-03.34.47:682][788]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003977s)
+[2025.10.10-03.34.47:709][788]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.10-03.34.47:711][788]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.34.47:713][788]LogPlayLevel: PIE: World Init took: (0.001946s)
+[2025.10.10-03.34.47:714][788]LogAudio: Display: Creating Audio Device:                 Id: 67, Scope: Unique, Realtime: True
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.34.47:714][788]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.34.47:714][788]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.34.47:714][788]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.34.47:714][788]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.34.47:714][788]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.34.47:716][788]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.34.47:776][788]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.34.47:776][788]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.34.47:776][788]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.34.47:776][788]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.34.47:776][788]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=67
+[2025.10.10-03.34.47:776][788]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=67
+[2025.10.10-03.34.47:778][788]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=67
+[2025.10.10-03.34.47:778][788]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=67
+[2025.10.10-03.34.47:778][788]LogInit: FAudioDevice initialized with ID 67.
+[2025.10.10-03.34.47:778][788]LogAudio: Display: Audio Device (ID: 67) registered with world 'FactoryScene'.
+[2025.10.10-03.34.47:778][788]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 67
+[2025.10.10-03.34.47:783][788]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.34.47:785][788]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.34.47
+[2025.10.10-03.34.47:785][788]LogWorld: Bringing up level for play took: 0.002268
+[2025.10.10-03.34.47:788][788]LogOnline: OSS: Created online subsystem instance for: :Context_114
+[2025.10.10-03.34.47:789][788]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.34.47:791][788]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.34.47:791][788]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.34.47:792][788]PIE: Server logged in
+[2025.10.10-03.34.47:795][788]PIE: Play in editor total start time 0.247 seconds.
+[2025.10.10-03.34.50:428][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.34.50:428][902]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.50:428][902]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.34.50:428][902]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.34.50:428][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.50:439][902]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.34.50:446][902]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.34.50:473][902]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.34.50:473][902]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 67
+[2025.10.10-03.34.50:473][902]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=4
+[2025.10.10-03.34.50:475][902]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=67, StreamState=2
+[2025.10.10-03.34.50:483][902]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.10-03.34.50:526][903]LogPlayLevel: Display: Destroying online subsystem :Context_114
+[2025.10.10-03.34.56:160][292]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.34.56:177][292]LogPlayLevel: [PlayLevel] Compiling BP_SentinalRobot_R before play...
+[2025.10.10-03.34.56:353][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-03.34.56:358][292]LogPlayLevel: PlayLevel: Blueprint regeneration took 182 ms (1 blueprints)
+[2025.10.10-03.34.56:358][292]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.34.56:362][292]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003357s)
+[2025.10.10-03.34.56:362][292]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003390s)
+[2025.10.10-03.34.56:389][292]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.10-03.34.56:391][292]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.34.56:393][292]LogPlayLevel: PIE: World Init took: (0.001736s)
+[2025.10.10-03.34.56:394][292]LogAudio: Display: Creating Audio Device:                 Id: 68, Scope: Unique, Realtime: True
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.34.56:394][292]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.34.56:394][292]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.34.56:394][292]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.34.56:394][292]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.34.56:394][292]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.34.56:396][292]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.34.56:452][292]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.34.56:453][292]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.34.56:453][292]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.34.56:453][292]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.34.56:453][292]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=68
+[2025.10.10-03.34.56:453][292]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=68
+[2025.10.10-03.34.56:456][292]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=68
+[2025.10.10-03.34.56:456][292]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=68
+[2025.10.10-03.34.56:456][292]LogInit: FAudioDevice initialized with ID 68.
+[2025.10.10-03.34.56:456][292]LogAudio: Display: Audio Device (ID: 68) registered with world 'FactoryScene'.
+[2025.10.10-03.34.56:456][292]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 68
+[2025.10.10-03.34.56:460][292]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.34.56:462][292]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.34.56
+[2025.10.10-03.34.56:462][292]LogWorld: Bringing up level for play took: 0.002308
+[2025.10.10-03.34.56:465][292]LogOnline: OSS: Created online subsystem instance for: :Context_115
+[2025.10.10-03.34.56:466][292]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.34.56:468][292]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.34.56:468][292]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.34.56:470][292]PIE: Server logged in
+[2025.10.10-03.34.56:472][292]PIE: Play in editor total start time 0.297 seconds.
+[2025.10.10-03.35.24:886][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.35.24:886][578]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.35.24:887][578]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.35.24:887][578]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.35.24:887][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.35.24:892][578]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.35.24:898][578]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.35.24:925][578]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.35.24:925][578]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 68
+[2025.10.10-03.35.24:925][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=4
+[2025.10.10-03.35.24:927][578]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=68, StreamState=2
+[2025.10.10-03.35.24:935][578]LogUObjectHash: Compacting FUObjectHashTables data took   2.07ms
+[2025.10.10-03.35.24:979][579]LogPlayLevel: Display: Destroying online subsystem :Context_115
+[2025.10.10-03.36.00:326][738]LogUObjectHash: Compacting FUObjectHashTables data took   1.43ms
+[2025.10.10-03.36.01:673][820]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.36.01:692][820]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.36.01:693][820]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.01:697][820]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003804s)
+[2025.10.10-03.36.01:697][820]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003855s)
+[2025.10.10-03.36.01:728][820]LogUObjectHash: Compacting FUObjectHashTables data took   1.45ms
+[2025.10.10-03.36.01:732][820]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.36.01:734][820]LogPlayLevel: PIE: World Init took: (0.002204s)
+[2025.10.10-03.36.01:735][820]LogAudio: Display: Creating Audio Device:                 Id: 69, Scope: Unique, Realtime: True
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.36.01:735][820]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.36.01:735][820]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.36.01:735][820]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.36.01:735][820]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.36.01:735][820]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.36.01:737][820]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.36.01:793][820]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.36.01:794][820]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.36.01:794][820]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.36.01:794][820]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.36.01:794][820]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=69
+[2025.10.10-03.36.01:794][820]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=69
+[2025.10.10-03.36.01:797][820]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=69
+[2025.10.10-03.36.01:797][820]LogInit: FAudioDevice initialized with ID 69.
+[2025.10.10-03.36.01:797][820]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=69
+[2025.10.10-03.36.01:797][820]LogAudio: Display: Audio Device (ID: 69) registered with world 'FactoryScene'.
+[2025.10.10-03.36.01:797][820]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 69
+[2025.10.10-03.36.01:802][820]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.36.01:804][820]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.36.01
+[2025.10.10-03.36.01:804][820]LogWorld: Bringing up level for play took: 0.002212
+[2025.10.10-03.36.01:807][820]LogOnline: OSS: Created online subsystem instance for: :Context_116
+[2025.10.10-03.36.01:808][820]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.36.01:810][820]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.36.01:810][820]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.36.01:811][820]PIE: Server logged in
+[2025.10.10-03.36.01:815][820]PIE: Play in editor total start time 0.122 seconds.
+[2025.10.10-03.36.04:034][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.04:034][913]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.04:034][913]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.36.04:035][913]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.36.04:036][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.04:040][913]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.36.04:046][913]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.04:074][913]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-03.36.04:074][913]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 69
+[2025.10.10-03.36.04:074][913]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=4
+[2025.10.10-03.36.04:076][913]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=69, StreamState=2
+[2025.10.10-03.36.04:080][913]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.04:083][913]LogUObjectHash: Compacting FUObjectHashTables data took   1.52ms
+[2025.10.10-03.36.04:127][914]LogPlayLevel: Display: Destroying online subsystem :Context_116
+[2025.10.10-03.36.14:924][821]LogUObjectHash: Compacting FUObjectHashTables data took   1.36ms
+[2025.10.10-03.36.16:112][874]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.36.16:131][874]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.36.16:131][874]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.16:136][874]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004044s)
+[2025.10.10-03.36.16:136][874]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004092s)
+[2025.10.10-03.36.16:168][874]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.10-03.36.16:177][874]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.36.16:179][874]LogPlayLevel: PIE: World Init took: (0.001977s)
+[2025.10.10-03.36.16:180][874]LogAudio: Display: Creating Audio Device:                 Id: 70, Scope: Unique, Realtime: True
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.36.16:180][874]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.36.16:180][874]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.36.16:180][874]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.36.16:180][874]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.36.16:180][874]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.36.16:182][874]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.36.16:237][874]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.36.16:238][874]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.36.16:238][874]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.36.16:238][874]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.36.16:238][874]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=70
+[2025.10.10-03.36.16:238][874]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=70
+[2025.10.10-03.36.16:241][874]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=70
+[2025.10.10-03.36.16:241][874]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=70
+[2025.10.10-03.36.16:241][874]LogInit: FAudioDevice initialized with ID 70.
+[2025.10.10-03.36.16:241][874]LogAudio: Display: Audio Device (ID: 70) registered with world 'FactoryScene'.
+[2025.10.10-03.36.16:241][874]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 70
+[2025.10.10-03.36.16:245][874]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.36.16:247][874]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.36.16
+[2025.10.10-03.36.16:248][874]LogWorld: Bringing up level for play took: 0.002589
+[2025.10.10-03.36.16:250][874]LogOnline: OSS: Created online subsystem instance for: :Context_117
+[2025.10.10-03.36.16:251][874]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.36.16:253][874]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.36.16:253][874]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.36.16:255][874]PIE: Server logged in
+[2025.10.10-03.36.16:258][874]PIE: Play in editor total start time 0.127 seconds.
+[2025.10.10-03.36.25:753][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.25:753][295]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.25:753][295]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.36.25:753][295]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.36.25:753][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.25:772][295]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.36.25:778][295]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.25:807][295]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-03.36.25:807][295]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 70
+[2025.10.10-03.36.25:808][295]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=4
+[2025.10.10-03.36.25:809][295]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=70, StreamState=2
+[2025.10.10-03.36.25:814][295]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.25:817][295]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
+[2025.10.10-03.36.25:859][296]LogPlayLevel: Display: Destroying online subsystem :Context_117
+[2025.10.10-03.36.26:822][342]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-03.36.26:841][342]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-03.36.26:841][342]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.26:845][342]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003870s)
+[2025.10.10-03.36.26:845][342]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003918s)
+[2025.10.10-03.36.26:876][342]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.10-03.36.26:879][342]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-03.36.26:881][342]LogPlayLevel: PIE: World Init took: (0.002119s)
+[2025.10.10-03.36.26:882][342]LogAudio: Display: Creating Audio Device:                 Id: 71, Scope: Unique, Realtime: True
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-03.36.26:882][342]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-03.36.26:882][342]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-03.36.26:882][342]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-03.36.26:882][342]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-03.36.26:882][342]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-03.36.26:884][342]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-03.36.26:940][342]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-03.36.26:940][342]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-03.36.26:940][342]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-03.36.26:940][342]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-03.36.26:941][342]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=71
+[2025.10.10-03.36.26:941][342]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=71
+[2025.10.10-03.36.26:943][342]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=71
+[2025.10.10-03.36.26:943][342]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=71
+[2025.10.10-03.36.26:943][342]LogInit: FAudioDevice initialized with ID 71.
+[2025.10.10-03.36.26:943][342]LogAudio: Display: Audio Device (ID: 71) registered with world 'FactoryScene'.
+[2025.10.10-03.36.26:943][342]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 71
+[2025.10.10-03.36.26:948][342]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-03.36.26:950][342]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-12.36.26
+[2025.10.10-03.36.26:950][342]LogWorld: Bringing up level for play took: 0.002240
+[2025.10.10-03.36.26:953][342]LogOnline: OSS: Created online subsystem instance for: :Context_118
+[2025.10.10-03.36.26:954][342]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-03.36.26:956][342]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-03.36.26:956][342]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-03.36.26:957][342]PIE: Server logged in
+[2025.10.10-03.36.26:960][342]PIE: Play in editor total start time 0.119 seconds.
+[2025.10.10-03.36.48:960][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.48:960][316]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-03.36.48:960][316]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-03.36.48:961][316]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-03.36.48:961][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.48:973][316]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-03.36.48:980][316]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-03.36.49:009][316]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-03.36.49:009][316]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 71
+[2025.10.10-03.36.49:009][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=4
+[2025.10.10-03.36.49:011][316]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=71, StreamState=2
+[2025.10.10-03.36.49:019][316]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.10-03.36.49:069][317]LogPlayLevel: Display: Destroying online subsystem :Context_118
+[2025.10.10-03.36.50:097][356]LogUObjectHash: Compacting FUObjectHashTables data took   1.42ms
+[2025.10.10-03.36.50:103][356]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-03.36.50:288][356]LogUObjectHash: Compacting FUObjectHashTables data took   0.66ms
+[2025.10.10-03.36.50:312][356]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Level/FactoryScene
+[2025.10.10-03.36.50:312][356]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/FactoryScene4E5D1DBE4B9ACB366C2E61AC87F4E99F.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Level/FactoryScene.umap'
+[2025.10.10-03.36.50:370][356]LogFileHelpers: Saving map 'FactoryScene' took 0.215
+[2025.10.10-03.36.50:370][356]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Spider/BP_Monster] ([2] browsable assets)...
+[2025.10.10-03.36.50:442][356]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/Spider/BP_Monster.BP_Monster]
+[2025.10.10-03.36.50:442][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Spider/BP_Monster]
+[2025.10.10-03.36.50:442][356]Cmd: OBJ SAVEPACKAGE PACKAGE="/Game/PathfinderContent/Spider/BP_Monster" FILE="../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Spider/BP_Monster.uasset" SILENT=true
+[2025.10.10-03.36.50:471][356]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Spider/BP_Monster
+[2025.10.10-03.36.50:472][356]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_Monster01636CBF430FFDA7475D25915EF35199.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Spider/BP_Monster.uasset'
+[2025.10.10-03.36.50:474][356]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R] ([2] browsable assets)...
+[2025.10.10-03.36.50:495][356]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R.BP_SentinalRobot_R]
+[2025.10.10-03.36.50:495][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R]
+[2025.10.10-03.36.50:521][356]LogSavePackage: Moving output files for package: /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R
+[2025.10.10-03.36.50:521][356]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_SentinalRobot_RACBDE70B4DE19B7E975FB7A0AD9A92AE.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/SentinalRobot/BP_SentinalRobot_R.uasset'
+[2025.10.10-03.36.50:523][356]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage] ([1] browsable assets)...
+[2025.10.10-03.36.50:556][356]OBJ SavePackage:     Rendered thumbnail for [AnimMontage /Game/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage.uploads_files_2828659_atk_Anim_Montage]
+[2025.10.10-03.36.50:556][356]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage]
+[2025.10.10-03.36.50:568][356]LogSavePackage: Moving output files for package: /Game/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage
+[2025.10.10-03.36.50:569][356]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/uploads_files_2828659_atk_Anim_MAAFE7B0747F45F9B5E516EB5F7AFF7B9.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage.uasset'
+[2025.10.10-03.36.50:578][356]LogFileHelpers: InternalPromptForCheckoutAndSave took 475.160 ms (total: 5.47 sec)
+[2025.10.10-03.36.50:641][356]LogContentValidation: Display: Starting to validate 4 assets
+[2025.10.10-03.36.50:641][356]LogContentValidation: Enabled validators:
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-03.36.50:641][356]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-03.36.50:641][356]AssetCheck: /Game/PathfinderContent/Level/FactoryScene Validating asset
+[2025.10.10-03.36.50:641][356]AssetCheck: /Game/PathfinderContent/Spider/BP_Monster Validating asset
+[2025.10.10-03.36.50:641][356]AssetCheck: /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R Validating asset
+[2025.10.10-03.36.50:641][356]AssetCheck: /Game/PathfinderContent/SentinalRobot/Animation/uploads_files_2828659_atk_Anim_Montage Validating asset
+[2025.10.10-03.37.00:607][844]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12075.343750
+[2025.10.10-03.37.00:850][856]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.37.00:850][856]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12075.568359, Update Interval: 320.224609
+[2025.10.10-03.42.53:081][811]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12427.826172
+[2025.10.10-03.42.53:353][824]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.42.53:353][824]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12428.078125, Update Interval: 319.913330
+[2025.10.10-03.49.10:136][  4]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 12804.954102
+[2025.10.10-03.49.10:401][ 17]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.49.10:401][ 17]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 12805.198242, Update Interval: 321.854309
+[2025.10.10-03.55.18:234][ 94]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13172.987305
+[2025.10.10-03.55.18:475][123]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-03.55.18:475][123]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13173.219727, Update Interval: 330.704071
+[2025.10.10-04.01.24:400][837]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13539.129883
+[2025.10.10-04.01.24:618][863]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-04.01.24:618][863]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13539.337891, Update Interval: 350.809662
+[2025.10.10-04.07.17:481][989]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.07.17:498][989]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-04.07.17:498][989]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.07.17:502][989]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003760s)
+[2025.10.10-04.07.17:502][989]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003797s)
+[2025.10.10-04.07.17:533][989]LogUObjectHash: Compacting FUObjectHashTables data took   1.95ms
+[2025.10.10-04.07.17:540][989]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.07.17:543][989]LogPlayLevel: PIE: World Init took: (0.002264s)
+[2025.10.10-04.07.17:543][989]LogAudio: Display: Creating Audio Device:                 Id: 72, Scope: Unique, Realtime: True
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.07.17:544][989]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.07.17:544][989]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.07.17:544][989]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.07.17:544][989]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.07.17:544][989]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.07.17:546][989]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.07.17:603][989]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.07.17:604][989]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.07.17:604][989]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.07.17:604][989]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.07.17:605][989]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=72
+[2025.10.10-04.07.17:605][989]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=72
+[2025.10.10-04.07.17:607][989]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=72
+[2025.10.10-04.07.17:607][989]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=72
+[2025.10.10-04.07.17:607][989]LogInit: FAudioDevice initialized with ID 72.
+[2025.10.10-04.07.17:607][989]LogAudio: Display: Audio Device (ID: 72) registered with world 'FactoryScene'.
+[2025.10.10-04.07.17:607][989]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 72
+[2025.10.10-04.07.17:669][989]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.07.17:669][989]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.07.17:671][989]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.07.17
+[2025.10.10-04.07.17:672][989]LogWorld: Bringing up level for play took: 0.002758
+[2025.10.10-04.07.17:675][989]LogOnline: OSS: Created online subsystem instance for: :Context_119
+[2025.10.10-04.07.17:676][989]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.07.17:678][989]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.07.17:678][989]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.07.17:682][989]PIE: Server logged in
+[2025.10.10-04.07.17:684][989]PIE: Play in editor total start time 0.187 seconds.
+[2025.10.10-04.07.28:406][484]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.07.28:406][484]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.07.28:406][484]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.07.28:407][484]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-04.07.28:440][484]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.07.28:440][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.07.28:445][484]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.07.28:454][484]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.07.28:483][484]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 72
+[2025.10.10-04.07.28:483][484]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=4
+[2025.10.10-04.07.28:485][484]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=72, StreamState=2
+[2025.10.10-04.07.28:493][484]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.10-04.07.28:527][485]LogPlayLevel: Display: Destroying online subsystem :Context_119
+[2025.10.10-04.07.37:465][291]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.07.37:483][291]LogPlayLevel: [PlayLevel] Compiling BP_SentinalRobot_R before play...
+[2025.10.10-04.07.37:655][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.10-04.07.37:663][291]LogPlayLevel: PlayLevel: Blueprint regeneration took 181 ms (1 blueprints)
+[2025.10.10-04.07.37:663][291]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.07.37:668][291]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004691s)
+[2025.10.10-04.07.37:668][291]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004755s)
+[2025.10.10-04.07.37:700][291]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.10-04.07.37:702][291]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.07.37:704][291]LogPlayLevel: PIE: World Init took: (0.001860s)
+[2025.10.10-04.07.37:705][291]LogAudio: Display: Creating Audio Device:                 Id: 73, Scope: Unique, Realtime: True
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.07.37:705][291]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.07.37:705][291]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.07.37:705][291]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.07.37:705][291]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.07.37:705][291]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.07.37:707][291]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.07.37:763][291]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.07.37:763][291]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.07.37:763][291]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.07.37:763][291]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.07.37:764][291]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=73
+[2025.10.10-04.07.37:764][291]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=73
+[2025.10.10-04.07.37:766][291]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=73
+[2025.10.10-04.07.37:766][291]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=73
+[2025.10.10-04.07.37:766][291]LogInit: FAudioDevice initialized with ID 73.
+[2025.10.10-04.07.37:766][291]LogAudio: Display: Audio Device (ID: 73) registered with world 'FactoryScene'.
+[2025.10.10-04.07.37:766][291]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 73
+[2025.10.10-04.07.37:819][291]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.07.37:819][291]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.07.37:821][291]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.07.37
+[2025.10.10-04.07.37:821][291]LogWorld: Bringing up level for play took: 0.002235
+[2025.10.10-04.07.37:824][291]LogOnline: OSS: Created online subsystem instance for: :Context_120
+[2025.10.10-04.07.37:825][291]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.07.37:827][291]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.07.37:827][291]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.07.37:831][291]PIE: Server logged in
+[2025.10.10-04.07.37:832][291]PIE: Play in editor total start time 0.351 seconds.
+[2025.10.10-04.07.57:243][183]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.07.57:243][183]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.07.57:243][183]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.07.57:244][183]LogSlate: Window 'Pathfinder2 Preview [NetMode: Standalone 0]  (64-bit/PC D3D SM6)' being destroyed
+[2025.10.10-04.07.57:294][183]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.07.57:294][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.07.57:304][183]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.07.57:311][183]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.07.57:340][183]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 73
+[2025.10.10-04.07.57:341][183]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=4
+[2025.10.10-04.07.57:342][183]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=73, StreamState=2
+[2025.10.10-04.07.57:350][183]LogUObjectHash: Compacting FUObjectHashTables data took   1.65ms
+[2025.10.10-04.07.57:560][184]LogPlayLevel: Display: Destroying online subsystem :Context_120
+[2025.10.10-04.08.05:206][852]LogEOSSDK: LogEOS: Updating Product SDK Config, Time: 13939.910156
+[2025.10.10-04.08.05:428][872]LogEOSSDK: LogEOS: SDK Config Product Update Request Completed - No Change
+[2025.10.10-04.08.05:428][872]LogEOSSDK: LogEOS: ScheduleNextSDKConfigDataUpdate - Time: 13940.118164, Update Interval: 302.638641
+[2025.10.10-04.08.23:379][404]LogUObjectHash: Compacting FUObjectHashTables data took   1.37ms
+[2025.10.10-04.08.23:385][404]LogFileHelpers: Editor autosave (incl. external actors) for '/Game/PathfinderContent/Level/FactoryScene' took 0.034
+[2025.10.10-04.08.23:386][404]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R] ([2] browsable assets)...
+[2025.10.10-04.08.23:530][404]OBJ SavePackage:     Rendered thumbnail for [Blueprint /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R.BP_SentinalRobot_R]
+[2025.10.10-04.08.23:530][404]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R]
+[2025.10.10-04.08.23:555][404]LogSavePackage: Moving output files for package: /Temp/Autosaves/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R_Auto5
+[2025.10.10-04.08.23:555][404]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_SentinalRobot_R_Auto58B9EB68C4E3A4F826FEDB4B05676EFD4.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Autosaves/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R_Auto5.uasset'
+[2025.10.10-04.08.23:557][404]LogFileHelpers: Auto-saving content packages took 0.172
+[2025.10.10-04.09.02:469][432]LogAssetEditorSubsystem: Opening Asset editor for StaticMesh /Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance.Cyber_Garage-skinInstance
+[2025.10.10-04.09.02:489][432]LogChaosDD: Not creating Chaos Debug Draw Scene for world World_48
+[2025.10.10-04.09.25:743][941]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.09.25:761][941]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-04.09.25:761][941]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.09.25:765][941]LogPlayLevel: PIE: StaticDuplicateObject took: (0.003910s)
+[2025.10.10-04.09.25:765][941]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.003960s)
+[2025.10.10-04.09.25:817][941]LogUObjectHash: Compacting FUObjectHashTables data took   1.92ms
+[2025.10.10-04.09.25:821][941]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.09.25:823][941]LogPlayLevel: PIE: World Init took: (0.002043s)
+[2025.10.10-04.09.25:824][941]LogAudio: Display: Creating Audio Device:                 Id: 74, Scope: Unique, Realtime: True
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.09.25:824][941]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.09.25:824][941]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.09.25:824][941]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.09.25:824][941]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.09.25:824][941]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.09.25:827][941]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.09.25:884][941]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.09.25:884][941]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.09.25:884][941]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.09.25:884][941]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.09.25:885][941]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=74
+[2025.10.10-04.09.25:885][941]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=74
+[2025.10.10-04.09.25:887][941]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=74
+[2025.10.10-04.09.25:887][941]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=74
+[2025.10.10-04.09.25:887][941]LogInit: FAudioDevice initialized with ID 74.
+[2025.10.10-04.09.25:887][941]LogAudio: Display: Audio Device (ID: 74) registered with world 'FactoryScene'.
+[2025.10.10-04.09.25:887][941]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 74
+[2025.10.10-04.09.25:891][941]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.09.25:893][941]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.09.25
+[2025.10.10-04.09.25:894][941]LogWorld: Bringing up level for play took: 0.002136
+[2025.10.10-04.09.25:896][941]LogOnline: OSS: Created online subsystem instance for: :Context_122
+[2025.10.10-04.09.25:897][941]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.09.25:899][941]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.09.25:899][941]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.09.25:901][941]PIE: Server logged in
+[2025.10.10-04.09.25:904][941]PIE: Play in editor total start time 0.143 seconds.
+[2025.10.10-04.09.40:137][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.09.40:138][563]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.09.40:138][563]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.09.40:138][563]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.09.40:138][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.09.40:149][563]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.09.40:155][563]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.09.40:183][563]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-04.09.40:184][563]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 74
+[2025.10.10-04.09.40:184][563]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=4
+[2025.10.10-04.09.40:185][563]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=74, StreamState=2
+[2025.10.10-04.09.40:191][563]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.09.40:194][563]LogUObjectHash: Compacting FUObjectHashTables data took   1.64ms
+[2025.10.10-04.09.40:290][564]LogPlayLevel: Display: Destroying online subsystem :Context_122
+[2025.10.10-04.09.41:700][617]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.09.41:719][617]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-04.09.41:719][617]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.09.41:724][617]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004431s)
+[2025.10.10-04.09.41:724][617]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004480s)
+[2025.10.10-04.09.41:752][617]LogUObjectHash: Compacting FUObjectHashTables data took   1.40ms
+[2025.10.10-04.09.41:755][617]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.09.41:757][617]LogPlayLevel: PIE: World Init took: (0.002074s)
+[2025.10.10-04.09.41:759][617]LogAudio: Display: Creating Audio Device:                 Id: 75, Scope: Unique, Realtime: True
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.09.41:759][617]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.09.41:759][617]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.09.41:759][617]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.09.41:759][617]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.09.41:759][617]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.09.41:760][617]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.09.41:816][617]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.09.41:816][617]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.09.41:816][617]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.09.41:816][617]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.09.41:817][617]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=75
+[2025.10.10-04.09.41:817][617]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=75
+[2025.10.10-04.09.41:819][617]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=75
+[2025.10.10-04.09.41:819][617]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=75
+[2025.10.10-04.09.41:819][617]LogInit: FAudioDevice initialized with ID 75.
+[2025.10.10-04.09.41:819][617]LogAudio: Display: Audio Device (ID: 75) registered with world 'FactoryScene'.
+[2025.10.10-04.09.41:819][617]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 75
+[2025.10.10-04.09.41:823][617]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.09.41:825][617]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.09.41
+[2025.10.10-04.09.41:826][617]LogWorld: Bringing up level for play took: 0.002327
+[2025.10.10-04.09.41:828][617]LogOnline: OSS: Created online subsystem instance for: :Context_123
+[2025.10.10-04.09.41:829][617]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.09.41:831][617]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.09.41:831][617]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.09.41:833][617]PIE: Server logged in
+[2025.10.10-04.09.41:836][617]PIE: Play in editor total start time 0.118 seconds.
+[2025.10.10-04.10.08:356][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.08:356][795]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.10.08:356][795]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.10.08:357][795]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.10.08:357][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.08:364][795]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.10.08:370][795]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.08:399][795]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.08:399][795]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 75
+[2025.10.10-04.10.08:399][795]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=4
+[2025.10.10-04.10.08:401][795]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=75, StreamState=2
+[2025.10.10-04.10.08:409][795]LogUObjectHash: Compacting FUObjectHashTables data took   1.87ms
+[2025.10.10-04.10.08:496][796]LogPlayLevel: Display: Destroying online subsystem :Context_123
+[2025.10.10-04.10.09:637][830]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.10.09:657][830]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-04.10.09:657][830]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.10.09:663][830]LogPlayLevel: PIE: StaticDuplicateObject took: (0.005096s)
+[2025.10.10-04.10.09:663][830]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.005153s)
+[2025.10.10-04.10.09:690][830]LogUObjectHash: Compacting FUObjectHashTables data took   1.47ms
+[2025.10.10-04.10.09:693][830]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.10.09:695][830]LogPlayLevel: PIE: World Init took: (0.001907s)
+[2025.10.10-04.10.09:697][830]LogAudio: Display: Creating Audio Device:                 Id: 76, Scope: Unique, Realtime: True
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.10.09:697][830]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.10.09:697][830]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.10.09:697][830]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.10.09:697][830]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.10.09:697][830]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.10.09:699][830]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.10.09:755][830]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.10.09:755][830]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.10.09:755][830]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.10.09:755][830]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.10.09:756][830]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=76
+[2025.10.10-04.10.09:756][830]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=76
+[2025.10.10-04.10.09:758][830]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=76
+[2025.10.10-04.10.09:758][830]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=76
+[2025.10.10-04.10.09:758][830]LogInit: FAudioDevice initialized with ID 76.
+[2025.10.10-04.10.09:758][830]LogAudio: Display: Audio Device (ID: 76) registered with world 'FactoryScene'.
+[2025.10.10-04.10.09:759][830]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 76
+[2025.10.10-04.10.09:763][830]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.10.09:765][830]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.10.09
+[2025.10.10-04.10.09:765][830]LogWorld: Bringing up level for play took: 0.002124
+[2025.10.10-04.10.09:768][830]LogOnline: OSS: Created online subsystem instance for: :Context_124
+[2025.10.10-04.10.09:768][830]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.10.09:771][830]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.10.09:771][830]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.10.09:773][830]PIE: Server logged in
+[2025.10.10-04.10.09:775][830]PIE: Play in editor total start time 0.119 seconds.
+[2025.10.10-04.10.19:805][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.19:805][276]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.10.19:805][276]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.10.19:805][276]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.10.19:806][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.19:824][276]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.10.19:831][276]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.19:859][276]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.19:859][276]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 76
+[2025.10.10-04.10.19:859][276]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=4
+[2025.10.10-04.10.19:861][276]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=76, StreamState=2
+[2025.10.10-04.10.19:868][276]LogUObjectHash: Compacting FUObjectHashTables data took   1.50ms
+[2025.10.10-04.10.19:957][277]LogPlayLevel: Display: Destroying online subsystem :Context_124
+[2025.10.10-04.10.21:605][344]LogUObjectHash: Compacting FUObjectHashTables data took   1.56ms
+[2025.10.10-04.10.21:611][344]LogFileHelpers: InternalPromptForCheckoutAndSave started...
+[2025.10.10-04.10.21:678][344]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R] ([2] browsable assets)...
+[2025.10.10-04.10.21:678][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R]
+[2025.10.10-04.10.21:703][344]LogSavePackage: Moving output files for package: /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R
+[2025.10.10-04.10.21:704][344]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/BP_SentinalRobot_R31810F4E4C9C0846F75659960C1478D6.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/SentinalRobot/BP_SentinalRobot_R.uasset'
+[2025.10.10-04.10.21:706][344]OBJ SavePackage: Generating thumbnails for [1] asset(s) in package [/Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance] ([1] browsable assets)...
+[2025.10.10-04.10.21:772][344]OBJ SavePackage:     Rendered thumbnail for [StaticMesh /Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance.Cyber_Garage-skinInstance]
+[2025.10.10-04.10.21:772][344]OBJ SavePackage: Finished generating thumbnails for package [/Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance]
+[2025.10.10-04.10.21:820][344]LogSavePackage: Moving output files for package: /Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance
+[2025.10.10-04.10.21:821][344]LogSavePackage: Moving '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Saved/Cyber_Garage-skinInstance1FD83DDE4306F61AA2FA22A73D9BACB3.tmp' to '../../../../../../Users/sojoo/Desktop/자료/Unreal/Pathfinder2/Content/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance.uasset'
+[2025.10.10-04.10.21:831][344]LogFileHelpers: InternalPromptForCheckoutAndSave took 219.759 ms (total: 5.69 sec)
+[2025.10.10-04.10.21:882][344]LogContentValidation: Display: Starting to validate 2 assets
+[2025.10.10-04.10.21:882][344]LogContentValidation: Enabled validators:
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Material
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/DataValidation.DirtyFilesChangelistValidator
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/DataValidation.EditorValidator_Localization
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/DataValidation.PackageFileValidator
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/DataValidation.WorldPartitionChangelistValidator
+[2025.10.10-04.10.21:882][344]LogContentValidation: 	/Script/InputBlueprintNodes.EnhancedInputUserWidgetValidator
+[2025.10.10-04.10.21:882][344]AssetCheck: /Game/PathfinderContent/SentinalRobot/BP_SentinalRobot_R Validating asset
+[2025.10.10-04.10.21:893][344]AssetCheck: /Game/PathfinderContent/Level/Factory/Structures/Map/StaticMesh/Cyber_Garage-skinInstance Validating asset
+[2025.10.10-04.10.22:983][395]LogDebuggerCommands: Repeating last play command: Selected Viewport
+[2025.10.10-04.10.23:000][395]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2025.10.10-04.10.23:000][395]LogPlayLevel: Creating play world package: /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.10.23:005][395]LogPlayLevel: PIE: StaticDuplicateObject took: (0.004952s)
+[2025.10.10-04.10.23:005][395]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/PathfinderContent/Level/FactoryScene.FactoryScene to /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene (0.004998s)
+[2025.10.10-04.10.23:035][395]LogUObjectHash: Compacting FUObjectHashTables data took   1.41ms
+[2025.10.10-04.10.23:038][395]LogChaosDD: Creating Chaos Debug Draw Scene for world FactoryScene
+[2025.10.10-04.10.23:040][395]LogPlayLevel: PIE: World Init took: (0.002000s)
+[2025.10.10-04.10.23:041][395]LogAudio: Display: Creating Audio Device:                 Id: 77, Scope: Unique, Realtime: True
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: Audio Mixer Platform Settings:
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Sample Rate:						  48000
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Callback Buffer Frame Size Requested: 1024
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Callback Buffer Frame Size To Use:	  1024
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Number of buffers to queue:			  1
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Max Channels (voices):				  32
+[2025.10.10-04.10.23:041][395]LogAudioMixer: Display: 	Number of Async Source Workers:		  4
+[2025.10.10-04.10.23:041][395]LogAudio: Display: AudioDevice MaxSources: 32
+[2025.10.10-04.10.23:041][395]LogAudio: Display: Audio Spatialization Plugin: None (built-in).
+[2025.10.10-04.10.23:041][395]LogAudio: Display: Audio Reverb Plugin: None (built-in).
+[2025.10.10-04.10.23:041][395]LogAudio: Display: Audio Occlusion Plugin: None (built-in).
+[2025.10.10-04.10.23:043][395]LogAudioMixer: Display: Initializing audio mixer using platform API: 'XAudio2'
+[2025.10.10-04.10.23:099][395]LogAudioMixer: Display: Using Audio Hardware Device 헤드셋 이어폰(G435 Wireless Gaming Headset)
+[2025.10.10-04.10.23:099][395]LogAudioMixer: Display: Initializing Sound Submixes...
+[2025.10.10-04.10.23:099][395]LogAudioMixer: Display: Creating Master Submix 'MasterSubmixDefault'
+[2025.10.10-04.10.23:099][395]LogAudioMixer: Display: Creating Master Submix 'MasterReverbSubmixDefault'
+[2025.10.10-04.10.23:100][395]LogAudioMixer: FMixerPlatformXAudio2::StartAudioStream() called. InstanceID=77
+[2025.10.10-04.10.23:100][395]LogAudioMixer: Display: Output buffers initialized: Frames=1024, Channels=2, Samples=2048, InstanceID=77
+[2025.10.10-04.10.23:102][395]LogAudioMixer: Display: Starting AudioMixerPlatformInterface::RunInternal(), InstanceID=77
+[2025.10.10-04.10.23:102][395]LogAudioMixer: Display: FMixerPlatformXAudio2::SubmitBuffer() called for the first time. InstanceID=77
+[2025.10.10-04.10.23:102][395]LogInit: FAudioDevice initialized with ID 77.
+[2025.10.10-04.10.23:102][395]LogAudio: Display: Audio Device (ID: 77) registered with world 'FactoryScene'.
+[2025.10.10-04.10.23:102][395]LogAudioMixer: Initializing Audio Bus Subsystem for audio device with ID 77
+[2025.10.10-04.10.23:106][395]LogLoad: Game class is 'BP_PathfinderGameMode_C'
+[2025.10.10-04.10.23:108][395]LogWorld: Bringing World /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene up for play (max tick rate 0) at 2025.10.10-13.10.23
+[2025.10.10-04.10.23:109][395]LogWorld: Bringing up level for play took: 0.002231
+[2025.10.10-04.10.23:111][395]LogOnline: OSS: Created online subsystem instance for: :Context_125
+[2025.10.10-04.10.23:112][395]AnimBlueprintLog: Warning: SLOTNODE: 'DefaultSlot' in animation instance class ABP_Murdock_C already exists. Remove duplicates from the animation graph for this class.
+[2025.10.10-04.10.23:114][395]LogScript: Warning: Script Msg: Attempted to access index 0 from array 'CallFunc_GetAllWidgetsOfClass_FoundWidgets' of length 0 in '/Game/PathfinderContent/Component/BPC_StatSystem.BPC_StatSystem_C:ExecuteUbergraph_BPC_StatSystem'!
+[2025.10.10-04.10.23:114][395]LogScript: Warning: Script Msg called by: BPC_StatSystem_C /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene.FactoryScene:PersistentLevel.BP_SentinalRobot_R_C_2.BPC_StatSystem
+[2025.10.10-04.10.23:116][395]PIE: Server logged in
+[2025.10.10-04.10.23:119][395]PIE: Play in editor total start time 0.119 seconds.
+[2025.10.10-04.10.48:613][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.48:613][521]LogWorld: BeginTearingDown for /Game/PathfinderContent/Level/UEDPIE_0_FactoryScene
+[2025.10.10-04.10.48:613][521]LogCrowdFollowing: Warning: Unable to find RecastNavMesh instance while trying to create UCrowdManager instance
+[2025.10.10-04.10.48:613][521]LogWorld: UWorld::CleanupWorld for FactoryScene, bSessionEnded=true, bCleanupResources=true
+[2025.10.10-04.10.48:614][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.48:622][521]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2025.10.10-04.10.48:629][521]LogSlate: InvalidateAllWidgets triggered.  All widgets were invalidated
+[2025.10.10-04.10.48:656][521]LogAudio: Display: Audio Device unregistered from world 'None'.
+[2025.10.10-04.10.48:656][521]LogAudioMixer: Deinitializing Audio Bus Subsystem for audio device with ID 77
+[2025.10.10-04.10.48:656][521]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=4
+[2025.10.10-04.10.48:658][521]LogAudioMixer: Display: FMixerPlatformXAudio2::StopAudioStream() called. InstanceID=77, StreamState=2
+[2025.10.10-04.10.48:663][521]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2025.10.10-04.10.48:666][521]LogUObjectHash: Compacting FUObjectHashTables data took   1.39ms
+[2025.10.10-04.10.48:754][522]LogPlayLevel: Display: Destroying online subsystem :Context_125
+[2025.10.10-04.10.50:197][571]LogUObjectHash: Compacting FUObjectHashTables data took   1.49ms
