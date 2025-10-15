@@ -5,12 +5,9 @@
 다음 씬으로 가는 렌더 타겟 포탈
 
 Ruins
-점령구역 오버랩 되도록
 물 속도 조정
 
 Factory
-BP_Core
-Core와 Robot의 상호작용
 
 Boss
 BP_Boss + AI
